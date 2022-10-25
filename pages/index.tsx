@@ -1,9 +1,13 @@
+import dynamic from "next/dynamic"
+import { lazy, Suspense } from "react"
+
+const MapView = dynamic(() => import("../components/Map"), {
+	ssr: false
+})
+
 export default function Home() {
-	console.log({
-		mapboxToken: process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
-	})
 
   return (
-    <h2>Hello World</h2>
+		<MapView />
   )
 }
