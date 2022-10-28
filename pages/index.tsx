@@ -6,7 +6,7 @@ const Map = dynamic(() => import("../components/Map"), {
 
 export default function Home() {
   return (
-		<main className="container">
+		<main className="w-full h-[100vh]">
 			<Map />
     </main>
   )

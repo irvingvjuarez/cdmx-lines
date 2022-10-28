@@ -22,9 +22,7 @@ const Map = () => {
 	})
 
 	return (
-		<div>
-			<div ref={mapContainer} className="map-container"></div>
-		</div>
+		<div ref={mapContainer} className="w-full h-[100vh] overflow-hidden"></div>
 	)
 };
 
