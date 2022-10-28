@@ -1,13 +1,27 @@
 import dynamic from "next/dynamic"
-import { lazy, Suspense } from "react"
 
-const MapView = dynamic(() => import("../components/Map"), {
+const Map = dynamic(() => import("../components/Map"), {
 	ssr: false
 })
 
 export default function Home() {
-
   return (
-		<MapView />
+		<main className="container">
+      <h1 className="text-5xl text-red-400 font-bold underline">Hello world!</h1>
+			<Map />
+    </main>
   )
 }
+
+// export default function Home() {
+//   const data = [
+//     { image: "https://picsum.photos/200", title: "Card1", description: "description", rating: 4 },
+//     { image: "https://picsum.photos/200", title: "Card1", description: "description", rating: 4 },
+//     { image: "https://picsum.photos/200", title: "Card1", description: "description", rating: 4 },
+//     { image: "https://picsum.photos/200", title: "Card1", description: "description", rating: 4 }
+//   ];
+
+//   return (
+
+//   );
+// }
