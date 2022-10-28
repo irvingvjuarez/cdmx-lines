@@ -8,8 +8,6 @@
 	box-sizing: border-box;
 }
 
-.container{
-  max-width: 450px;
-  margin: 0 auto;
-  overflow-x: hidden;
+.map-container{
+  height: 400px;
 }

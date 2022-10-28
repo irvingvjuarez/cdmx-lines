@@ -1,20 +1,31 @@
-import React from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import {useRef, useState, useEffect} from "react";
+import mapboxgl from "mapbox-gl"
 
-const position: any = [51.505, -0.09];
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
+
 const Map = () => {
-  return (
-    <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright%22%3EOpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker position={position}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>);
+	const mapContainer = useRef<HTMLDivElement | null>(null)
+	const map = useRef<Map<any, any> | null>(null)
+	const [lng, setLng] = useState(-70.9)
+	const [lat, setLat] = useState(42.35)
+	const [zoom, setZoom] = useState(9)
+
+	useEffect(() => {
+		if (map.current) return
+
+		map.current = new mapboxgl.Map({
+			container: mapContainer.current as HTMLDivElement,
+			style: 'mapbox://styles/mapbox/streets-v11',
+			center: [lng, lat],
+			zoom: zoom
+		})
+	})
+
+	return (
+		<div>
+			<div ref={mapContainer} className="map-container"></div>
+		</div>
+	)
 };
 
 export default Map;
