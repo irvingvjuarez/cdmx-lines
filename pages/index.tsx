@@ -1,8 +1,4 @@
-import dynamic from "next/dynamic"
-
-const Map = dynamic(() => import("@app/components/Map"), {
-	ssr: false
-})
+import { Map } from "@app/components/Map"
 
 export default function Home() {
   return (
