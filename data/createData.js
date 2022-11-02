@@ -31,4 +31,7 @@ entries.forEach((entry) => {
   lines[key].stations = stations
 });
 
-fs.writeFileSync("./data/data.json", JSON.stringify(lines))
+const lineIds = Object.keys(lines)
+const data = lineIds.map(id => lines[id])
+
+fs.writeFileSync("./data/data.json", JSON.stringify(data))
