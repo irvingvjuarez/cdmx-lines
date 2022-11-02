@@ -1,0 +1,105 @@
+[
+	{
+		"line_id": 1,
+		"line_stations": [
+			"Observatorio",
+			"Tacubaya",
+			"Juanacatlán",
+			"Chapultepec",
+			"Sevilla",
+			"Insurgentes",
+			"Cuauhtémoc",
+			"Balderas",
+			"Salto del Agua",
+			"Isabel la Católica",
+			"Pino Suárez",
+			"Merced",
+			"Candelaria",
+			"San Lázaro",
+			"Moctezuma",
+			"Balbuena",
+			"Blvd. Puerto Aéreo",
+			"Gómez Farías",
+			"Zaragoza",
+			"Pnttlán"
+		],
+		"line_name": "Rosa"
+	},
+	{
+		"line_id": 2,
+		"line_stations": [
+
+		],
+		"line_name": "Azul"
+	},
+	{
+		"line_id": 3,
+		"line_stations": [
+
+		],
+		"line_name": "Verde Olivo"
+	},
+	{
+		"line_id": 4,
+		"line_stations": [
+
+		],
+		"line_name": "Cian"
+	},
+	{
+		"line_id": 5,
+		"line_stations": [
+
+		],
+		"line_name": "Amarillo"
+	},
+	{
+		"line_id": 6,
+		"line_stations": [
+
+		],
+		"line_name": "Rojo"
+	},
+	{
+		"line_id": 7,
+		"line_stations": [
+
+		],
+		"line_name": "Naranja"
+	},
+	{
+		"line_id": 8,
+		"line_stations": [
+
+		],
+		"line_name": "Verde"
+	},
+	{
+		"line_id": 9,
+		"line_stations": [
+
+		],
+		"line_name": "Café"
+	},
+	{
+		"line_id": 10,
+		"line_stations": [
+
+		],
+		"line_name": "Morado"
+	},
+	{
+		"line_id": 11,
+		"line_stations": [
+
+		],
+		"#808080"], "line_name": "Verde y Gris"
+	},
+	{
+		"line_id": 12,
+		"line_stations": [
+
+		],
+		"line_name": "Oro
+		"}
+]
