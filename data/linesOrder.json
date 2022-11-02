@@ -28,7 +28,30 @@
 	{
 		"line_id": 2,
 		"line_stations": [
+			"Cuatro Caminos",
+			"Panteones",
 
+			"Cuitláhuac",
+			"Popotla",
+			"Colegio Militar",
+			"Normal",
+			"San Cosme",
+			"Revolución",
+			"Hidalgo",
+			"Bellas Artes",
+			"Allende",
+			"Zócalo",
+			"Pino Suárez",
+			"San Antonio Abad",
+			"Chabacano",
+			"Viaducto",
+			"Xola",
+			"Villa de Cortés",
+			"Nativitas",
+			"Portales",
+			"Ermita",
+			"General Anaya",
+			"Tasqueña"
 		],
 		"line_name": "Azul"
 	},
