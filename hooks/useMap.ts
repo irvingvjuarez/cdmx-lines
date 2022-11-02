@@ -23,7 +23,7 @@ export const useMap = () => {
 
 		map.current = new mapboxgl.Map({
 			container: mapContainer.current as HTMLDivElement,
-			style: 'mapbox://styles/mapbox/dark-v10',
+			style: 'mapbox://styles/mapbox/streets-v11',
 			center: [lng, lat],
 			zoom: zoom
 		})

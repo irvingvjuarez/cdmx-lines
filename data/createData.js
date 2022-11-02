@@ -28,7 +28,13 @@ entries.forEach((entry) => {
   const key = entry[0];
   const value = entry[1];
 
-	const stations = value.stations.map(index => points[index - 1])
+	const sortedStations = value.stations.sort((a, b) => {
+		if (a > b) return 1
+		if (b > a) return -1
+		return 0
+	})
+
+	const stations = sortedStations.map(index => points[index - 1])
   lines[key].stations = stations
 });
 
