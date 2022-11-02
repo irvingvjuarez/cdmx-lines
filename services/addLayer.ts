@@ -10,7 +10,7 @@ export const addLayer = (map: mapboxgl.Map) => {
 			'line-cap': 'round'
 		},
 		'paint': {
-			'line-color': '#888',
+			'line-color': '#fff',
 			'line-width': 8
 		}
 	});
