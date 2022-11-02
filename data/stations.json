@@ -1,168 +1,1309 @@
 [
-	{ "station_name": "Lázaro Cárdens"},
-	{ "station_name": "Ferería"},
-	{ "station_name": "Pnttlán"},
-	{ "station_name": "Tauga"},
-	{ "station_name": "MartínCrrera"},
-	{ "station_name": "Santa Anita"},
-	{ "station_name": "Villa de Aragón"},
-	{ "station_name": "Tezozómoc"},
-	{ "station_name": "Tecnológico"},
-	{ "station_name": "Colegio Militar"},
-	{ "station_name": "Chapultepec"},
-	{ "station_name": "Calle 11"},
-	{ "station_name": "Constitución de 1917"},
-	{ "station_name": "Copilco"},
-	{ "station_name": "Talismán"},
-	{ "station_name": "Terminal Aérea"},
-	{ "station_name": "Tepito"},
-	{ "station_name": "Hospital 20 de Nov."},
-	{ "station_name": "Eugenia"},
-	{ "station_name": "Lomas Estrella"},
-	{ "station_name": "Tlatelolco"},
-	{ "station_name": "Atlalilco"},
-	{ "station_name": "Blvd. Puerto Aéreo"},
-	{ "station_name": "Chilpancingo"},
-	{ "station_name": "Ciudad Azteca"},
-	{ "station_name": "Niños Héroes"},
-	{ "station_name": "Popotla"},
-	{ "station_name": "San Joaquín"},
-	{ "station_name": "Universidad"},
-	{ "station_name": "Instituto del Petróleo"},
-	{ "station_name": "Escuadrón 201"},
-	{ "station_name": "Iztacalco"},
-	{ "station_name": "Juárez"},
-	{ "station_name": "Chabacano"},
-	{ "station_name": "Azcapotzalco"},
-	{ "station_name": "Bosque de Aragón"},
-	{ "station_name": "Tlaltenco"},
-	{ "station_name": "Jamaica"},
-	{ "station_name": "Oceanía"},
-	{ "station_name": "Iztapalapa"},
-	{ "station_name": "Mixhuca"},
-	{ "station_name": "Centro Médico"},
-	{ "station_name": "Balderas"},
-	{ "station_name": "Salto del Agua"},
-	{ "station_name": "Insurgentes"},
-	{ "station_name": "Guelatao"},
-	{ "station_name": "Morelos"},
-	{ "station_name": "Moctezuma"},
-	{ "station_name": "Normal"},
-	{ "station_name": "Zapata"},
-	{ "station_name": "Zaragoza"},
-	{ "station_name": "La Raza"},
-	{ "station_name": "Constituyentes"},
-	{ "station_name": "Múzquiz"},
-	{ "station_name": "Romero Rubio"},
-	{ "station_name": "San Cosme"},
-	{ "station_name": "Portales"},
-	{ "station_name": "Puebla"},
-	{ "station_name": "Santa Marta"},
-	{ "station_name": "Tasqueña"},
-	{ "station_name": "Xola"},
-	{ "station_name": "Canal del Norte"},
-	{ "station_name": "Buenavista"},
-	{ "station_name": "Balbuena"},
-	{ "station_name": "Ermita"},
-	{ "station_name": "Aragón"},
-	{ "station_name": "Deportivo 18 de Marzo"},
-	{ "station_name": "Auditorio"},
-	{ "station_name": "Culhuacán"},
-	{ "station_name": "El Rosario"},
-	{ "station_name": "Guerrero"},
-	{ "station_name": "Hospital General"},
-	{ "station_name": "Fray Servando"},
-	{ "station_name": "Patriotismo"},
-	{ "station_name": "Observatorio"},
-	{ "station_name": "La Paz"},
-	{ "station_name": "Valle Gómez"},
-	{ "station_name": "Tezonco"},
-	{ "station_name": "Candelaria"},
-	{ "station_name": "Aquiles Serdán"},
-	{ "station_name": "La Viga"},
-	{ "station_name": "Olímpica"},
-	{ "station_name": "Mexicaltzingo"},
-	{ "station_name": "Politécnico"},
-	{ "station_name": "Periférico Ote"},
-	{ "station_name": "San Lázaro"},
-	{ "station_name": "San Antonio"},
-	{ "station_name": "Zapotitlán"},
-	{ "station_name": "Tláhuac"},
-	{ "station_name": "Hidalgo"},
-	{ "station_name": "Etiopía / Plaza de la Transpatencia"},
-	{ "station_name": "Deportivo Oceanía"},
-	{ "station_name": "Impulsora"},
-	{ "station_name": "Consulado"},
-	{ "station_name": "Camarones"},
-	{ "station_name": "Allende"},
-	{ "station_name": "San Juan de Letrán"},
-	{ "station_name": "Viaducto"},
-	{ "station_name": "Vallejo"},
-	{ "station_name": "Doctores"},
-	{ "station_name": "Los Reyes"},
-	{ "station_name": "Bellas Artes"},
-	{ "station_name": "Autobuses del Norte"},
-	{ "station_name": "Acatitla"},
-	{ "station_name": "Revolución"},
-	{ "station_name": "Polanco"},
-	{ "station_name": "San Andrés Tomatlán"},
-	{ "station_name": "Garibaldi"},
-	{ "station_name": "Eduardo Molina"},
-	{ "station_name": "Coyuya"},
-	{ "station_name": "Coyoacán"},
-	{ "station_name": "Norte 45"},
-	{ "station_name": "Lindavista"},
-	{ "station_name": "Tacubaya"},
-	{ "station_name": "Mixcoac"},
-	{ "station_name": "Hangares"},
-	{ "station_name": "Nopalera"},
-	{ "station_name": "UAM-I"},
-	{ "station_name": "Velódromo"},
-	{ "station_name": "Cuauhtémoc"},
-	{ "station_name": "Apatlaco"},
-	{ "station_name": "Aculco"},
-	{ "station_name": "Agrícola Oriental"},
-	{ "station_name": "Eje Central"},
-	{ "station_name": "Pino Suárez"},
-	{ "station_name": "Río de los Remedios"},
-	{ "station_name": "Potrero"},
-	{ "station_name": "Sevilla"},
-	{ "station_name": "General Anaya"},
-	{ "station_name": "Indios Verdes"},
-	{ "station_name": "La Villa - Basílica"},
-	{ "station_name": "Parque de los Venados"},
-	{ "station_name": "Juanacatlán"},
-	{ "station_name": "Nativitas"},
-	{ "station_name": "Misterios"},
-	{ "station_name": "Barranca del Muerto"},
-	{ "station_name": "Miguel Ángel de Quevedo"},
-	{ "station_name": "Lagunilla"},
-	{ "station_name": "Olivos"},
-	{ "station_name": "Tepalcates"},
-	{ "station_name": "Zócalo"},
-	{ "station_name": "Gómez Farías"},
-	{ "station_name": "San Pedro de Los Pinos"},
-	{ "station_name": "Refinería"},
-	{ "station_name": "Villa de Cortés"},
-	{ "station_name": "R. Flores Magón"},
-	{ "station_name": "Insurgentes Sur"},
-	{ "station_name": "Viveros"},
-	{ "station_name": "Cerro de la Estrella"},
-	{ "station_name": "Bondojito"},
-	{ "station_name": "Canal de San Juan"},
-	{ "station_name": "San Antonio Abad"},
-	{ "station_name": "Obrera"},
-	{ "station_name": "Plaza Aragón"},
-	{ "station_name": "Panteones"},
-	{ "station_name": "Peñón Viejo"},
-	{ "station_name": "División del Norte"},
-	{ "station_name": "Cuitláhuac"},
-	{ "station_name": "Ciudad Deportiva"},
-	{ "station_name": "Cuatro Caminos"},
-	{ "station_name": "Isabel la Católica"},
-	{ "station_name": "Nezahualcóyotl"},
-	{ "station_name": "Merced"},
-	{ "station_name": "Merced"},
-	{ "station_name": "Lázaro de Guerrero"},
-	{ "station_name": "Benito Cárdenas"}
+	{
+		"id": 1,
+		"name": "Lázaro Cárdens",
+		"coordinates": [
+			-99.14433718,
+			19.40702104
+		]
+	},
+	{
+		"id": 2,
+		"name": "Ferería",
+		"coordinates": [
+			-99.173702,
+			19.49039233
+		]
+	},
+	{
+		"id": 3,
+		"name": "Pnttlán",
+		"coordinates": [
+			-99.07262564,
+			19.4146103
+		]
+	},
+	{
+		"id": 4,
+		"name": "Tauga",
+		"coordinates": [
+			-99.18803573,
+			19.45913691
+		]
+	},
+	{
+		"id": 5,
+		"name": "MartínCrrera",
+		"coordinates": [
+			-99.10554171,
+			19.48231101
+		]
+	},
+	{
+		"id": 6,
+		"name": "Santa Anita",
+		"coordinates": [
+			-99.12120581,
+			19.40425847
+		]
+	},
+	{
+		"id": 7,
+		"name": "Villa de Aragón",
+		"coordinates": [
+			-99.06114578,
+			19.4613523
+		]
+	},
+	{
+		"id": 8,
+		"name": "Tezozómoc",
+		"coordinates": [
+			-99.19593215,
+			19.49448847
+		]
+	},
+	{
+		"id": 9,
+		"name": "Tecnológico",
+		"coordinates": [
+			-99.03568625,
+			19.51470467
+		]
+	},
+	{
+		"id": 10,
+		"name": "Colegio Militar",
+		"coordinates": [
+			-99.17122364,
+			19.44864628
+		]
+	},
+	{
+		"id": 11,
+		"name": "Chapultepec",
+		"coordinates": [
+			-99.17658806,
+			19.42025648
+		]
+	},
+	{
+		"id": 12,
+		"name": "Calle 11",
+		"coordinates": [
+			-99.08486724,
+			19.32025578
+		]
+	},
+	{
+		"id": 13,
+		"name": "Constitución de 1917",
+		"coordinates": [
+			-99.063367,
+			19.345135
+		]
+	},
+	{
+		"id": 14,
+		"name": "Copilco",
+		"coordinates": [
+			-99.17657733,
+			19.33597857
+		]
+	},
+	{
+		"id": 15,
+		"name": "Talismán",
+		"coordinates": [
+			-99.10779476,
+			19.47415847
+		]
+	},
+	{
+		"id": 16,
+		"name": "Terminal Aérea",
+		"coordinates": [
+			-99.08820391,
+			19.43380448
+		]
+	},
+	{
+		"id": 17,
+		"name": "Tepito",
+		"coordinates": [
+			-99.12323356,
+			19.44256606
+		]
+	},
+	{
+		"id": 18,
+		"name": "Hospital 20 de Nov.",
+		"coordinates": [
+			-99.17099833,
+			19.37192372
+		]
+	},
+	{
+		"id": 19,
+		"name": "Eugenia",
+		"coordinates": [
+			-99.15724397,
+			19.38628539
+		]
+	},
+	{
+		"id": 20,
+		"name": "Lomas Estrella",
+		"coordinates": [
+			-99.096696,
+			19.322002
+		]
+	},
+	{
+		"id": 21,
+		"name": "Tlatelolco",
+		"coordinates": [
+			-99.1430819,
+			19.45520174
+		]
+	},
+	{
+		"id": 22,
+		"name": "Atlalilco",
+		"coordinates": [
+			-99.10157204,
+			19.35570839
+		]
+	},
+	{
+		"id": 23,
+		"name": "Blvd. Puerto Aéreo",
+		"coordinates": [
+			-99.09606814,
+			19.41958866
+		]
+	},
+	{
+		"id": 24,
+		"name": "Chilpancingo",
+		"coordinates": [
+			-99.1683054,
+			19.40575613
+		]
+	},
+	{
+		"id": 25,
+		"name": "Ciudad Azteca",
+		"coordinates": [
+			-99.02711391,
+			19.53444312
+		]
+	},
+	{
+		"id": 26,
+		"name": "Niños Héroes",
+		"coordinates": [
+			-99.15023804,
+			19.41946724
+		]
+	},
+	{
+		"id": 27,
+		"name": "Popotla",
+		"coordinates": [
+			-99.17546153,
+			19.45261196
+		]
+	},
+	{
+		"id": 28,
+		"name": "San Joaquín",
+		"coordinates": [
+			-99.19160843,
+			19.44553033
+		]
+	},
+	{
+		"id": 29,
+		"name": "Universidad",
+		"coordinates": [
+			-99.17407751,
+			19.32433595
+		]
+	},
+	{
+		"id": 30,
+		"name": "Instituto del Petróleo",
+		"coordinates": [
+			-99.14455175,
+			19.48983606
+		]
+	},
+	{
+		"id": 31,
+		"name": "Escuadrón 201",
+		"coordinates": [
+			-99.10931826,
+			19.36449442
+		]
+	},
+	{
+		"id": 32,
+		"name": "Iztacalco",
+		"coordinates": [
+			-99.112086,
+			19.388092
+		]
+	},
+	{
+		"id": 33,
+		"name": "Juárez",
+		"coordinates": [
+			-99.14771676,
+			19.43336942
+		]
+	},
+	{
+		"id": 34,
+		"name": "Chabacano",
+		"coordinates": [
+			-99.13542151,
+			19.40891333
+		]
+	},
+	{
+		"id": 35,
+		"name": "Azcapotzalco",
+		"coordinates": [
+			-99.18621182,
+			19.49067553
+		]
+	},
+	{
+		"id": 36,
+		"name": "Bosque de Aragón",
+		"coordinates": [
+			-99.06927824,
+			19.45807473
+		]
+	},
+	{
+		"id": 37,
+		"name": "Tlaltenco",
+		"coordinates": [
+			-99.023829,
+			19.294555
+		]
+	},
+	{
+		"id": 38,
+		"name": "Jamaica",
+		"coordinates": [
+			-99.12203193,
+			19.41014786
+		]
+	},
+	{
+		"id": 39,
+		"name": "Oceanía",
+		"coordinates": [
+			-99.08683062,
+			19.44572255
+		]
+	},
+	{
+		"id": 40,
+		"name": "Iztapalapa",
+		"coordinates": [
+			-99.09341812,
+			19.35760127
+		]
+	},
+	{
+		"id": 41,
+		"name": "Mixhuca",
+		"coordinates": [
+			-99.11285877,
+			19.40820499
+		]
+	},
+	{
+		"id": 42,
+		"name": "Centro Médico",
+		"coordinates": [
+			-99.15531278,
+			19.40749665
+		]
+	},
+	{
+		"id": 43,
+		"name": "Balderas",
+		"coordinates": [
+			-99.14912224,
+			19.42729875
+		]
+	},
+	{
+		"id": 44,
+		"name": "Salto del Agua",
+		"coordinates": [
+			-99.14207339,
+			19.42720768
+		]
+	},
+	{
+		"id": 45,
+		"name": "Insurgentes",
+		"coordinates": [
+			-99.16325212,
+			19.42359552
+		]
+	},
+	{
+		"id": 46,
+		"name": "Guelatao",
+		"coordinates": [
+			-99.03579354,
+			19.38459525
+		]
+	},
+	{
+		"id": 47,
+		"name": "Morelos",
+		"coordinates": [
+			-99.11933,
+			19.438426
+		]
+	},
+	{
+		"id": 48,
+		"name": "Moctezuma",
+		"coordinates": [
+			-99.109803,
+			19.426271
+		]
+	},
+	{
+		"id": 49,
+		"name": "Normal",
+		"coordinates": [
+			-99.1671896,
+			19.44424548
+		]
+	},
+	{
+		"id": 50,
+		"name": "Zapata",
+		"coordinates": [
+			-99.1645503,
+			19.37073951
+		]
+	},
+	{
+		"id": 51,
+		"name": "Zaragoza",
+		"coordinates": [
+			-99.08322573,
+			19.41179726
+		]
+	},
+	{
+		"id": 52,
+		"name": "La Raza",
+		"coordinates": [
+			-99.136176,
+			19.468965
+		]
+	},
+	{
+		"id": 53,
+		"name": "Constituyentes",
+		"coordinates": [
+			-99.19138312,
+			19.41129131
+		]
+	},
+	{
+		"id": 54,
+		"name": "Múzquiz",
+		"coordinates": [
+			-99.04171586,
+			19.50096117
+		]
+	},
+	{
+		"id": 55,
+		"name": "Romero Rubio",
+		"coordinates": [
+			-99.09420133,
+			19.44048194
+		]
+	},
+	{
+		"id": 56,
+		"name": "San Cosme",
+		"coordinates": [
+			-99.16094542,
+			19.44185787
+		]
+	},
+	{
+		"id": 57,
+		"name": "Portales",
+		"coordinates": [
+			-99.14130092,
+			19.36976784
+		]
+	},
+	{
+		"id": 58,
+		"name": "Puebla",
+		"coordinates": [
+			-99.08233523,
+			19.40697045
+		]
+	},
+	{
+		"id": 59,
+		"name": "Santa Marta",
+		"coordinates": [
+			-98.995894,
+			19.359804
+		]
+	},
+	{
+		"id": 60,
+		"name": "Tasqueña",
+		"coordinates": [
+			-99.14105415,
+			19.34400644
+		]
+	},
+	{
+		"id": 61,
+		"name": "Xola",
+		"coordinates": [
+			-99.13758874,
+			19.3950293
+		]
+	},
+	{
+		"id": 62,
+		"name": "Canal del Norte",
+		"coordinates": [
+			-99.11589503,
+			19.44866652
+		]
+	},
+	{
+		"id": 63,
+		"name": "Buenavista",
+		"coordinates": [
+			-99.15289879,
+			19.44615757
+		]
+	},
+	{
+		"id": 64,
+		"name": "Balbuena",
+		"coordinates": [
+			-99.10281658,
+			19.42288725
+		]
+	},
+	{
+		"id": 65,
+		"name": "Ermita",
+		"coordinates": [
+			-99.14263129,
+			19.36186271
+		]
+	},
+	{
+		"id": 66,
+		"name": "Aragón",
+		"coordinates": [
+			-99.09598231,
+			19.45101356
+		]
+	},
+	{
+		"id": 67,
+		"name": "Deportivo 18 de Marzo",
+		"coordinates": [
+			-99.12576556,
+			19.48358544
+		]
+	},
+	{
+		"id": 68,
+		"name": "Auditorio",
+		"coordinates": [
+			-99.19173717,
+			19.42530549
+		]
+	},
+	{
+		"id": 69,
+		"name": "Culhuacán",
+		"coordinates": [
+			-99.10894275,
+			19.33887391
+		]
+	},
+	{
+		"id": 70,
+		"name": "El Rosario",
+		"coordinates": [
+			-99.20029879,
+			19.5039547
+		]
+	},
+	{
+		"id": 71,
+		"name": "Guerrero",
+		"coordinates": [
+			-99.14501309,
+			19.44475133
+		]
+	},
+	{
+		"id": 72,
+		"name": "Hospital General",
+		"coordinates": [
+			-99.1531992,
+			19.41369961
+		]
+	},
+	{
+		"id": 73,
+		"name": "Fray Servando",
+		"coordinates": [
+			-99.12033677,
+			19.42149092
+		]
+	},
+	{
+		"id": 74,
+		"name": "Patriotismo",
+		"coordinates": [
+			-99.1784656,
+			19.40559422
+		]
+	},
+	{
+		"id": 75,
+		"name": "Observatorio",
+		"coordinates": [
+			-99.200669,
+			19.397486
+		]
+	},
+	{
+		"id": 76,
+		"name": "La Paz",
+		"coordinates": [
+			-98.96061659,
+			19.35048513
+		]
+	},
+	{
+		"id": 77,
+		"name": "Valle Gómez",
+		"coordinates": [
+			-99.11988616,
+			19.45868169
+		]
+	},
+	{
+		"id": 78,
+		"name": "Tezonco",
+		"coordinates": [
+			-99.065867,
+			19.306124
+		]
+	},
+	{
+		"id": 79,
+		"name": "Candelaria",
+		"coordinates": [
+			-99.11890984,
+			19.42917056
+		]
+	},
+	{
+		"id": 80,
+		"name": "Aquiles Serdán",
+		"coordinates": [
+			-99.194511,
+			19.489367
+		]
+	},
+	{
+		"id": 81,
+		"name": "La Viga",
+		"coordinates": [
+			-99.125973,
+			19.406106
+		]
+	},
+	{
+		"id": 82,
+		"name": "Olímpica",
+		"coordinates": [
+			-99.03298259,
+			19.52084286
+		]
+	},
+	{
+		"id": 83,
+		"name": "Mexicaltzingo",
+		"coordinates": [
+			-99.12191391,
+			19.35744944
+		]
+	},
+	{
+		"id": 84,
+		"name": "Politécnico",
+		"coordinates": [
+			-99.148806,
+			19.499964
+		]
+	},
+	{
+		"id": 85,
+		"name": "Periférico Ote",
+		"coordinates": [
+			-99.074719,
+			19.317492
+		]
+	},
+	{
+		"id": 86,
+		"name": "San Lázaro",
+		"coordinates": [
+			-99.114463,
+			19.431822
+		]
+	},
+	{
+		"id": 87,
+		"name": "San Antonio",
+		"coordinates": [
+			-99.18661952,
+			19.38481791
+		]
+	},
+	{
+		"id": 88,
+		"name": "Zapotitlán",
+		"coordinates": [
+			-99.03402328,
+			19.29639028
+		]
+	},
+	{
+		"id": 89,
+		"name": "Tláhuac",
+		"coordinates": [
+			-99.01443243,
+			19.28680057
+		]
+	},
+	{
+		"id": 90,
+		"name": "Hidalgo",
+		"coordinates": [
+			-99.14681554,
+			19.43674867
+		]
+	},
+	{
+		"id": 91,
+		"name": [
+			"Etiopía",
+			"Plaza de la Transpatencia"
+		],
+		"coordinates": [
+			-99.15617108,
+			19.39604129
+		]
+	},
+	{
+		"id": 92,
+		"name": "Deportivo Oceanía",
+		"coordinates": [
+			-99.07917023,
+			19.45077077
+		]
+	},
+	{
+		"id": 93,
+		"name": "Impulsora",
+		"coordinates": [
+			-99.048743,
+			19.484987
+		]
+	},
+	{
+		"id": 94,
+		"name": "Consulado",
+		"coordinates": [
+			-99.11388874,
+			19.45682033
+		]
+	},
+	{
+		"id": 95,
+		"name": "Camarones",
+		"coordinates": [
+			-99.18894768,
+			19.47873042
+		]
+	},
+	{
+		"id": 96,
+		"name": "Allende",
+		"coordinates": [
+			-99.13670897,
+			19.43547387
+		]
+	},
+	{
+		"id": 97,
+		"name": "San Juan de Letrán",
+		"coordinates": [
+			-99.14116144,
+			19.43098165
+		]
+	},
+	{
+		"id": 98,
+		"name": "Viaducto",
+		"coordinates": [
+			-99.13663387,
+			19.40074699
+		]
+	},
+	{
+		"id": 99,
+		"name": "Vallejo",
+		"coordinates": [
+			-99.15479779,
+			19.49031142
+		]
+	},
+	{
+		"id": 100,
+		"name": "Doctores",
+		"coordinates": [
+			-99.14335012,
+			19.42049932
+		]
+	},
+	{
+		"id": 101,
+		"name": "Los Reyes",
+		"coordinates": [
+			-98.97670984,
+			19.35877546
+		]
+	},
+	{
+		"id": 102,
+		"name": "Bellas Artes",
+		"coordinates": [
+			-99.14061427,
+			19.43649573
+		]
+	},
+	{
+		"id": 103,
+		"name": "Autobuses del Norte",
+		"coordinates": [
+			-99.140471,
+			19.478595
+		]
+	},
+	{
+		"id": 104,
+		"name": "Acatitla",
+		"coordinates": [
+			-99.00597811,
+			19.3642515
+		]
+	},
+	{
+		"id": 105,
+		"name": "Revolución",
+		"coordinates": [
+			-99.15389657,
+			19.43880248
+		]
+	},
+	{
+		"id": 106,
+		"name": "Polanco",
+		"coordinates": [
+			-99.19079304,
+			19.43337954
+		]
+	},
+	{
+		"id": 107,
+		"name": "San Andrés Tomatlán",
+		"coordinates": [
+			-99.10259128,
+			19.3272315
+		]
+	},
+	{
+		"id": 108,
+		"name": "Garibaldi",
+		"coordinates": [
+			-99.139954,
+			19.443376
+		]
+	},
+	{
+		"id": 109,
+		"name": "Eduardo Molina",
+		"coordinates": [
+			-99.10544515,
+			19.45112485
+		]
+	},
+	{
+		"id": 110,
+		"name": "Coyuya",
+		"coordinates": [
+			-99.113413,
+			19.39769
+		]
+	},
+	{
+		"id": 111,
+		"name": "Coyoacán",
+		"coordinates": [
+			-99.17056918,
+			19.36142746
+		]
+	},
+	{
+		"id": 112,
+		"name": "Norte 45",
+		"coordinates": [
+			-99.16249037,
+			19.48823803
+		]
+	},
+	{
+		"id": 113,
+		"name": "Lindavista",
+		"coordinates": [
+			-99.13434863,
+			19.4875806
+		]
+	},
+	{
+		"id": 114,
+		"name": "Tacubaya",
+		"coordinates": [
+			-99.18664098,
+			19.40223457
+		]
+	},
+	{
+		"id": 115,
+		"name": "Mixcoac",
+		"coordinates": [
+			-99.18774605,
+			19.37625563
+		]
+	},
+	{
+		"id": 116,
+		"name": "Hangares",
+		"coordinates": [
+			-99.087095,
+			19.423251
+		]
+	},
+	{
+		"id": 117,
+		"name": "Nopalera",
+		"coordinates": [
+			-99.04621124,
+			19.29939771
+		]
+	},
+	{
+		"id": 118,
+		"name": "UAM-I",
+		"coordinates": [
+			-99.074808,
+			19.350327
+		]
+	},
+	{
+		"id": 119,
+		"name": "Velódromo",
+		"coordinates": [
+			-99.10283804,
+			19.40811392
+		]
+	},
+	{
+		"id": 120,
+		"name": "Cuauhtémoc",
+		"coordinates": [
+			-99.15455103,
+			19.42565962
+		]
+	},
+	{
+		"id": 121,
+		"name": "Apatlaco",
+		"coordinates": [
+			-99.10934,
+			19.378298
+		]
+	},
+	{
+		"id": 122,
+		"name": "Aculco",
+		"coordinates": [
+			-99.10739779,
+			19.37292574
+		]
+	},
+	{
+		"id": 123,
+		"name": "Agrícola Oriental",
+		"coordinates": [
+			-99.06982541,
+			19.40404596
+		]
+	},
+	{
+		"id": 124,
+		"name": "Eje Central",
+		"coordinates": [
+			-99.15133238,
+			19.36118453
+		]
+	},
+	{
+		"id": 125,
+		"name": "Pino Suárez",
+		"coordinates": [
+			-99.13303971,
+			19.42543703
+		]
+	},
+	{
+		"id": 126,
+		"name": "Río de los Remedios",
+		"coordinates": [
+			-99.04635072,
+			19.49024062
+		]
+	},
+	{
+		"id": 127,
+		"name": "Potrero",
+		"coordinates": [
+			-99.131748,
+			19.476413
+		]
+	},
+	{
+		"id": 128,
+		"name": "Sevilla",
+		"coordinates": [
+			-99.17074084,
+			19.42189565
+		]
+	},
+	{
+		"id": 129,
+		"name": "General Anaya",
+		"coordinates": [
+			-99.14478779,
+			19.35319801
+		]
+	},
+	{
+		"id": 130,
+		"name": "Indios Verdes",
+		"coordinates": [
+			-99.119141,
+			19.495315
+		]
+	},
+	{
+		"id": 131,
+		"name": "La Villa - Basílica",
+		"coordinates": [
+			-99.11815882,
+			19.4814715
+		]
+	},
+	{
+		"id": 132,
+		"name": "Parque de los Venados",
+		"coordinates": [
+			-99.15766239,
+			19.37046623
+		]
+	},
+	{
+		"id": 133,
+		"name": "Juanacatlán",
+		"coordinates": [
+			-99.18207049,
+			19.41290022
+		]
+	},
+	{
+		"id": 134,
+		"name": "Nativitas",
+		"coordinates": [
+			-99.13987398,
+			19.37938304
+		]
+	},
+	{
+		"id": 135,
+		"name": "Misterios",
+		"coordinates": [
+			-99.13051844,
+			19.46290002
+		]
+	},
+	{
+		"id": 136,
+		"name": "Barranca del Muerto",
+		"coordinates": [
+			-99.18895841,
+			19.3614882
+		]
+	},
+	{
+		"id": 137,
+		"name": "Miguel Ángel de Quevedo",
+		"coordinates": [
+			-99.18053627,
+			19.34651696
+		]
+	},
+	{
+		"id": 138,
+		"name": "Lagunilla",
+		"coordinates": [
+			-99.13107634,
+			19.44300109
+		]
+	},
+	{
+		"id": 139,
+		"name": "Olivos",
+		"coordinates": [
+			-99.05831337,
+			19.30328601
+		]
+	},
+	{
+		"id": 140,
+		"name": "Tepalcates",
+		"coordinates": [
+			-99.04651165,
+			19.39072824
+		]
+	},
+	{
+		"id": 141,
+		"name": "Zócalo",
+		"coordinates": [
+			-99.131879,
+			19.432602
+		]
+	},
+	{
+		"id": 142,
+		"name": "Gómez Farías",
+		"coordinates": [
+			-99.09070373,
+			19.41608763
+		]
+	},
+	{
+		"id": 143,
+		"name": "San Pedro de Los Pinos",
+		"coordinates": [
+			-99.18572903,
+			19.39122414
+		]
+	},
+	{
+		"id": 144,
+		"name": "Refinería",
+		"coordinates": [
+			-99.18985963,
+			19.46911098
+		]
+	},
+	{
+		"id": 145,
+		"name": "Villa de Cortés",
+		"coordinates": [
+			-99.13862944,
+			19.38746949
+		]
+	},
+	{
+		"id": 146,
+		"name": "R. Flores Magón",
+		"coordinates": [
+			-99.10342813,
+			19.43628327
+		]
+	},
+	{
+		"id": 147,
+		"name": "Insurgentes Sur",
+		"coordinates": [
+			-99.17859435,
+			19.37360387
+		]
+	},
+	{
+		"id": 148,
+		"name": "Viveros",
+		"coordinates": [
+			-99.17542934,
+			19.35376487
+		]
+	},
+	{
+		"id": 149,
+		"name": "Cerro de la Estrella",
+		"coordinates": [
+			-99.085872,
+			19.355601
+		]
+	},
+	{
+		"id": 150,
+		"name": "Bondojito",
+		"coordinates": [
+			-99.1117537,
+			19.46450842
+		]
+	},
+	{
+		"id": 151,
+		"name": "Canal de San Juan",
+		"coordinates": [
+			-99.05969739,
+			19.39821706
+		]
+	},
+	{
+		"id": 152,
+		"name": "San Antonio Abad",
+		"coordinates": [
+			-99.13429499,
+			19.4159055
+		]
+	},
+	{
+		"id": 153,
+		"name": "Obrera",
+		"coordinates": [
+			-99.14392948,
+			19.41301153
+		]
+	},
+	{
+		"id": 154,
+		"name": "Plaza Aragón",
+		"coordinates": [
+			-99.02979612,
+			19.52822456
+		]
+	},
+	{
+		"id": 155,
+		"name": "Panteones",
+		"coordinates": [
+			-99.20294,
+			19.458219
+		]
+	},
+	{
+		"id": 156,
+		"name": "Peñón Viejo",
+		"coordinates": [
+			-99.0172863,
+			19.37291562
+		]
+	},
+	{
+		"id": 157,
+		"name": "División del Norte",
+		"coordinates": [
+			-99.15950775,
+			19.3789276
+		]
+	},
+	{
+		"id": 158,
+		"name": "Cuitláhuac",
+		"coordinates": [
+			-99.181555,
+			19.45668
+		]
+	},
+	{
+		"id": 159,
+		"name": "Ciudad Deportiva",
+		"coordinates": [
+			-99.09135818,
+			19.40811392
+		]
+	},
+	{
+		"id": 160,
+		"name": "Cuatro Caminos",
+		"coordinates": [
+			-99.214643,
+			19.458454
+		]
+	},
+	{
+		"id": 161,
+		"name": "Isabel la Católica",
+		"coordinates": [
+			-99.13782477,
+			19.4260947
+		]
+	},
+	{
+		"id": 162,
+		"name": "Nezahualcóyotl",
+		"coordinates": [
+			-99.054375,
+			19.472534
+		]
+	},
+	{
+		"id": 163,
+		"name": "Merced",
+		"coordinates": [
+			-99.12541151,
+			19.42546738
+		]
+	}
 ]
