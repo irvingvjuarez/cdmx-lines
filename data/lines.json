@@ -1,0 +1,14 @@
+[
+	{ "line_id": "1", "line_color": "#F50087"},
+	{ "line_id": "2", "line_color": "#0000FF"},
+	{ "line_id": "3", "line_color": "#424632"},
+	{ "line_id": "4", "line_color": "#00ffff"},
+	{ "line_id": "5", "line_color": "#FFFF00"},
+	{ "line_id": "6", "line_color": "#FF0000"},
+	{ "line_id": "7", "line_color": "#ff8000"},
+	{ "line_id": "8", "line_color": "#008000"},
+	{ "line_id": "9", "line_color": "#a18262"},
+	{ "line_id": "A", "line_color": "#800080"},
+	{ "line_id": "B", "line_color": ["#008000", "#808080"]},
+	{ "line_id": "12", "line_color": "#FFD700"}
+]
