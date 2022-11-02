@@ -6,20 +6,21 @@ import linesData from "./lines.json" assert { type: "json" }
 const lines = {};
 
 bindings.forEach((binding) => {
-	const lineId = binding.line_id
-	const stationId = binding.station_id
+	const { line_id, station_id } = binding
 
-  if (lineId in lines === false) {
-		const lineMetaData = linesData.find(line => line.line_id === lineId)
+  if (line_id in lines === false) {
+		const lineMetaData = linesData.find(line => line.line_id === line_id)
+		const { line_color, line_name } = lineMetaData
 
-    lines[lineId] = {
-			line_number: lineId,
+    lines[line_id] = {
+			line_number: line_id,
 			stations: [],
-			color: lineMetaData.line_color
+			color: line_color,
+			name: line_name
 		};
   }
 
-  lines[lineId].stations.push(stationId);
+  lines[line_id].stations.push(station_id);
 });
 
 const entries = Object.entries(lines);
