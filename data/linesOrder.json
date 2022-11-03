@@ -101,7 +101,19 @@
 	{
 		"line_id": 5,
 		"line_stations": [
-
+			"Pnttlán",
+			"Hangares",
+			"Terminal Aérea",
+			"Oceanía",
+			"Aragón",
+			"Eduardo Molina",
+			"Consulado",
+			"Valle Gómez",
+			"Misterios",
+			"La Raza",
+			"Autobuses del Norte",
+			"Instituto del Petróleo",
+			"Politécnico"
 		],
 		"line_name": "Amarillo"
 	},
