@@ -120,7 +120,17 @@
 	{
 		"line_id": 6,
 		"line_stations": [
-
+			"El Rosario",
+			"Tezozómoc",
+			"Azcapotzalco",
+			"Ferería",
+			"Norte 45",
+			"Vallejo",
+			"Instituto del Petróleo",
+			"Lindavista",
+			"Deportivo 18 de Marzo",
+			"La Villa - Basílica",
+			"MartínCrrera"
 		],
 		"line_name": "Rojo"
 	},
