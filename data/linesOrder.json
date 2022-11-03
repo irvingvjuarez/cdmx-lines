@@ -85,7 +85,16 @@
 	{
 		"line_id": 4,
 		"line_stations": [
-
+			"MartínCrrera",
+			"Talismán",
+			"Bondojito",
+			"Consulado",
+			"Canal del Norte",
+			"Morelos",
+			"Candelaria",
+			"Fray Servando",
+			"Jamaica",
+			"Santa Anita"
 		],
 		"line_name": "Cian"
 	},
