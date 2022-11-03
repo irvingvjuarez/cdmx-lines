@@ -58,7 +58,27 @@
 	{
 		"line_id": 3,
 		"line_stations": [
-
+			"Universidad",
+			"Copilco",
+			"Miguel Ángel de Quevedo",
+			"Viveros",
+			"Coyoacán",
+			"Zapata",
+			"División del Norte",
+			"Eugenia",
+			"Etiopía / Plaza de la Transpatencia",
+			"Centro Médico",
+			"Hospital General",
+			"Niños Héroes",
+			"Balderas",
+			"Juárez",
+			"Hidalgo",
+			"Guerrero",
+			"Tlatelolco",
+			"La Raza",
+			"Potrero",
+			"Deportivo 18 de Marzo",
+			"Indios Verdes"
 		],
 		"line_name": "Verde Olivo"
 	},
