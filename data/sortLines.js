@@ -28,4 +28,4 @@ const fullData = completeData.map(item => {
 	}
 })
 
-fs.writeFileSync("./data/data.json", fullData)
+fs.writeFileSync("./data/fullData.json", JSON.stringify(fullData))
