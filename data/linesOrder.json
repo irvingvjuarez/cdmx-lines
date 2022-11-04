@@ -199,7 +199,16 @@
 	{
 		"line_id": 10,
 		"line_stations": [
-
+			"Pnttlán",
+			"Agrícola Oriental",
+			"Canal de San Juan",
+			"Tepalcates",
+			"Guelatao",
+			"Peñón Viejo",
+			"Acatitla",
+			"Santa Marta",
+			"Los Reyes",
+			"La Paz"
 		],
 		"line_name": "Morado"
 	},
