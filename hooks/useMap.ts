@@ -10,13 +10,13 @@ mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 export const useMap = () => {
 	const mapContainer = useRef<HTMLDivElement | null>(null)
 	const map = useRef<mapboxgl.Map | null>(null)
-	const [lng, setLng] = useState(-99.17658806)
-	const [lat, setLat] = useState(19.42025648)
+	const [lng, setLng] = useState(-99.14433718)
+	const [lat, setLat] = useState(19.40702104)
 	const [zoom, setZoom] = useState(15)
 
-	console.log({
-		linesData
-	})
+	// console.log({
+	// 	linesData
+	// })
 
 	useEffect(() => {
 		if (map.current) return
