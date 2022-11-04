@@ -137,7 +137,19 @@
 	{
 		"line_id": 7,
 		"line_stations": [
-
+			"El Rosario",
+			"Aquiles Serdán",
+			"Camarones",
+			"Refinería",
+			"San Joaquín",
+			"Polanco",
+			"Auditorio",
+			"Constituyentes",
+			"Tacubaya",
+			"San Pedro de Los Pinos",
+			"San Antonio",
+			"Mixcoac",
+			"Barranca del Muerto"
 		],
 		"line_name": "Naranja"
 	},
