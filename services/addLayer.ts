@@ -1,16 +1,18 @@
-import mapboxgl from "mapbox-gl";
+import { AddLayerConfig } from "@app/types";
 
-export const addLayer = (map: mapboxgl.Map) => {
+export const addLayer = (config: AddLayerConfig) => {
+	const { name, map, color } = config
+
 	map.addLayer({
-		'id': 'route',
+		'id': name,
 		'type': 'line',
-		'source': 'route',
+		'source': name,
 		'layout': {
 			'line-join': 'round',
 			'line-cap': 'round'
 		},
 		'paint': {
-			'line-color': '#F50087',
+			'line-color': Array.isArray(color) ? color[1] : color,
 			'line-width': 8
 		}
 	});
