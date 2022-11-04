@@ -215,15 +215,53 @@
 	{
 		"line_id": 11,
 		"line_stations": [
-
+			"Ciudad Azteca",
+			"Plaza Aragón",
+			"Olímpica",
+			"Múzquiz",
+			"Río de los Remedios",
+			"Impulsora",
+			"Nezahualcóyotl",
+			"Villa de Aragón",
+			"Bosque de Aragón",
+			"Deportivo Oceanía",
+			"Oceanía",
+			"Romero Rubio",
+			"R. Flores Magón",
+			"San Lázaro",
+			"Morelos",
+			"Tepito",
+			"Lagunilla",
+			"Garibaldi",
+			"Guerrero",
+			"Buenavista"
 		],
-		"#808080"], "line_name": "Verde y Gris"
+		"line_name": "Verde y Gris"
 	},
 	{
 		"line_id": 12,
 		"line_stations": [
-
+			"Mixcoac",
+			"Insurgentes Sur",
+			"Hospital 20 de Nov.",
+			"Zapata",
+			"Parque de los Venados",
+			"Eje Central",
+			"Ermita",
+			"Mexicaltzingo",
+			"Atlalilco",
+			"Culhuacán",
+			"San Andrés Tomatlán",
+			"Lomas Estrella",
+			"Calle 11",
+			"Periférico Ote",
+			"Tezonco",
+			"Olivos",
+			"Nopalera",
+			"Zapotitlán",
+			"Tlaltenco",
+			"Tláhuac"
 		],
-		"line_name": "Oro
-		"}
+		"line_name": "Oro"
+	}
 ]
