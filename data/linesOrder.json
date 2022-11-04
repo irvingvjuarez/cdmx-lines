@@ -181,7 +181,18 @@
 	{
 		"line_id": 9,
 		"line_stations": [
-
+			"Tacubaya",
+			"Patriotismo",
+			"Chilpancingo",
+			"Centro Médico",
+			"Lázaro Cárdens",
+			"Chabacano",
+			"Jamaica",
+			"Mixhuca",
+			"Velódromo",
+			"Ciudad Deportiva",
+			"Puebla",
+			"Pnttlán"
 		],
 		"line_name": "Café"
 	},
