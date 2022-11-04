@@ -1,7 +1,7 @@
 import fs from "fs";
 import bindings from "./bindings.json" assert { type: "json" }
 import points from "./points.json" assert { type: "json" }
-import linesData from "./lines.json" assert { type: "json" }
+import linesData from "../data/lines.json" assert { type: "json" }
 
 const lines = {};
 

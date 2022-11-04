@@ -26,7 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "data/createData.js"	],
+, "scripts/createData.js"	],
   "exclude": [
     "node_modules"
   ]

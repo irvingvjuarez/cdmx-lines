@@ -1,6 +1,6 @@
 import fs from "fs"
-import linesOrder from "./linesOrder.json" assert { type: "json" }
-import stationsData from "./stations.json" assert { type: "json" }
+import linesOrder from "../data/linesOrder.json" assert { type: "json" }
+import stationsData from "../data/stations.json" assert { type: "json" }
 import completeData from "./data.json" assert { type: "json" }
 
 const sortedLines = linesOrder.map(line => {
