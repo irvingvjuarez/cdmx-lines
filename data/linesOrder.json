@@ -156,7 +156,25 @@
 	{
 		"line_id": 8,
 		"line_stations": [
-
+			"Garibaldi",
+			"Bellas Artes",
+			"San Juan de Letrán",
+			"Salto del Agua",
+			"Doctores",
+			"Obrera",
+			"Chabacano",
+			"La Viga",
+			"Santa Anita",
+			"Coyuya",
+			"Iztacalco",
+			"Apatlaco",
+			"Aculco",
+			"Escuadrón 201",
+			"Atlalilco",
+			"Iztapalapa",
+			"Cerro de la Estrella",
+			"UAM-I",
+			"Constitución de 1917"
 		],
 		"line_name": "Verde"
 	},
