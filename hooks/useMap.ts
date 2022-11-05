@@ -12,7 +12,7 @@ export const useMap = () => {
 	const map = useRef<mapboxgl.Map | null>(null)
 	const [lng, setLng] = useState(-99.14433718)
 	const [lat, setLat] = useState(19.40702104)
-	const [zoom, setZoom] = useState(12)
+	const [zoom, setZoom] = useState(13)
 
 	useEffect(() => {
 		if (map.current) return
