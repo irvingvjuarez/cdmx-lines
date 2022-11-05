@@ -41,12 +41,50 @@ export const useMap = () => {
 				color
 			}
 
-			map.current.on("load", () => {
+			currentMap.on("load", () => {
 				addLine(addLineConfig);
 				addLayer(addLayerConfig);
 			})
 		})
 
+		currentMap.on("load", () => {
+			// Load an image from an external URL.
+			const imgUrl = 'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png'
+
+			currentMap.loadImage(imgUrl, (error, image) => {
+				if (error) throw error;
+
+				// Add the image to the map style.
+				currentMap.addImage('cat', image);
+
+				// Add a data source containing one point feature.
+				currentMap.addSource('point', {
+					'type': 'geojson',
+					'data': {
+						'type': 'FeatureCollection',
+						'features': [{
+							"properties": {},
+							'type': 'Feature',
+							'geometry': {
+								'type': 'Point',
+								'coordinates': [-99.200669, 19.397486]
+							}
+						}]
+					}
+				});
+
+				// Add a layer to use the image to represent the data.
+				currentMap.addLayer({
+					'id': 'points',
+					'type': 'symbol',
+					'source': 'point', // reference the data source
+					'layout': {
+						'icon-image': 'cat', // reference the image
+						'icon-size': 0.25
+					}
+				});
+			});
+		})
 	})
 
 	return {
