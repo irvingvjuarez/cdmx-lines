@@ -78,10 +78,14 @@ export const useMap = () => {
 					'id': 'points',
 					'type': 'symbol',
 					'source': 'point', // reference the data source
+					"minzoom": 12,
 					'layout': {
 						'icon-image': 'cat', // reference the image
-						'icon-size': 0.25
+						'icon-size': 0.25,
 					}
+					// "paint": {
+					// 	"max-zoom": 10
+					// }
 				});
 			});
 		})
