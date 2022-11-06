@@ -1,6 +1,7 @@
 import {useRef, useState, useEffect} from "react";
 import { addLine } from "@app/services/addLine";
 import { addLayer } from "@app/services/addLayer";
+import { renderIcon } from "@app/services/renderIcon";
 import { Line } from "@app/types";
 
 import mapboxgl from "mapbox-gl"
@@ -35,43 +36,8 @@ export const useMap = () => {
 		})
 
 		currentMap.on("load", () => {
-			// Load an image from an external URL.
 			const imgUrl = "/assets/stationsIcons/line 1/observatorio.png"
-
-			currentMap.loadImage(imgUrl, (error, image) => {
-				if (error) throw error;
-
-				// Add the image to the map style.
-				currentMap.addImage('cat', image);
-
-				// Add a data source containing one point feature.
-				currentMap.addSource('point', {
-					'type': 'geojson',
-					'data': {
-						'type': 'FeatureCollection',
-						'features': [{
-							"properties": {},
-							'type': 'Feature',
-							'geometry': {
-								'type': 'Point',
-								'coordinates': [-99.200669, 19.397486]
-							}
-						}]
-					}
-				});
-
-				// Add a layer to use the image to represent the data.
-				currentMap.addLayer({
-					'id': 'points',
-					'type': 'symbol',
-					'source': 'point', // reference the data source
-					"minzoom": 13,
-					'layout': {
-						'icon-image': 'cat', // reference the image
-						'icon-size': 0.25,
-					}
-				});
-			});
+			renderIcon(currentMap, imgUrl)
 		})
 	})
 
