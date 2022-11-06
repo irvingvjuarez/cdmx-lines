@@ -1,16 +1,17 @@
-import { AddLineConfig } from "@app/types"
+import { Line } from "@app/types"
+import mapboxgl from "mapbox-gl"
 
-export const addLine = (config: AddLineConfig) => {
-	const { map, lineName, coordinates } = config
+export const addLine = (map: mapboxgl.Map, line: Line) => {
+	const { name, stations } = line
 
-	map.addSource(lineName, {
+	map.addSource(name, {
 		'type': 'geojson',
 		'data': {
 			'type': 'Feature',
 			'properties': {},
 			'geometry': {
 				'type': 'LineString',
-				'coordinates': coordinates
+				'coordinates': stations
 			}
 		}
 	})

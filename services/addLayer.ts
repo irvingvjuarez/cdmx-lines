@@ -1,7 +1,8 @@
-import { AddLayerConfig } from "@app/types";
+import { Line } from "@app/types";
+import mapboxgl from "mapbox-gl"
 
-export const addLayer = (config: AddLayerConfig) => {
-	const { name, map, color } = config
+export const addLayer = (map: mapboxgl.Map, line: Line) => {
+	const { name, color } = line
 
 	map.addLayer({
 		'id': name,

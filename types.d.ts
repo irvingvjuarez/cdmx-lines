@@ -1,11 +1,6 @@
-export type AddLineConfig = {
-	map: mapboxgl.Map,
-	lineName: string,
-	coordinates: any
-}
-
-export type AddLayerConfig = {
-	map: mapboxgl.Map;
+export type Line = {
+	line_number: number;
+	stations: Array<Array<number>>;
+	color: string;
 	name: string;
-	color: string | string[];
 }

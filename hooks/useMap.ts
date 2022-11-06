@@ -1,11 +1,10 @@
 import {useRef, useState, useEffect} from "react";
-import mapboxgl from "mapbox-gl"
 import { addLine } from "@app/services/addLine";
 import { addLayer } from "@app/services/addLayer";
-import linesData from "@app/data/data.json"
-import { AddLayerConfig, AddLineConfig } from "@app/types";
+import { Line } from "@app/types";
 
-import observatorioIcon from "@app/assets/stationsIcons/observatorio.svg"
+import mapboxgl from "mapbox-gl"
+import linesData from "@app/data/data.json"
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
@@ -29,23 +28,9 @@ export const useMap = () => {
 		const currentMap = map.current as mapboxgl.Map
 
 		linesData.forEach(line => {
-			const { name, stations, color } = line
-
-			const addLineConfig: AddLineConfig = {
-				map: currentMap,
-				lineName: name,
-				coordinates: stations
-			}
-
-			const addLayerConfig: AddLayerConfig = {
-				map: currentMap,
-				name,
-				color
-			}
-
 			currentMap.on("load", () => {
-				addLine(addLineConfig);
-				addLayer(addLayerConfig);
+				addLine(currentMap, line as Line);
+				addLayer(currentMap, line as Line);
 			})
 		})
 
