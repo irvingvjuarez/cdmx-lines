@@ -6,6 +6,7 @@ import { Line } from "@app/types";
 
 import mapboxgl from "mapbox-gl"
 import linesData from "@app/data/data.json"
+import stations from "@app/data/stations.json"
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
@@ -35,9 +36,12 @@ export const useMap = () => {
 			})
 		})
 
-		currentMap.on("load", () => {
-			const imgUrl = "/assets/stationsIcons/line 1/observatorio.png"
-			renderIcon(currentMap, imgUrl)
+		const icons = stations.filter(station => station.imgUrl !== "")
+		icons.forEach(icon => {
+			currentMap.on("load", () => {
+				const { imgUrl, coordinates: coords, id } = icon
+				renderIcon(currentMap, imgUrl, coords, String(id))
+			})
 		})
 	})
 

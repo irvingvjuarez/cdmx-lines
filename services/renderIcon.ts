@@ -1,14 +1,14 @@
 import mapboxgl from "mapbox-gl";
 
-export const renderIcon = (map: mapboxgl.Map, imgUrl: string) => {
+export const renderIcon = (map: mapboxgl.Map, imgUrl: string, coords: number[], imgID) => {
 	map.loadImage(imgUrl, (error, image) => {
 		if (error) throw error;
 
 		// Add the image to the map style.
-		map.addImage('cat', image as any);
+		map.addImage(imgID, image as any);
 
 		// Add a data source containing one point feature.
-		map.addSource('point', {
+		map.addSource(imgID, {
 			'type': 'geojson',
 			'data': {
 				'type': 'FeatureCollection',
@@ -17,7 +17,7 @@ export const renderIcon = (map: mapboxgl.Map, imgUrl: string) => {
 					'type': 'Feature',
 					'geometry': {
 						'type': 'Point',
-						'coordinates': [-99.200669, 19.397486]
+						'coordinates': coords
 					}
 				}]
 			}
@@ -25,12 +25,12 @@ export const renderIcon = (map: mapboxgl.Map, imgUrl: string) => {
 
 		// Add a layer to use the image to represent the data.
 		map.addLayer({
-			'id': 'points',
+			'id': imgID,
 			'type': 'symbol',
-			'source': 'point', // reference the data source
+			'source': imgID, // reference the data source
 			"minzoom": 13,
 			'layout': {
-				'icon-image': 'cat', // reference the image
+				'icon-image': imgID, // reference the image
 				'icon-size': 0.25,
 			}
 		});
