@@ -14,7 +14,7 @@ export const useMap = () => {
 	const map = useRef<mapboxgl.Map | null>(null)
 	const [lng, setLng] = useState(-99.14433718)
 	const [lat, setLat] = useState(19.40702104)
-	const [zoom, setZoom] = useState(13)
+	const [zoom, setZoom] = useState(15)
 
 	useEffect(() => {
 		if (map.current) return
@@ -80,7 +80,7 @@ export const useMap = () => {
 					'id': 'points',
 					'type': 'symbol',
 					'source': 'point', // reference the data source
-					"minzoom": 12,
+					"minzoom": 13,
 					'layout': {
 						'icon-image': 'cat', // reference the image
 						'icon-size': 0.25,
