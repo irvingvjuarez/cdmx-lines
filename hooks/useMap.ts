@@ -5,6 +5,8 @@ import { addLayer } from "@app/services/addLayer";
 import linesData from "@app/data/data.json"
 import { AddLayerConfig, AddLineConfig } from "@app/types";
 
+import observatorioIcon from "@app/assets/stationsIcons/observatorio.svg"
+
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
 export const useMap = () => {
@@ -49,7 +51,7 @@ export const useMap = () => {
 
 		currentMap.on("load", () => {
 			// Load an image from an external URL.
-			const imgUrl = 'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png'
+			const imgUrl = "/assets/stationsIcons/observatorio.png"
 
 			currentMap.loadImage(imgUrl, (error, image) => {
 				if (error) throw error;
@@ -83,9 +85,6 @@ export const useMap = () => {
 						'icon-image': 'cat', // reference the image
 						'icon-size': 0.25,
 					}
-					// "paint": {
-					// 	"max-zoom": 10
-					// }
 				});
 			});
 		})
