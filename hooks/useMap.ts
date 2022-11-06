@@ -51,7 +51,7 @@ export const useMap = () => {
 
 		currentMap.on("load", () => {
 			// Load an image from an external URL.
-			const imgUrl = "/assets/stationsIcons/observatorio.png"
+			const imgUrl = "/assets/stationsIcons/line 1/observatorio.png"
 
 			currentMap.loadImage(imgUrl, (error, image) => {
 				if (error) throw error;
