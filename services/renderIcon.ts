@@ -1,6 +1,6 @@
 import mapboxgl from "mapbox-gl";
 
-export const renderIcon = (map: mapboxgl.Map, imgUrl: string, coords: number[], imgID) => {
+export const renderIcon = (map: mapboxgl.Map, imgUrl: string, coords: number[], imgID: string) => {
 	map.loadImage(imgUrl, (error, image) => {
 		if (error) throw error;
 
