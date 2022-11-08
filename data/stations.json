@@ -190,7 +190,7 @@
 	},
 	{
 		"id": 22,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/atlalilco.png",
 		"name": "Atlalilco",
 		"coordinates": [
 			-99.10157204,
@@ -271,7 +271,7 @@
 	},
 	{
 		"id": 31,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/escuadron201.png",
 		"name": "Escuadrón 201",
 		"coordinates": [
 			-99.10931826,
@@ -280,7 +280,7 @@
 	},
 	{
 		"id": 32,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/iztacalco.png",
 		"name": "Iztacalco",
 		"coordinates": [
 			-99.112086,
@@ -721,7 +721,7 @@
 	},
 	{
 		"id": 81,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/laviga.png",
 		"name": "La Viga",
 		"coordinates": [
 			-99.125973,
@@ -865,7 +865,7 @@
 	},
 	{
 		"id": 97,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/sanjuandeletran.png",
 		"name": "San Juan de Letrán",
 		"coordinates": [
 			-99.14116144,
@@ -892,7 +892,7 @@
 	},
 	{
 		"id": 100,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/doctores.png",
 		"name": "Doctores",
 		"coordinates": [
 			-99.14335012,
@@ -964,7 +964,7 @@
 	},
 	{
 		"id": 108,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/garibaldi.png",
 		"name": "Garibaldi",
 		"coordinates": [
 			-99.139954,
@@ -982,7 +982,7 @@
 	},
 	{
 		"id": 110,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/coyuya.png",
 		"name": "Coyuya",
 		"coordinates": [
 			-99.113413,
@@ -1054,7 +1054,7 @@
 	},
 	{
 		"id": 118,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/uam-i.png",
 		"name": "UAM-I",
 		"coordinates": [
 			-99.074808,
@@ -1081,7 +1081,7 @@
 	},
 	{
 		"id": 121,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/apatlaco.png",
 		"name": "Apatlaco",
 		"coordinates": [
 			-99.10934,
@@ -1333,7 +1333,7 @@
 	},
 	{
 		"id": 149,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/cerroestrella.png",
 		"name": "Cerro de la Estrella",
 		"coordinates": [
 			-99.085872,
@@ -1369,7 +1369,7 @@
 	},
 	{
 		"id": 153,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 8/obrera.png",
 		"name": "Obrera",
 		"coordinates": [
 			-99.14392948,
