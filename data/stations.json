@@ -154,7 +154,7 @@
 	},
 	{
 		"id": 18,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/20noviembre.png",
 		"name": "Hospital 20 de Nov.",
 		"coordinates": [
 			-99.17099833,
@@ -172,7 +172,7 @@
 	},
 	{
 		"id": 20,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/lomasestrella.png",
 		"name": "Lomas Estrella",
 		"coordinates": [
 			-99.096696,
@@ -325,7 +325,7 @@
 	},
 	{
 		"id": 37,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/tlaltenco.png",
 		"name": "Tlaltenco",
 		"coordinates": [
 			-99.023829,
@@ -694,7 +694,7 @@
 	},
 	{
 		"id": 78,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/tezonco.png",
 		"name": "Tezonco",
 		"coordinates": [
 			-99.065867,
@@ -757,7 +757,7 @@
 	},
 	{
 		"id": 85,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/perifericooriente.png",
 		"name": "Periférico Ote",
 		"coordinates": [
 			-99.074719,
@@ -784,7 +784,7 @@
 	},
 	{
 		"id": 88,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/zapotitlan.png",
 		"name": "Zapotitlán",
 		"coordinates": [
 			-99.03402328,
@@ -793,7 +793,7 @@
 	},
 	{
 		"id": 89,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/tlahuac.png",
 		"name": "Tláhuac",
 		"coordinates": [
 			-99.01443243,
@@ -955,7 +955,7 @@
 	},
 	{
 		"id": 107,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/tomatlan.png",
 		"name": "San Andrés Tomatlán",
 		"coordinates": [
 			-99.10259128,
@@ -1045,7 +1045,7 @@
 	},
 	{
 		"id": 117,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/nopalera2.png",
 		"name": "Nopalera",
 		"coordinates": [
 			-99.04621124,
@@ -1108,7 +1108,7 @@
 	},
 	{
 		"id": 124,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/ejecentral2.png",
 		"name": "Eje Central",
 		"coordinates": [
 			-99.15133238,
@@ -1180,7 +1180,7 @@
 	},
 	{
 		"id": 132,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/parquevenados2.png",
 		"name": "Parque de los Venados",
 		"coordinates": [
 			-99.15766239,
@@ -1243,7 +1243,7 @@
 	},
 	{
 		"id": 139,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/olivos.png",
 		"name": "Olivos",
 		"coordinates": [
 			-99.05831337,
@@ -1315,7 +1315,7 @@
 	},
 	{
 		"id": 147,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 12/insurgentessur.png",
 		"name": "Insurgentes Sur",
 		"coordinates": [
 			-99.17859435,
