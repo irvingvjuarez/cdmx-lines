@@ -118,7 +118,7 @@
 	},
 	{
 		"id": 14,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/copilco.png",
 		"name": "Copilco",
 		"coordinates": [
 			-99.17657733,
@@ -163,7 +163,7 @@
 	},
 	{
 		"id": 19,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/eugenia.png",
 		"name": "Eugenia",
 		"coordinates": [
 			-99.15724397,
@@ -181,7 +181,7 @@
 	},
 	{
 		"id": 21,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/tlatelolco.png",
 		"name": "Tlatelolco",
 		"coordinates": [
 			-99.1430819,
@@ -226,7 +226,7 @@
 	},
 	{
 		"id": 26,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/niñosheroes.png",
 		"name": "Niños Héroes",
 		"coordinates": [
 			-99.15023804,
@@ -289,7 +289,7 @@
 	},
 	{
 		"id": 33,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/juarez.png",
 		"name": "Juárez",
 		"coordinates": [
 			-99.14771676,
@@ -370,7 +370,7 @@
 	},
 	{
 		"id": 42,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/centromedico.png",
 		"name": "Centro Médico",
 		"coordinates": [
 			-99.15531278,
@@ -442,7 +442,7 @@
 	},
 	{
 		"id": 50,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/zapata.png",
 		"name": "Zapata",
 		"coordinates": [
 			-99.1645503,
@@ -460,7 +460,7 @@
 	},
 	{
 		"id": 52,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/laraza.png",
 		"name": "La Raza",
 		"coordinates": [
 			-99.136176,
@@ -595,7 +595,7 @@
 	},
 	{
 		"id": 67,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/18marzo.png",
 		"name": "Deportivo 18 de Marzo",
 		"coordinates": [
 			-99.12576556,
@@ -631,7 +631,7 @@
 	},
 	{
 		"id": 71,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/guerrero.png",
 		"name": "Guerrero",
 		"coordinates": [
 			-99.14501309,
@@ -640,7 +640,7 @@
 	},
 	{
 		"id": 72,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/hospitalgeneral.png",
 		"name": "Hospital General",
 		"coordinates": [
 			-99.1531992,
@@ -811,7 +811,7 @@
 	},
 	{
 		"id": 91,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/etiopia-plaza.png",
 		"name": [
 			"Etiopía",
 			"Plaza de la Transpatencia"
@@ -994,7 +994,7 @@
 	},
 	{
 		"id": 111,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/coyoacan.png",
 		"name": "Coyoacán",
 		"coordinates": [
 			-99.17056918,
@@ -1138,7 +1138,7 @@
 	},
 	{
 		"id": 127,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/potrero.png",
 		"name": "Potrero",
 		"coordinates": [
 			-99.131748,
@@ -1165,7 +1165,7 @@
 	},
 	{
 		"id": 130,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/indiosverdes.png",
 		"name": "Indios Verdes",
 		"coordinates": [
 			-99.119141,
@@ -1228,7 +1228,7 @@
 	},
 	{
 		"id": 137,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 3/maq.png",
 		"name": "Miguel Ángel de Quevedo",
 		"coordinates": [
 			-99.18053627,
