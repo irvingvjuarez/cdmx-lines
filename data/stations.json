@@ -122,7 +122,7 @@
 		"name": "Copilco",
 		"coordinates": [
 			-99.17657733,
-			19.33597857
+			19.33616471910796
 		]
 	},
 	{
@@ -166,8 +166,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/eugenia.png",
 		"name": "Eugenia",
 		"coordinates": [
-			-99.15724397,
-			19.38628539
+			-99.15720322918361,
+			19.38618123460772
 		]
 	},
 	{
@@ -184,8 +184,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/tlatelolco.png",
 		"name": "Tlatelolco",
 		"coordinates": [
-			-99.1430819,
-			19.45520174
+			-99.14318102451608,
+			19.455018364835848
 		]
 	},
 	{
@@ -229,8 +229,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/niñosheroes.png",
 		"name": "Niños Héroes",
 		"coordinates": [
-			-99.15023804,
-			19.41946724
+			-99.15038466249769,
+			19.419454425562666
 		]
 	},
 	{
@@ -256,8 +256,8 @@
 		"imgUrl": "",
 		"name": "Universidad",
 		"coordinates": [
-			-99.17407751,
-			19.32433595
+			-99.17392372751343,
+			19.32451634225169
 		]
 	},
 	{
@@ -292,8 +292,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/juarez.png",
 		"name": "Juárez",
 		"coordinates": [
-			-99.14771676,
-			19.43336942
+			-99.14769478393977,
+			19.43330159240169
 		]
 	},
 	{
@@ -373,8 +373,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/centromedico.png",
 		"name": "Centro Médico",
 		"coordinates": [
-			-99.15531278,
-			19.40749665
+			-99.15517105387757,
+			19.4064949970465
 		]
 	},
 	{
@@ -382,8 +382,8 @@
 		"imgUrl": "/assets/stationsIcons/line 1/balderas.png",
 		"name": "Balderas",
 		"coordinates": [
-			-99.14912224,
-			19.42729875
+			-99.14892842222423,
+			19.42721790381461
 		]
 	},
 	{
@@ -445,8 +445,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/zapata.png",
 		"name": "Zapata",
 		"coordinates": [
-			-99.1645503,
-			19.37073951
+			-99.16506254615025,
+			19.37078014004582
 		]
 	},
 	{
@@ -463,8 +463,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/laraza.png",
 		"name": "La Raza",
 		"coordinates": [
-			-99.136176,
-			19.468965
+			-99.13652165818606,
+			19.46965169720555
 		]
 	},
 	{
@@ -598,8 +598,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/18marzo.png",
 		"name": "Deportivo 18 de Marzo",
 		"coordinates": [
-			-99.12576556,
-			19.48358544
+			-99.12550184884857,
+			19.485123276949224
 		]
 	},
 	{
@@ -634,8 +634,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/guerrero.png",
 		"name": "Guerrero",
 		"coordinates": [
-			-99.14501309,
-			19.44475133
+			-99.14518978320376,
+			19.444746230685755
 		]
 	},
 	{
@@ -643,8 +643,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/hospitalgeneral.png",
 		"name": "Hospital General",
 		"coordinates": [
-			-99.1531992,
-			19.41369961
+			-99.15325080001591,
+			19.413768253454776
 		]
 	},
 	{
@@ -805,8 +805,8 @@
 		"imgUrl": "/assets/stationsIcons/line 2/hidalgo.png",
 		"name": "Hidalgo",
 		"coordinates": [
-			-99.14681554,
-			19.43674867
+			-99.147133621587,
+			19.43750012233132
 		]
 	},
 	{
@@ -817,8 +817,8 @@
 			"Plaza de la Transpatencia"
 		],
 		"coordinates": [
-			-99.15617108,
-			19.39604129
+			-99.15606445122236,
+			19.395943795754867
 		]
 	},
 	{
@@ -997,8 +997,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/coyoacan.png",
 		"name": "Coyoacán",
 		"coordinates": [
-			-99.17056918,
-			19.36142746
+			-99.17085370226894,
+			19.36145531193064
 		]
 	},
 	{
@@ -1141,8 +1141,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/potrero.png",
 		"name": "Potrero",
 		"coordinates": [
-			-99.131748,
-			19.476413
+			-99.13201029196553,
+			19.47718053743677
 		]
 	},
 	{
@@ -1168,8 +1168,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/indiosverdes.png",
 		"name": "Indios Verdes",
 		"coordinates": [
-			-99.119141,
-			19.495315
+			-99.11960106262944,
+			19.495012964547062
 		]
 	},
 	{
@@ -1231,8 +1231,8 @@
 		"imgUrl": "/assets/stationsIcons/line 3/maq.png",
 		"name": "Miguel Ángel de Quevedo",
 		"coordinates": [
-			-99.18053627,
-			19.34651696
+			-99.18069931035964,
+			19.34600837731463
 		]
 	},
 	{
@@ -1330,8 +1330,8 @@
 		"imgUrl": "",
 		"name": "Viveros",
 		"coordinates": [
-			-99.17542934,
-			19.35376487
+			-99.17542125079177,
+			19.354052847278503
 		]
 	},
 	{
@@ -1411,8 +1411,8 @@
 		"imgUrl": "",
 		"name": "División del Norte",
 		"coordinates": [
-			-99.15950775,
-			19.3789276
+			-99.15943941015686,
+			19.379062747136558
 		]
 	},
 	{
