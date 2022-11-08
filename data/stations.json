@@ -55,7 +55,7 @@
 	},
 	{
 		"id": 7,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/VillaAragon.png",
 		"name": "Villa de Aragón",
 		"coordinates": [
 			-99.06114578,
@@ -145,7 +145,7 @@
 	},
 	{
 		"id": 17,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/tepito.png",
 		"name": "Tepito",
 		"coordinates": [
 			-99.12323356,
@@ -217,7 +217,7 @@
 	},
 	{
 		"id": 25,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/cdazteca.png",
 		"name": "Ciudad Azteca",
 		"coordinates": [
 			-99.02711391,
@@ -316,7 +316,7 @@
 	},
 	{
 		"id": 36,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/bosquearagon.png",
 		"name": "Bosque de Aragón",
 		"coordinates": [
 			-99.06927824,
@@ -487,7 +487,7 @@
 	},
 	{
 		"id": 55,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/romerorubio.png",
 		"name": "Romero Rubio",
 		"coordinates": [
 			-99.09420133,
@@ -559,7 +559,7 @@
 	},
 	{
 		"id": 63,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/buenavista.png",
 		"name": "Buenavista",
 		"coordinates": [
 			-99.15289879,
@@ -730,7 +730,7 @@
 	},
 	{
 		"id": 82,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/olimpica.png",
 		"name": "Olímpica",
 		"coordinates": [
 			-99.03298259,
@@ -820,7 +820,7 @@
 	},
 	{
 		"id": 92,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/depoceania.png",
 		"name": "Deportivo Oceanía",
 		"coordinates": [
 			-99.07917023,
@@ -829,7 +829,7 @@
 	},
 	{
 		"id": 93,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/impulsora.png",
 		"name": "Impulsora",
 		"coordinates": [
 			-99.048743,
@@ -1234,7 +1234,7 @@
 	},
 	{
 		"id": 138,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/lagunilla.png",
 		"name": "Lagunilla",
 		"coordinates": [
 			-99.13107634,
@@ -1306,7 +1306,7 @@
 	},
 	{
 		"id": 146,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/floresmagon.png",
 		"name": "R. Flores Magón",
 		"coordinates": [
 			-99.10342813,
@@ -1378,7 +1378,7 @@
 	},
 	{
 		"id": 154,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/plazaragon.png",
 		"name": "Plaza Aragón",
 		"coordinates": [
 			-99.02979612,
@@ -1450,7 +1450,7 @@
 	},
 	{
 		"id": 162,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 11/neza.png",
 		"name": "Nezahualcóyotl",
 		"coordinates": [
 			-99.054375,
