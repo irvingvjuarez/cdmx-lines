@@ -10,7 +10,7 @@
 	},
 	{
 		"id": 2,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/arenacdmexico.png",
 		"name": "Ferería",
 		"coordinates": [
 			-99.173702,
@@ -64,7 +64,7 @@
 	},
 	{
 		"id": 8,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/tezozomoc.png",
 		"name": "Tezozómoc",
 		"coordinates": [
 			-99.19593215,
@@ -307,7 +307,7 @@
 	},
 	{
 		"id": 35,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/atzcapozalco.png",
 		"name": "Azcapotzalco",
 		"coordinates": [
 			-99.18621182,
@@ -622,7 +622,7 @@
 	},
 	{
 		"id": 70,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/rosario.png",
 		"name": "El Rosario",
 		"coordinates": [
 			-99.20029879,
@@ -883,7 +883,7 @@
 	},
 	{
 		"id": 99,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/vallejo.png",
 		"name": "Vallejo",
 		"coordinates": [
 			-99.15479779,
@@ -1000,7 +1000,7 @@
 	},
 	{
 		"id": 112,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/norte45.png",
 		"name": "Norte 45",
 		"coordinates": [
 			-99.16249037,
@@ -1009,7 +1009,7 @@
 	},
 	{
 		"id": 113,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 6/lindavista.png",
 		"name": "Lindavista",
 		"coordinates": [
 			-99.13434863,
