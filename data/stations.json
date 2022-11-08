@@ -262,7 +262,7 @@
 	},
 	{
 		"id": 30,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/ipn.png",
 		"name": "Instituto del Petróleo",
 		"coordinates": [
 			-99.14455175,
@@ -343,7 +343,7 @@
 	},
 	{
 		"id": 39,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/oceania.png",
 		"name": "Oceanía",
 		"coordinates": [
 			-99.08683062,
@@ -586,7 +586,7 @@
 	},
 	{
 		"id": 66,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/aragon.png",
 		"name": "Aragón",
 		"coordinates": [
 			-99.09598231,
@@ -685,7 +685,7 @@
 	},
 	{
 		"id": 77,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/vallegomez.png",
 		"name": "Valle Gómez",
 		"coordinates": [
 			-99.11988616,
@@ -919,7 +919,7 @@
 	},
 	{
 		"id": 103,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/autobusesnorte.png",
 		"name": "Autobuses del Norte",
 		"coordinates": [
 			-99.140471,
@@ -1036,7 +1036,7 @@
 	},
 	{
 		"id": 116,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/hangares.png",
 		"name": "Hangares",
 		"coordinates": [
 			-99.087095,
@@ -1207,7 +1207,7 @@
 	},
 	{
 		"id": 135,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 5/misterios.png",
 		"name": "Misterios",
 		"coordinates": [
 			-99.13051844,
