@@ -244,7 +244,7 @@
 	},
 	{
 		"id": 28,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/sanjoaquin.png",
 		"name": "San Joaquín",
 		"coordinates": [
 			-99.19160843,
@@ -604,7 +604,7 @@
 	},
 	{
 		"id": 68,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/auditorio.png",
 		"name": "Auditorio",
 		"coordinates": [
 			-99.19173717,
@@ -712,7 +712,7 @@
 	},
 	{
 		"id": 80,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/aquileserdan.png",
 		"name": "Aquiles Serdán",
 		"coordinates": [
 			-99.194511,
@@ -847,7 +847,7 @@
 	},
 	{
 		"id": 95,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/camarones.png",
 		"name": "Camarones",
 		"coordinates": [
 			-99.18894768,
@@ -946,7 +946,7 @@
 	},
 	{
 		"id": 106,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/polanco.png",
 		"name": "Polanco",
 		"coordinates": [
 			-99.19079304,
@@ -1027,7 +1027,7 @@
 	},
 	{
 		"id": 115,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/mixcoac.png",
 		"name": "Mixcoac",
 		"coordinates": [
 			-99.18774605,
@@ -1216,7 +1216,7 @@
 	},
 	{
 		"id": 136,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/barrancadelmuerto.png",
 		"name": "Barranca del Muerto",
 		"coordinates": [
 			-99.18895841,
@@ -1279,7 +1279,7 @@
 	},
 	{
 		"id": 143,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/sanpedro.png",
 		"name": "San Pedro de Los Pinos",
 		"coordinates": [
 			-99.18572903,
@@ -1288,7 +1288,7 @@
 	},
 	{
 		"id": 144,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 7/refineria.png",
 		"name": "Refinería",
 		"coordinates": [
 			-99.18985963,
