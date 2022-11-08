@@ -406,7 +406,7 @@
 	},
 	{
 		"id": 46,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/guelatao.png",
 		"name": "Guelatao",
 		"coordinates": [
 			-99.03579354,
@@ -676,7 +676,7 @@
 	},
 	{
 		"id": 76,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/lapaz.png",
 		"name": "La Paz",
 		"coordinates": [
 			-98.96061659,
@@ -901,7 +901,7 @@
 	},
 	{
 		"id": 101,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/losreyes.png",
 		"name": "Los Reyes",
 		"coordinates": [
 			-98.97670984,
@@ -928,7 +928,7 @@
 	},
 	{
 		"id": 104,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/acatitla.png",
 		"name": "Acatitla",
 		"coordinates": [
 			-99.00597811,
@@ -1099,7 +1099,7 @@
 	},
 	{
 		"id": 123,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/agricolaote.png",
 		"name": "Agrícola Oriental",
 		"coordinates": [
 			-99.06982541,
@@ -1252,7 +1252,7 @@
 	},
 	{
 		"id": 140,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/tepalcates.png",
 		"name": "Tepalcates",
 		"coordinates": [
 			-99.04651165,
@@ -1351,7 +1351,7 @@
 	},
 	{
 		"id": 151,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/canalsnjuan.png",
 		"name": "Canal de San Juan",
 		"coordinates": [
 			-99.05969739,
@@ -1396,7 +1396,7 @@
 	},
 	{
 		"id": 156,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 10/penonviejo.png",
 		"name": "Peñón Viejo",
 		"coordinates": [
 			-99.0172863,
