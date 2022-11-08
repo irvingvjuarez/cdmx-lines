@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 9/lazarocardenas.png",
 		"name": "Lázaro Cárdens",
 		"coordinates": [
 			-99.14433718,
@@ -208,7 +208,7 @@
 	},
 	{
 		"id": 24,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 9/chilpancingo.png",
 		"name": "Chilpancingo",
 		"coordinates": [
 			-99.1683054,
@@ -361,7 +361,7 @@
 	},
 	{
 		"id": 41,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 9/mixiuhca.png",
 		"name": "Mixhuca",
 		"coordinates": [
 			-99.11285877,
@@ -514,7 +514,7 @@
 	},
 	{
 		"id": 58,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 9/puebla.png",
 		"name": "Puebla",
 		"coordinates": [
 			-99.08233523,
@@ -658,7 +658,7 @@
 	},
 	{
 		"id": 74,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 9/patriotismo.png",
 		"name": "Patriotismo",
 		"coordinates": [
 			-99.1784656,
@@ -1063,7 +1063,7 @@
 	},
 	{
 		"id": 119,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 9/velodromo.png",
 		"name": "Velódromo",
 		"coordinates": [
 			-99.10283804,
