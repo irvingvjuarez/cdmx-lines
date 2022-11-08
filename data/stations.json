@@ -812,10 +812,7 @@
 	{
 		"id": 91,
 		"imgUrl": "/assets/stationsIcons/line 3/etiopia-plaza.png",
-		"name": [
-			"Etiopía",
-			"Plaza de la Transpatencia"
-		],
+		"name": "Etiopía / Plaza de la Transpatencia",
 		"coordinates": [
 			-99.15606445122236,
 			19.395943795754867
