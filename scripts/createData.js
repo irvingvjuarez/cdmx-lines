@@ -1,44 +1,17 @@
-import fs from "fs";
-import bindings from "./bindings.json" assert { type: "json" }
-import points from "./points.json" assert { type: "json" }
-import linesData from "../data/lines.json" assert { type: "json" }
+const fs = require("fs");
+const linesOrder = require("../data/linesOrder.json")
+const stations = require("../data/stations.json")
+const data = require("../data/data.json")
 
-const lines = {};
+const line3 = linesOrder.find(line => line.line_id === 3);
+const line3Stations = line3.line_stations;
+const line3StationsCoords = line3Stations.map(stationName => {
+	const station = stations.find(item => item.name === stationName)
+	return station?.coordinates || []
+})
 
-bindings.forEach((binding) => {
-	const { line_id, station_id } = binding
+const newData = [...data]
+const line3Index = newData.findIndex(line => line.line_number === 3)
+newData[line3Index].stations = line3StationsCoords
 
-  if (line_id in lines === false) {
-		const lineMetaData = linesData.find(line => line.line_id === line_id)
-		const { line_color, line_name } = lineMetaData
-
-    lines[line_id] = {
-			line_number: line_id,
-			stations: [],
-			color: line_color,
-			name: line_name
-		};
-  }
-
-  lines[line_id].stations.push(station_id);
-});
-
-const entries = Object.entries(lines);
-entries.forEach((entry) => {
-  const key = entry[0];
-  const value = entry[1];
-
-	const sortedStations = value.stations.sort((a, b) => {
-		if (a > b) return 1
-		if (b > a) return -1
-		return 0
-	})
-
-	const stations = sortedStations.map(index => points[index - 1])
-  lines[key].stations = stations
-});
-
-const lineIds = Object.keys(lines)
-const data = lineIds.map(id => lines[id])
-
-fs.writeFileSync("./data/data.json", JSON.stringify(data))
+fs.writeFileSync("./data/data.json", JSON.stringify(newData))
