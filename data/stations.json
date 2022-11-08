@@ -37,7 +37,7 @@
 	},
 	{
 		"id": 5,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/martincarrera.png",
 		"name": "MartínCrrera",
 		"coordinates": [
 			-99.10554171,
@@ -46,7 +46,7 @@
 	},
 	{
 		"id": 6,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/santaanita.png",
 		"name": "Santa Anita",
 		"coordinates": [
 			-99.12120581,
@@ -127,7 +127,7 @@
 	},
 	{
 		"id": 15,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/talisman.png",
 		"name": "Talismán",
 		"coordinates": [
 			-99.10779476,
@@ -334,7 +334,7 @@
 	},
 	{
 		"id": 38,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/jamaica.png",
 		"name": "Jamaica",
 		"coordinates": [
 			-99.12203193,
@@ -415,7 +415,7 @@
 	},
 	{
 		"id": 47,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/morelos.png",
 		"name": "Morelos",
 		"coordinates": [
 			-99.11933,
@@ -550,7 +550,7 @@
 	},
 	{
 		"id": 62,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/canaldelnorte.png",
 		"name": "Canal del Norte",
 		"coordinates": [
 			-99.11589503,
@@ -838,7 +838,7 @@
 	},
 	{
 		"id": 94,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/rioconsulado.png",
 		"name": "Consulado",
 		"coordinates": [
 			-99.11388874,
@@ -1342,7 +1342,7 @@
 	},
 	{
 		"id": 150,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 4/bondojito.png",
 		"name": "Bondojito",
 		"coordinates": [
 			-99.1117537,
