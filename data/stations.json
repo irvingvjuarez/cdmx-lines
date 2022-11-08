@@ -82,7 +82,7 @@
 	},
 	{
 		"id": 10,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/colegio-militar.png",
 		"name": "Colegio Militar",
 		"coordinates": [
 			-99.17122364,
@@ -235,7 +235,7 @@
 	},
 	{
 		"id": 27,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/popotla.png",
 		"name": "Popotla",
 		"coordinates": [
 			-99.17546153,
@@ -298,7 +298,7 @@
 	},
 	{
 		"id": 34,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/chabacano.png",
 		"name": "Chabacano",
 		"coordinates": [
 			-99.13542151,
@@ -505,7 +505,7 @@
 	},
 	{
 		"id": 57,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/portales.png",
 		"name": "Portales",
 		"coordinates": [
 			-99.14130092,
@@ -532,7 +532,7 @@
 	},
 	{
 		"id": 60,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/tasqueña.png",
 		"name": "Tasqueña",
 		"coordinates": [
 			-99.14105415,
@@ -541,7 +541,7 @@
 	},
 	{
 		"id": 61,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/xola.png",
 		"name": "Xola",
 		"coordinates": [
 			-99.13758874,
@@ -577,7 +577,7 @@
 	},
 	{
 		"id": 65,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/ermita.png",
 		"name": "Ermita",
 		"coordinates": [
 			-99.14263129,
@@ -802,7 +802,7 @@
 	},
 	{
 		"id": 90,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/hidalgo.png",
 		"name": "Hidalgo",
 		"coordinates": [
 			-99.14681554,
@@ -877,7 +877,7 @@
 	},
 	{
 		"id": 98,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/viaducto.png",
 		"name": "Viaducto",
 		"coordinates": [
 			-99.13663387,
@@ -913,7 +913,7 @@
 	},
 	{
 		"id": 102,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/bellasartes.png",
 		"name": "Bellas Artes",
 		"coordinates": [
 			-99.14061427,
@@ -940,7 +940,7 @@
 	},
 	{
 		"id": 105,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/revolucion.png",
 		"name": "Revolución",
 		"coordinates": [
 			-99.15389657,
@@ -1156,7 +1156,7 @@
 	},
 	{
 		"id": 129,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/generalanaya.png",
 		"name": "General Anaya",
 		"coordinates": [
 			-99.14478779,
@@ -1201,7 +1201,7 @@
 	},
 	{
 		"id": 134,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/nativitas.png",
 		"name": "Nativitas",
 		"coordinates": [
 			-99.13987398,
@@ -1264,7 +1264,7 @@
 	},
 	{
 		"id": 141,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/zocalo.png",
 		"name": "Zócalo",
 		"coordinates": [
 			-99.131879,
@@ -1300,7 +1300,7 @@
 	},
 	{
 		"id": 145,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/villadecortes.png",
 		"name": "Villa de Cortés",
 		"coordinates": [
 			-99.13862944,
@@ -1363,7 +1363,7 @@
 	},
 	{
 		"id": 152,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/sanantonioabad.png",
 		"name": "San Antonio Abad",
 		"coordinates": [
 			-99.13429499,
@@ -1390,7 +1390,7 @@
 	},
 	{
 		"id": 155,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/pantenones.png",
 		"name": "Panteones",
 		"coordinates": [
 			-99.20294,
@@ -1417,7 +1417,7 @@
 	},
 	{
 		"id": 158,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/cuitlahuac.png",
 		"name": "Cuitláhuac",
 		"coordinates": [
 			-99.181555,
@@ -1435,7 +1435,7 @@
 	},
 	{
 		"id": 160,
-		"imgUrl": "",
+		"imgUrl": "/assets/stationsIcons/line 2/cuatrocaminos.png",
 		"name": "Cuatro Caminos",
 		"coordinates": [
 			-99.214643,
