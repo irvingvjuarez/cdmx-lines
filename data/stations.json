@@ -564,7 +564,7 @@
 		{
 			"id": 29,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 3/universidad.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -574,7 +574,7 @@
 					19.32451634225169
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 3/universidad.png",
 			"name": "Universidad",
 			"coordinates": [
 				-99.17392372751343,
