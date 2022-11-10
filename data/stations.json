@@ -784,7 +784,7 @@
 		{
 			"id": 40,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 8/iztapalapa.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -794,7 +794,7 @@
 					19.35760127
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 8/iztapalapa.png",
 			"name": "Iztapalapa",
 			"coordinates": [
 				-99.09341812,
