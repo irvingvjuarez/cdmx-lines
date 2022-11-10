@@ -964,7 +964,7 @@
 		{
 			"id": 49,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 2/normal.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -974,7 +974,7 @@
 					19.44424548
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 2/normal.png",
 			"name": "Normal",
 			"coordinates": [
 				-99.1671896,
