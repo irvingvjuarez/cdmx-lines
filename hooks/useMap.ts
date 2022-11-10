@@ -1,11 +1,8 @@
 import {useRef, useState, useEffect} from "react";
 import { addLines } from "@app/services/addLines";
 import { addLayers } from "@app/services/addLayers";
-import { renderIcon } from "@app/services/renderIcon";
-import { Line } from "@app/types";
-
+import { renderIcons } from "@app/services/renderIcons";
 import mapboxgl from "mapbox-gl"
-import stations from "@app/data/stations.json"
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
@@ -25,39 +22,16 @@ export const useMap = () => {
 			center: [lng, lat],
 			zoom: zoom
 		})
-
 		const currentMap = map.current as mapboxgl.Map
-		const imgsUrls = stations.features
-			.filter(feature => feature.imgUrl !== "")
-			.map(feature => feature.imgUrl)
 
-		// Lines rendering
 		currentMap.on("load", () => {
+			// Lines rendering
 			const linesSourceID = "lines"
 			addLines(currentMap, linesSourceID)
 			addLayers(currentMap, linesSourceID)
 
-			imgsUrls.forEach(url => currentMap.loadImage(url, (error, image) => {
-				if (error) throw error
-
-				currentMap.addImage(url, image as any)
-			}))
-
-			currentMap.addSource("stationsIcons", {
-				type: "geojson",
-				data: stations as any
-			})
-
-			currentMap.addLayer({
-				'id': "icons",
-				'type': 'symbol',
-				'source': "stationsIcons", // reference the data source
-				"minzoom": 13,
-				'layout': {
-					'icon-image': ["get", "url"], // reference the image
-					'icon-size': 0.25,
-				}
-			})
+			// icons rendering
+			renderIcons(currentMap)
 		})
 	})
 
