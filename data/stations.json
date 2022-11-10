@@ -64,7 +64,7 @@
 		{
 			"id": 4,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 2/tacuba.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -74,8 +74,8 @@
 					19.45913691
 				]
 			},
-			"imgUrl": "",
-			"name": "Tauga",
+			"imgUrl": "/assets/stationsIcons/line 2/tacuba.png",
+			"name": "Tacuba",
 			"coordinates": [
 				-99.18803573,
 				19.45913691
@@ -164,7 +164,7 @@
 		{
 			"id": 9,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 11/tecnologico.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -174,8 +174,8 @@
 					19.51470467
 				]
 			},
-			"imgUrl": "",
-			"name": "Tecnológico",
+			"imgUrl": "/assets/stationsIcons/line 11/tecnologico.png",
+			"name": "Ecatepec",
 			"coordinates": [
 				-99.03568625,
 				19.51470467
@@ -224,7 +224,7 @@
 		{
 			"id": 12,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 12/calle11.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -234,7 +234,7 @@
 					19.32025578
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 12/calle11.png",
 			"name": "Calle 11",
 			"coordinates": [
 				-99.08486724,
