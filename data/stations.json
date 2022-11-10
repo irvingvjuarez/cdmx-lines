@@ -1,1469 +1,3265 @@
-[
-	{
-		"id": 1,
-		"imgUrl": "/assets/stationsIcons/line 9/lazarocardenas.png",
-		"name": "Lázaro Cárdens",
-		"coordinates": [
-			-99.14433718,
-			19.40702104
-		]
-	},
-	{
-		"id": 2,
-		"imgUrl": "/assets/stationsIcons/line 6/arenacdmexico.png",
-		"name": "Ferería",
-		"coordinates": [
-			-99.173702,
-			19.49039233
-		]
-	},
-	{
-		"id": 3,
-		"imgUrl": "/assets/stationsIcons/line 1/pantitlan.png",
-		"name": "Pnttlán",
-		"coordinates": [
-			-99.07262564,
-			19.4146103
-		]
-	},
-	{
-		"id": 4,
-		"imgUrl": "",
-		"name": "Tauga",
-		"coordinates": [
-			-99.18803573,
-			19.45913691
-		]
-	},
-	{
-		"id": 5,
-		"imgUrl": "/assets/stationsIcons/line 4/martincarrera.png",
-		"name": "MartínCrrera",
-		"coordinates": [
-			-99.10554171,
-			19.48231101
-		]
-	},
-	{
-		"id": 6,
-		"imgUrl": "/assets/stationsIcons/line 4/santaanita.png",
-		"name": "Santa Anita",
-		"coordinates": [
-			-99.12120581,
-			19.40425847
-		]
-	},
-	{
-		"id": 7,
-		"imgUrl": "/assets/stationsIcons/line 11/VillaAragon.png",
-		"name": "Villa de Aragón",
-		"coordinates": [
-			-99.06114578,
-			19.4613523
-		]
-	},
-	{
-		"id": 8,
-		"imgUrl": "/assets/stationsIcons/line 6/tezozomoc.png",
-		"name": "Tezozómoc",
-		"coordinates": [
-			-99.19593215,
-			19.49448847
-		]
-	},
-	{
-		"id": 9,
-		"imgUrl": "",
-		"name": "Tecnológico",
-		"coordinates": [
-			-99.03568625,
-			19.51470467
-		]
-	},
-	{
-		"id": 10,
-		"imgUrl": "/assets/stationsIcons/line 2/colegio-militar.png",
-		"name": "Colegio Militar",
-		"coordinates": [
-			-99.17122364,
-			19.44864628
-		]
-	},
-	{
-		"id": 11,
-		"imgUrl": "/assets/stationsIcons/line 1/chapultepec.png",
-		"name": "Chapultepec",
-		"coordinates": [
-			-99.17658806,
-			19.42025648
-		]
-	},
-	{
-		"id": 12,
-		"imgUrl": "",
-		"name": "Calle 11",
-		"coordinates": [
-			-99.08486724,
-			19.32025578
-		]
-	},
-	{
-		"id": 13,
-		"imgUrl": "",
-		"name": "Constitución de 1917",
-		"coordinates": [
-			-99.063367,
-			19.345135
-		]
-	},
-	{
-		"id": 14,
-		"imgUrl": "/assets/stationsIcons/line 3/copilco.png",
-		"name": "Copilco",
-		"coordinates": [
-			-99.17657733,
-			19.33616471910796
-		]
-	},
-	{
-		"id": 15,
-		"imgUrl": "/assets/stationsIcons/line 4/talisman.png",
-		"name": "Talismán",
-		"coordinates": [
-			-99.10779476,
-			19.47415847
-		]
-	},
-	{
-		"id": 16,
-		"imgUrl": "",
-		"name": "Terminal Aérea",
-		"coordinates": [
-			-99.08820391,
-			19.43380448
-		]
-	},
-	{
-		"id": 17,
-		"imgUrl": "/assets/stationsIcons/line 11/tepito.png",
-		"name": "Tepito",
-		"coordinates": [
-			-99.12323356,
-			19.44256606
-		]
-	},
-	{
-		"id": 18,
-		"imgUrl": "/assets/stationsIcons/line 12/20noviembre.png",
-		"name": "Hospital 20 de Nov.",
-		"coordinates": [
-			-99.17099833,
-			19.37192372
-		]
-	},
-	{
-		"id": 19,
-		"imgUrl": "/assets/stationsIcons/line 3/eugenia.png",
-		"name": "Eugenia",
-		"coordinates": [
-			-99.15720322918361,
-			19.38618123460772
-		]
-	},
-	{
-		"id": 20,
-		"imgUrl": "/assets/stationsIcons/line 12/lomasestrella.png",
-		"name": "Lomas Estrella",
-		"coordinates": [
-			-99.096696,
-			19.322002
-		]
-	},
-	{
-		"id": 21,
-		"imgUrl": "/assets/stationsIcons/line 3/tlatelolco.png",
-		"name": "Tlatelolco",
-		"coordinates": [
-			-99.14318102451608,
-			19.455018364835848
-		]
-	},
-	{
-		"id": 22,
-		"imgUrl": "/assets/stationsIcons/line 8/atlalilco.png",
-		"name": "Atlalilco",
-		"coordinates": [
-			-99.10157204,
-			19.35570839
-		]
-	},
-	{
-		"id": 23,
-		"imgUrl": "/assets/stationsIcons/line 1/blvdptaereo.png",
-		"name": "Blvd. Puerto Aéreo",
-		"coordinates": [
-			-99.09606814,
-			19.41958866
-		]
-	},
-	{
-		"id": 24,
-		"imgUrl": "/assets/stationsIcons/line 9/chilpancingo.png",
-		"name": "Chilpancingo",
-		"coordinates": [
-			-99.1683054,
-			19.40575613
-		]
-	},
-	{
-		"id": 25,
-		"imgUrl": "/assets/stationsIcons/line 11/cdazteca.png",
-		"name": "Ciudad Azteca",
-		"coordinates": [
-			-99.02711391,
-			19.53444312
-		]
-	},
-	{
-		"id": 26,
-		"imgUrl": "/assets/stationsIcons/line 3/niñosheroes.png",
-		"name": "Niños Héroes",
-		"coordinates": [
-			-99.15038466249769,
-			19.419454425562666
-		]
-	},
-	{
-		"id": 27,
-		"imgUrl": "/assets/stationsIcons/line 2/popotla.png",
-		"name": "Popotla",
-		"coordinates": [
-			-99.17546153,
-			19.45261196
-		]
-	},
-	{
-		"id": 28,
-		"imgUrl": "/assets/stationsIcons/line 7/sanjoaquin.png",
-		"name": "San Joaquín",
-		"coordinates": [
-			-99.19160843,
-			19.44553033
-		]
-	},
-	{
-		"id": 29,
-		"imgUrl": "",
-		"name": "Universidad",
-		"coordinates": [
-			-99.17392372751343,
-			19.32451634225169
-		]
-	},
-	{
-		"id": 30,
-		"imgUrl": "/assets/stationsIcons/line 5/ipn.png",
-		"name": "Instituto del Petróleo",
-		"coordinates": [
-			-99.14455175,
-			19.48983606
-		]
-	},
-	{
-		"id": 31,
-		"imgUrl": "/assets/stationsIcons/line 8/escuadron201.png",
-		"name": "Escuadrón 201",
-		"coordinates": [
-			-99.10931826,
-			19.36449442
-		]
-	},
-	{
-		"id": 32,
-		"imgUrl": "/assets/stationsIcons/line 8/iztacalco.png",
-		"name": "Iztacalco",
-		"coordinates": [
-			-99.112086,
-			19.388092
-		]
-	},
-	{
-		"id": 33,
-		"imgUrl": "/assets/stationsIcons/line 3/juarez.png",
-		"name": "Juárez",
-		"coordinates": [
-			-99.14769478393977,
-			19.43330159240169
-		]
-	},
-	{
-		"id": 34,
-		"imgUrl": "/assets/stationsIcons/line 2/chabacano.png",
-		"name": "Chabacano",
-		"coordinates": [
-			-99.13542151,
-			19.40891333
-		]
-	},
-	{
-		"id": 35,
-		"imgUrl": "/assets/stationsIcons/line 6/atzcapozalco.png",
-		"name": "Azcapotzalco",
-		"coordinates": [
-			-99.18621182,
-			19.49067553
-		]
-	},
-	{
-		"id": 36,
-		"imgUrl": "/assets/stationsIcons/line 11/bosquearagon.png",
-		"name": "Bosque de Aragón",
-		"coordinates": [
-			-99.06927824,
-			19.45807473
-		]
-	},
-	{
-		"id": 37,
-		"imgUrl": "/assets/stationsIcons/line 12/tlaltenco.png",
-		"name": "Tlaltenco",
-		"coordinates": [
-			-99.023829,
-			19.294555
-		]
-	},
-	{
-		"id": 38,
-		"imgUrl": "/assets/stationsIcons/line 4/jamaica.png",
-		"name": "Jamaica",
-		"coordinates": [
-			-99.12203193,
-			19.41014786
-		]
-	},
-	{
-		"id": 39,
-		"imgUrl": "/assets/stationsIcons/line 5/oceania.png",
-		"name": "Oceanía",
-		"coordinates": [
-			-99.08683062,
-			19.44572255
-		]
-	},
-	{
-		"id": 40,
-		"imgUrl": "",
-		"name": "Iztapalapa",
-		"coordinates": [
-			-99.09341812,
-			19.35760127
-		]
-	},
-	{
-		"id": 41,
-		"imgUrl": "/assets/stationsIcons/line 9/mixiuhca.png",
-		"name": "Mixhuca",
-		"coordinates": [
-			-99.11285877,
-			19.40820499
-		]
-	},
-	{
-		"id": 42,
-		"imgUrl": "/assets/stationsIcons/line 3/centromedico.png",
-		"name": "Centro Médico",
-		"coordinates": [
-			-99.15517105387757,
-			19.4064949970465
-		]
-	},
-	{
-		"id": 43,
-		"imgUrl": "/assets/stationsIcons/line 1/balderas.png",
-		"name": "Balderas",
-		"coordinates": [
-			-99.14892842222423,
-			19.42721790381461
-		]
-	},
-	{
-		"id": 44,
-		"imgUrl": "/assets/stationsIcons/line 1/saltodelagua.png",
-		"name": "Salto del Agua",
-		"coordinates": [
-			-99.14207339,
-			19.42720768
-		]
-	},
-	{
-		"id": 45,
-		"imgUrl": "/assets/stationsIcons/line 1/insurgentes.png",
-		"name": "Insurgentes",
-		"coordinates": [
-			-99.16325212,
-			19.42359552
-		]
-	},
-	{
-		"id": 46,
-		"imgUrl": "/assets/stationsIcons/line 10/guelatao.png",
-		"name": "Guelatao",
-		"coordinates": [
-			-99.03579354,
-			19.38459525
-		]
-	},
-	{
-		"id": 47,
-		"imgUrl": "/assets/stationsIcons/line 4/morelos.png",
-		"name": "Morelos",
-		"coordinates": [
-			-99.11933,
-			19.438426
-		]
-	},
-	{
-		"id": 48,
-		"imgUrl": "/assets/stationsIcons/line 1/moctezuma.png",
-		"name": "Moctezuma",
-		"coordinates": [
-			-99.109803,
-			19.426271
-		]
-	},
-	{
-		"id": 49,
-		"imgUrl": "",
-		"name": "Normal",
-		"coordinates": [
-			-99.1671896,
-			19.44424548
-		]
-	},
-	{
-		"id": 50,
-		"imgUrl": "/assets/stationsIcons/line 3/zapata.png",
-		"name": "Zapata",
-		"coordinates": [
-			-99.16506254615025,
-			19.37078014004582
-		]
-	},
-	{
-		"id": 51,
-		"imgUrl": "/assets/stationsIcons/line 1/zaragoza.png",
-		"name": "Zaragoza",
-		"coordinates": [
-			-99.08322573,
-			19.41179726
-		]
-	},
-	{
-		"id": 52,
-		"imgUrl": "/assets/stationsIcons/line 3/laraza.png",
-		"name": "La Raza",
-		"coordinates": [
-			-99.13652165818606,
-			19.46965169720555
-		]
-	},
-	{
-		"id": 53,
-		"imgUrl": "",
-		"name": "Constituyentes",
-		"coordinates": [
-			-99.19138312,
-			19.41129131
-		]
-	},
-	{
-		"id": 54,
-		"imgUrl": "",
-		"name": "Múzquiz",
-		"coordinates": [
-			-99.04171586,
-			19.50096117
-		]
-	},
-	{
-		"id": 55,
-		"imgUrl": "/assets/stationsIcons/line 11/romerorubio.png",
-		"name": "Romero Rubio",
-		"coordinates": [
-			-99.09420133,
-			19.44048194
-		]
-	},
-	{
-		"id": 56,
-		"imgUrl": "",
-		"name": "San Cosme",
-		"coordinates": [
-			-99.16094542,
-			19.44185787
-		]
-	},
-	{
-		"id": 57,
-		"imgUrl": "/assets/stationsIcons/line 2/portales.png",
-		"name": "Portales",
-		"coordinates": [
-			-99.14130092,
-			19.36976784
-		]
-	},
-	{
-		"id": 58,
-		"imgUrl": "/assets/stationsIcons/line 9/puebla.png",
-		"name": "Puebla",
-		"coordinates": [
-			-99.08233523,
-			19.40697045
-		]
-	},
-	{
-		"id": 59,
-		"imgUrl": "",
-		"name": "Santa Marta",
-		"coordinates": [
-			-98.995894,
-			19.359804
-		]
-	},
-	{
-		"id": 60,
-		"imgUrl": "/assets/stationsIcons/line 2/tasqueña.png",
-		"name": "Tasqueña",
-		"coordinates": [
-			-99.14105415,
-			19.34400644
-		]
-	},
-	{
-		"id": 61,
-		"imgUrl": "/assets/stationsIcons/line 2/xola.png",
-		"name": "Xola",
-		"coordinates": [
-			-99.13758874,
-			19.3950293
-		]
-	},
-	{
-		"id": 62,
-		"imgUrl": "/assets/stationsIcons/line 4/canaldelnorte.png",
-		"name": "Canal del Norte",
-		"coordinates": [
-			-99.11589503,
-			19.44866652
-		]
-	},
-	{
-		"id": 63,
-		"imgUrl": "/assets/stationsIcons/line 11/buenavista.png",
-		"name": "Buenavista",
-		"coordinates": [
-			-99.15289879,
-			19.44615757
-		]
-	},
-	{
-		"id": 64,
-		"imgUrl": "/assets/stationsIcons/line 1/balbuena.png",
-		"name": "Balbuena",
-		"coordinates": [
-			-99.10281658,
-			19.42288725
-		]
-	},
-	{
-		"id": 65,
-		"imgUrl": "/assets/stationsIcons/line 2/ermita.png",
-		"name": "Ermita",
-		"coordinates": [
-			-99.14263129,
-			19.36186271
-		]
-	},
-	{
-		"id": 66,
-		"imgUrl": "/assets/stationsIcons/line 5/aragon.png",
-		"name": "Aragón",
-		"coordinates": [
-			-99.09598231,
-			19.45101356
-		]
-	},
-	{
-		"id": 67,
-		"imgUrl": "/assets/stationsIcons/line 3/18marzo.png",
-		"name": "Deportivo 18 de Marzo",
-		"coordinates": [
-			-99.12550184884857,
-			19.485123276949224
-		]
-	},
-	{
-		"id": 68,
-		"imgUrl": "/assets/stationsIcons/line 7/auditorio.png",
-		"name": "Auditorio",
-		"coordinates": [
-			-99.19173717,
-			19.42530549
-		]
-	},
-	{
-		"id": 69,
-		"imgUrl": "",
-		"name": "Culhuacán",
-		"coordinates": [
-			-99.10894275,
-			19.33887391
-		]
-	},
-	{
-		"id": 70,
-		"imgUrl": "/assets/stationsIcons/line 6/rosario.png",
-		"name": "El Rosario",
-		"coordinates": [
-			-99.20029879,
-			19.5039547
-		]
-	},
-	{
-		"id": 71,
-		"imgUrl": "/assets/stationsIcons/line 3/guerrero.png",
-		"name": "Guerrero",
-		"coordinates": [
-			-99.14518978320376,
-			19.444746230685755
-		]
-	},
-	{
-		"id": 72,
-		"imgUrl": "/assets/stationsIcons/line 3/hospitalgeneral.png",
-		"name": "Hospital General",
-		"coordinates": [
-			-99.15325080001591,
-			19.413768253454776
-		]
-	},
-	{
-		"id": 73,
-		"imgUrl": "",
-		"name": "Fray Servando",
-		"coordinates": [
-			-99.12033677,
-			19.42149092
-		]
-	},
-	{
-		"id": 74,
-		"imgUrl": "/assets/stationsIcons/line 9/patriotismo.png",
-		"name": "Patriotismo",
-		"coordinates": [
-			-99.1784656,
-			19.40559422
-		]
-	},
-	{
-		"id": 75,
-		"imgUrl": "/assets/stationsIcons/line 1/observatorio.png",
-		"name": "Observatorio",
-		"coordinates": [
-			-99.200669,
-			19.397486
-		]
-	},
-	{
-		"id": 76,
-		"imgUrl": "/assets/stationsIcons/line 10/lapaz.png",
-		"name": "La Paz",
-		"coordinates": [
-			-98.96061659,
-			19.35048513
-		]
-	},
-	{
-		"id": 77,
-		"imgUrl": "/assets/stationsIcons/line 5/vallegomez.png",
-		"name": "Valle Gómez",
-		"coordinates": [
-			-99.11988616,
-			19.45868169
-		]
-	},
-	{
-		"id": 78,
-		"imgUrl": "/assets/stationsIcons/line 12/tezonco.png",
-		"name": "Tezonco",
-		"coordinates": [
-			-99.065867,
-			19.306124
-		]
-	},
-	{
-		"id": 79,
-		"imgUrl": "/assets/stationsIcons/line 1/candelaria.png",
-		"name": "Candelaria",
-		"coordinates": [
-			-99.11890984,
-			19.42917056
-		]
-	},
-	{
-		"id": 80,
-		"imgUrl": "/assets/stationsIcons/line 7/aquileserdan.png",
-		"name": "Aquiles Serdán",
-		"coordinates": [
-			-99.194511,
-			19.489367
-		]
-	},
-	{
-		"id": 81,
-		"imgUrl": "/assets/stationsIcons/line 8/laviga.png",
-		"name": "La Viga",
-		"coordinates": [
-			-99.125973,
-			19.406106
-		]
-	},
-	{
-		"id": 82,
-		"imgUrl": "/assets/stationsIcons/line 11/olimpica.png",
-		"name": "Olímpica",
-		"coordinates": [
-			-99.03298259,
-			19.52084286
-		]
-	},
-	{
-		"id": 83,
-		"imgUrl": "",
-		"name": "Mexicaltzingo",
-		"coordinates": [
-			-99.12191391,
-			19.35744944
-		]
-	},
-	{
-		"id": 84,
-		"imgUrl": "",
-		"name": "Politécnico",
-		"coordinates": [
-			-99.148806,
-			19.499964
-		]
-	},
-	{
-		"id": 85,
-		"imgUrl": "/assets/stationsIcons/line 12/perifericooriente.png",
-		"name": "Periférico Ote",
-		"coordinates": [
-			-99.074719,
-			19.317492
-		]
-	},
-	{
-		"id": 86,
-		"imgUrl": "/assets/stationsIcons/line 1/sanlazaro.png",
-		"name": "San Lázaro",
-		"coordinates": [
-			-99.114463,
-			19.431822
-		]
-	},
-	{
-		"id": 87,
-		"imgUrl": "",
-		"name": "San Antonio",
-		"coordinates": [
-			-99.18661952,
-			19.38481791
-		]
-	},
-	{
-		"id": 88,
-		"imgUrl": "/assets/stationsIcons/line 12/zapotitlan.png",
-		"name": "Zapotitlán",
-		"coordinates": [
-			-99.03402328,
-			19.29639028
-		]
-	},
-	{
-		"id": 89,
-		"imgUrl": "/assets/stationsIcons/line 12/tlahuac.png",
-		"name": "Tláhuac",
-		"coordinates": [
-			-99.01443243,
-			19.28680057
-		]
-	},
-	{
-		"id": 90,
-		"imgUrl": "/assets/stationsIcons/line 2/hidalgo.png",
-		"name": "Hidalgo",
-		"coordinates": [
-			-99.147133621587,
-			19.43750012233132
-		]
-	},
-	{
-		"id": 91,
-		"imgUrl": "/assets/stationsIcons/line 3/etiopia-plaza.png",
-		"name": "Etiopía / Plaza de la Transpatencia",
-		"coordinates": [
-			-99.15606445122236,
-			19.395943795754867
-		]
-	},
-	{
-		"id": 92,
-		"imgUrl": "/assets/stationsIcons/line 11/depoceania.png",
-		"name": "Deportivo Oceanía",
-		"coordinates": [
-			-99.07917023,
-			19.45077077
-		]
-	},
-	{
-		"id": 93,
-		"imgUrl": "/assets/stationsIcons/line 11/impulsora.png",
-		"name": "Impulsora",
-		"coordinates": [
-			-99.048743,
-			19.484987
-		]
-	},
-	{
-		"id": 94,
-		"imgUrl": "/assets/stationsIcons/line 4/rioconsulado.png",
-		"name": "Consulado",
-		"coordinates": [
-			-99.11388874,
-			19.45682033
-		]
-	},
-	{
-		"id": 95,
-		"imgUrl": "/assets/stationsIcons/line 7/camarones.png",
-		"name": "Camarones",
-		"coordinates": [
-			-99.18894768,
-			19.47873042
-		]
-	},
-	{
-		"id": 96,
-		"imgUrl": "",
-		"name": "Allende",
-		"coordinates": [
-			-99.13670897,
-			19.43547387
-		]
-	},
-	{
-		"id": 97,
-		"imgUrl": "/assets/stationsIcons/line 8/sanjuandeletran.png",
-		"name": "San Juan de Letrán",
-		"coordinates": [
-			-99.14116144,
-			19.43098165
-		]
-	},
-	{
-		"id": 98,
-		"imgUrl": "/assets/stationsIcons/line 2/viaducto.png",
-		"name": "Viaducto",
-		"coordinates": [
-			-99.13663387,
-			19.40074699
-		]
-	},
-	{
-		"id": 99,
-		"imgUrl": "/assets/stationsIcons/line 6/vallejo.png",
-		"name": "Vallejo",
-		"coordinates": [
-			-99.15479779,
-			19.49031142
-		]
-	},
-	{
-		"id": 100,
-		"imgUrl": "/assets/stationsIcons/line 8/doctores.png",
-		"name": "Doctores",
-		"coordinates": [
-			-99.14335012,
-			19.42049932
-		]
-	},
-	{
-		"id": 101,
-		"imgUrl": "/assets/stationsIcons/line 10/losreyes.png",
-		"name": "Los Reyes",
-		"coordinates": [
-			-98.97670984,
-			19.35877546
-		]
-	},
-	{
-		"id": 102,
-		"imgUrl": "/assets/stationsIcons/line 2/bellasartes.png",
-		"name": "Bellas Artes",
-		"coordinates": [
-			-99.14061427,
-			19.43649573
-		]
-	},
-	{
-		"id": 103,
-		"imgUrl": "/assets/stationsIcons/line 5/autobusesnorte.png",
-		"name": "Autobuses del Norte",
-		"coordinates": [
-			-99.140471,
-			19.478595
-		]
-	},
-	{
-		"id": 104,
-		"imgUrl": "/assets/stationsIcons/line 10/acatitla.png",
-		"name": "Acatitla",
-		"coordinates": [
-			-99.00597811,
-			19.3642515
-		]
-	},
-	{
-		"id": 105,
-		"imgUrl": "/assets/stationsIcons/line 2/revolucion.png",
-		"name": "Revolución",
-		"coordinates": [
-			-99.15389657,
-			19.43880248
-		]
-	},
-	{
-		"id": 106,
-		"imgUrl": "/assets/stationsIcons/line 7/polanco.png",
-		"name": "Polanco",
-		"coordinates": [
-			-99.19079304,
-			19.43337954
-		]
-	},
-	{
-		"id": 107,
-		"imgUrl": "/assets/stationsIcons/line 12/tomatlan.png",
-		"name": "San Andrés Tomatlán",
-		"coordinates": [
-			-99.10259128,
-			19.3272315
-		]
-	},
-	{
-		"id": 108,
-		"imgUrl": "/assets/stationsIcons/line 8/garibaldi.png",
-		"name": "Garibaldi",
-		"coordinates": [
-			-99.139954,
-			19.443376
-		]
-	},
-	{
-		"id": 109,
-		"imgUrl": "",
-		"name": "Eduardo Molina",
-		"coordinates": [
-			-99.10544515,
-			19.45112485
-		]
-	},
-	{
-		"id": 110,
-		"imgUrl": "/assets/stationsIcons/line 8/coyuya.png",
-		"name": "Coyuya",
-		"coordinates": [
-			-99.113413,
-			19.39769
-		]
-	},
-	{
-		"id": 111,
-		"imgUrl": "/assets/stationsIcons/line 3/coyoacan.png",
-		"name": "Coyoacán",
-		"coordinates": [
-			-99.17085370226894,
-			19.36145531193064
-		]
-	},
-	{
-		"id": 112,
-		"imgUrl": "/assets/stationsIcons/line 6/norte45.png",
-		"name": "Norte 45",
-		"coordinates": [
-			-99.16249037,
-			19.48823803
-		]
-	},
-	{
-		"id": 113,
-		"imgUrl": "/assets/stationsIcons/line 6/lindavista.png",
-		"name": "Lindavista",
-		"coordinates": [
-			-99.13434863,
-			19.4875806
-		]
-	},
-	{
-		"id": 114,
-		"imgUrl": "/assets/stationsIcons/line 1/tacubaya.png",
-		"name": "Tacubaya",
-		"coordinates": [
-			-99.18664098,
-			19.40223457
-		]
-	},
-	{
-		"id": 115,
-		"imgUrl": "/assets/stationsIcons/line 7/mixcoac.png",
-		"name": "Mixcoac",
-		"coordinates": [
-			-99.18774605,
-			19.37625563
-		]
-	},
-	{
-		"id": 116,
-		"imgUrl": "/assets/stationsIcons/line 5/hangares.png",
-		"name": "Hangares",
-		"coordinates": [
-			-99.087095,
-			19.423251
-		]
-	},
-	{
-		"id": 117,
-		"imgUrl": "/assets/stationsIcons/line 12/nopalera2.png",
-		"name": "Nopalera",
-		"coordinates": [
-			-99.04621124,
-			19.29939771
-		]
-	},
-	{
-		"id": 118,
-		"imgUrl": "/assets/stationsIcons/line 8/uam-i.png",
-		"name": "UAM-I",
-		"coordinates": [
-			-99.074808,
-			19.350327
-		]
-	},
-	{
-		"id": 119,
-		"imgUrl": "/assets/stationsIcons/line 9/velodromo.png",
-		"name": "Velódromo",
-		"coordinates": [
-			-99.10283804,
-			19.40811392
-		]
-	},
-	{
-		"id": 120,
-		"imgUrl": "/assets/stationsIcons/line 1/cuahutemoc.png",
-		"name": "Cuauhtémoc",
-		"coordinates": [
-			-99.15455103,
-			19.42565962
-		]
-	},
-	{
-		"id": 121,
-		"imgUrl": "/assets/stationsIcons/line 8/apatlaco.png",
-		"name": "Apatlaco",
-		"coordinates": [
-			-99.10934,
-			19.378298
-		]
-	},
-	{
-		"id": 122,
-		"imgUrl": "",
-		"name": "Aculco",
-		"coordinates": [
-			-99.10739779,
-			19.37292574
-		]
-	},
-	{
-		"id": 123,
-		"imgUrl": "/assets/stationsIcons/line 10/agricolaote.png",
-		"name": "Agrícola Oriental",
-		"coordinates": [
-			-99.06982541,
-			19.40404596
-		]
-	},
-	{
-		"id": 124,
-		"imgUrl": "/assets/stationsIcons/line 12/ejecentral2.png",
-		"name": "Eje Central",
-		"coordinates": [
-			-99.15133238,
-			19.36118453
-		]
-	},
-	{
-		"id": 125,
-		"imgUrl": "/assets/stationsIcons/line 1/pinosuarez.png",
-		"name": "Pino Suárez",
-		"coordinates": [
-			-99.13303971,
-			19.42543703
-		]
-	},
-	{
-		"id": 126,
-		"imgUrl": "",
-		"name": "Río de los Remedios",
-		"coordinates": [
-			-99.04635072,
-			19.49024062
-		]
-	},
-	{
-		"id": 127,
-		"imgUrl": "/assets/stationsIcons/line 3/potrero.png",
-		"name": "Potrero",
-		"coordinates": [
-			-99.13201029196553,
-			19.47718053743677
-		]
-	},
-	{
-		"id": 128,
-		"imgUrl": "",
-		"name": "Sevilla",
-		"coordinates": [
-			-99.17074084,
-			19.42189565
-		]
-	},
-	{
-		"id": 129,
-		"imgUrl": "/assets/stationsIcons/line 2/generalanaya.png",
-		"name": "General Anaya",
-		"coordinates": [
-			-99.14478779,
-			19.35319801
-		]
-	},
-	{
-		"id": 130,
-		"imgUrl": "/assets/stationsIcons/line 3/indiosverdes.png",
-		"name": "Indios Verdes",
-		"coordinates": [
-			-99.11960106262944,
-			19.495012964547062
-		]
-	},
-	{
-		"id": 131,
-		"imgUrl": "",
-		"name": "La Villa - Basílica",
-		"coordinates": [
-			-99.11815882,
-			19.4814715
-		]
-	},
-	{
-		"id": 132,
-		"imgUrl": "/assets/stationsIcons/line 12/parquevenados2.png",
-		"name": "Parque de los Venados",
-		"coordinates": [
-			-99.15766239,
-			19.37046623
-		]
-	},
-	{
-		"id": 133,
-		"imgUrl": "",
-		"name": "Juanacatlán",
-		"coordinates": [
-			-99.18207049,
-			19.41290022
-		]
-	},
-	{
-		"id": 134,
-		"imgUrl": "/assets/stationsIcons/line 2/nativitas.png",
-		"name": "Nativitas",
-		"coordinates": [
-			-99.13987398,
-			19.37938304
-		]
-	},
-	{
-		"id": 135,
-		"imgUrl": "/assets/stationsIcons/line 5/misterios.png",
-		"name": "Misterios",
-		"coordinates": [
-			-99.13051844,
-			19.46290002
-		]
-	},
-	{
-		"id": 136,
-		"imgUrl": "/assets/stationsIcons/line 7/barrancadelmuerto.png",
-		"name": "Barranca del Muerto",
-		"coordinates": [
-			-99.18895841,
-			19.3614882
-		]
-	},
-	{
-		"id": 137,
-		"imgUrl": "/assets/stationsIcons/line 3/maq.png",
-		"name": "Miguel Ángel de Quevedo",
-		"coordinates": [
-			-99.18069931035964,
-			19.34600837731463
-		]
-	},
-	{
-		"id": 138,
-		"imgUrl": "/assets/stationsIcons/line 11/lagunilla.png",
-		"name": "Lagunilla",
-		"coordinates": [
-			-99.13107634,
-			19.44300109
-		]
-	},
-	{
-		"id": 139,
-		"imgUrl": "/assets/stationsIcons/line 12/olivos.png",
-		"name": "Olivos",
-		"coordinates": [
-			-99.05831337,
-			19.30328601
-		]
-	},
-	{
-		"id": 140,
-		"imgUrl": "/assets/stationsIcons/line 10/tepalcates.png",
-		"name": "Tepalcates",
-		"coordinates": [
-			-99.04651165,
-			19.39072824
-		]
-	},
-	{
-		"id": 141,
-		"imgUrl": "/assets/stationsIcons/line 2/zocalo.png",
-		"name": "Zócalo",
-		"coordinates": [
-			-99.131879,
-			19.432602
-		]
-	},
-	{
-		"id": 142,
-		"imgUrl": "",
-		"name": "Gómez Farías",
-		"coordinates": [
-			-99.09070373,
-			19.41608763
-		]
-	},
-	{
-		"id": 143,
-		"imgUrl": "/assets/stationsIcons/line 7/sanpedro.png",
-		"name": "San Pedro de Los Pinos",
-		"coordinates": [
-			-99.18572903,
-			19.39122414
-		]
-	},
-	{
-		"id": 144,
-		"imgUrl": "/assets/stationsIcons/line 7/refineria.png",
-		"name": "Refinería",
-		"coordinates": [
-			-99.18985963,
-			19.46911098
-		]
-	},
-	{
-		"id": 145,
-		"imgUrl": "/assets/stationsIcons/line 2/villadecortes.png",
-		"name": "Villa de Cortés",
-		"coordinates": [
-			-99.13862944,
-			19.38746949
-		]
-	},
-	{
-		"id": 146,
-		"imgUrl": "/assets/stationsIcons/line 11/floresmagon.png",
-		"name": "R. Flores Magón",
-		"coordinates": [
-			-99.10342813,
-			19.43628327
-		]
-	},
-	{
-		"id": 147,
-		"imgUrl": "/assets/stationsIcons/line 12/insurgentessur.png",
-		"name": "Insurgentes Sur",
-		"coordinates": [
-			-99.17859435,
-			19.37360387
-		]
-	},
-	{
-		"id": 148,
-		"imgUrl": "",
-		"name": "Viveros",
-		"coordinates": [
-			-99.17542125079177,
-			19.354052847278503
-		]
-	},
-	{
-		"id": 149,
-		"imgUrl": "/assets/stationsIcons/line 8/cerroestrella.png",
-		"name": "Cerro de la Estrella",
-		"coordinates": [
-			-99.085872,
-			19.355601
-		]
-	},
-	{
-		"id": 150,
-		"imgUrl": "/assets/stationsIcons/line 4/bondojito.png",
-		"name": "Bondojito",
-		"coordinates": [
-			-99.1117537,
-			19.46450842
-		]
-	},
-	{
-		"id": 151,
-		"imgUrl": "/assets/stationsIcons/line 10/canalsnjuan.png",
-		"name": "Canal de San Juan",
-		"coordinates": [
-			-99.05969739,
-			19.39821706
-		]
-	},
-	{
-		"id": 152,
-		"imgUrl": "/assets/stationsIcons/line 2/sanantonioabad.png",
-		"name": "San Antonio Abad",
-		"coordinates": [
-			-99.13429499,
-			19.4159055
-		]
-	},
-	{
-		"id": 153,
-		"imgUrl": "/assets/stationsIcons/line 8/obrera.png",
-		"name": "Obrera",
-		"coordinates": [
-			-99.14392948,
-			19.41301153
-		]
-	},
-	{
-		"id": 154,
-		"imgUrl": "/assets/stationsIcons/line 11/plazaragon.png",
-		"name": "Plaza Aragón",
-		"coordinates": [
-			-99.02979612,
-			19.52822456
-		]
-	},
-	{
-		"id": 155,
-		"imgUrl": "/assets/stationsIcons/line 2/pantenones.png",
-		"name": "Panteones",
-		"coordinates": [
-			-99.20294,
-			19.458219
-		]
-	},
-	{
-		"id": 156,
-		"imgUrl": "/assets/stationsIcons/line 10/penonviejo.png",
-		"name": "Peñón Viejo",
-		"coordinates": [
-			-99.0172863,
-			19.37291562
-		]
-	},
-	{
-		"id": 157,
-		"imgUrl": "",
-		"name": "División del Norte",
-		"coordinates": [
-			-99.15943941015686,
-			19.379062747136558
-		]
-	},
-	{
-		"id": 158,
-		"imgUrl": "/assets/stationsIcons/line 2/cuitlahuac.png",
-		"name": "Cuitláhuac",
-		"coordinates": [
-			-99.181555,
-			19.45668
-		]
-	},
-	{
-		"id": 159,
-		"imgUrl": "",
-		"name": "Ciudad Deportiva",
-		"coordinates": [
-			-99.09135818,
-			19.40811392
-		]
-	},
-	{
-		"id": 160,
-		"imgUrl": "/assets/stationsIcons/line 2/cuatrocaminos.png",
-		"name": "Cuatro Caminos",
-		"coordinates": [
-			-99.214643,
-			19.458454
-		]
-	},
-	{
-		"id": 161,
-		"imgUrl": "/assets/stationsIcons/line 1/isabel.png",
-		"name": "Isabel la Católica",
-		"coordinates": [
-			-99.13782477,
-			19.4260947
-		]
-	},
-	{
-		"id": 162,
-		"imgUrl": "/assets/stationsIcons/line 11/neza.png",
-		"name": "Nezahualcóyotl",
-		"coordinates": [
-			-99.054375,
-			19.472534
-		]
-	},
-	{
-		"id": 163,
-		"imgUrl": "/assets/stationsIcons/line 1/merced.png",
-		"name": "Merced",
-		"coordinates": [
-			-99.12541151,
-			19.42546738
-		]
-	}
-]
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"id": 1,
+			"properties": {
+				"url": "/assets/stationsIcons/line 9/lazarocardenas.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14433718,
+					19.40702104
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 9/lazarocardenas.png",
+			"name": "Lázaro Cárdens",
+			"coordinates": [
+				-99.14433718,
+				19.40702104
+			]
+		},
+		{
+			"id": 2,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/arenacdmexico.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.173702,
+					19.49039233
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/arenacdmexico.png",
+			"name": "Ferería",
+			"coordinates": [
+				-99.173702,
+				19.49039233
+			]
+		},
+		{
+			"id": 3,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/pantitlan.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.07262564,
+					19.4146103
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/pantitlan.png",
+			"name": "Pnttlán",
+			"coordinates": [
+				-99.07262564,
+				19.4146103
+			]
+		},
+		{
+			"id": 4,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18803573,
+					19.45913691
+				]
+			},
+			"imgUrl": "",
+			"name": "Tauga",
+			"coordinates": [
+				-99.18803573,
+				19.45913691
+			]
+		},
+		{
+			"id": 5,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/martincarrera.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10554171,
+					19.48231101
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/martincarrera.png",
+			"name": "MartínCrrera",
+			"coordinates": [
+				-99.10554171,
+				19.48231101
+			]
+		},
+		{
+			"id": 6,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/santaanita.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12120581,
+					19.40425847
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/santaanita.png",
+			"name": "Santa Anita",
+			"coordinates": [
+				-99.12120581,
+				19.40425847
+			]
+		},
+		{
+			"id": 7,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/VillaAragon.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.06114578,
+					19.4613523
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/VillaAragon.png",
+			"name": "Villa de Aragón",
+			"coordinates": [
+				-99.06114578,
+				19.4613523
+			]
+		},
+		{
+			"id": 8,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/tezozomoc.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.19593215,
+					19.49448847
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/tezozomoc.png",
+			"name": "Tezozómoc",
+			"coordinates": [
+				-99.19593215,
+				19.49448847
+			]
+		},
+		{
+			"id": 9,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.03568625,
+					19.51470467
+				]
+			},
+			"imgUrl": "",
+			"name": "Tecnológico",
+			"coordinates": [
+				-99.03568625,
+				19.51470467
+			]
+		},
+		{
+			"id": 10,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/colegio-militar.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17122364,
+					19.44864628
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/colegio-militar.png",
+			"name": "Colegio Militar",
+			"coordinates": [
+				-99.17122364,
+				19.44864628
+			]
+		},
+		{
+			"id": 11,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/chapultepec.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17658806,
+					19.42025648
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/chapultepec.png",
+			"name": "Chapultepec",
+			"coordinates": [
+				-99.17658806,
+				19.42025648
+			]
+		},
+		{
+			"id": 12,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.08486724,
+					19.32025578
+				]
+			},
+			"imgUrl": "",
+			"name": "Calle 11",
+			"coordinates": [
+				-99.08486724,
+				19.32025578
+			]
+		},
+		{
+			"id": 13,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.063367,
+					19.345135
+				]
+			},
+			"imgUrl": "",
+			"name": "Constitución de 1917",
+			"coordinates": [
+				-99.063367,
+				19.345135
+			]
+		},
+		{
+			"id": 14,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/copilco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17657733,
+					19.33616471910796
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/copilco.png",
+			"name": "Copilco",
+			"coordinates": [
+				-99.17657733,
+				19.33616471910796
+			]
+		},
+		{
+			"id": 15,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/talisman.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10779476,
+					19.47415847
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/talisman.png",
+			"name": "Talismán",
+			"coordinates": [
+				-99.10779476,
+				19.47415847
+			]
+		},
+		{
+			"id": 16,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.08820391,
+					19.43380448
+				]
+			},
+			"imgUrl": "",
+			"name": "Terminal Aérea",
+			"coordinates": [
+				-99.08820391,
+				19.43380448
+			]
+		},
+		{
+			"id": 17,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/tepito.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12323356,
+					19.44256606
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/tepito.png",
+			"name": "Tepito",
+			"coordinates": [
+				-99.12323356,
+				19.44256606
+			]
+		},
+		{
+			"id": 18,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/20noviembre.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17099833,
+					19.37192372
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/20noviembre.png",
+			"name": "Hospital 20 de Nov.",
+			"coordinates": [
+				-99.17099833,
+				19.37192372
+			]
+		},
+		{
+			"id": 19,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/eugenia.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15720322918361,
+					19.38618123460772
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/eugenia.png",
+			"name": "Eugenia",
+			"coordinates": [
+				-99.15720322918361,
+				19.38618123460772
+			]
+		},
+		{
+			"id": 20,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/lomasestrella.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.096696,
+					19.322002
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/lomasestrella.png",
+			"name": "Lomas Estrella",
+			"coordinates": [
+				-99.096696,
+				19.322002
+			]
+		},
+		{
+			"id": 21,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/tlatelolco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14318102451608,
+					19.455018364835848
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/tlatelolco.png",
+			"name": "Tlatelolco",
+			"coordinates": [
+				-99.14318102451608,
+				19.455018364835848
+			]
+		},
+		{
+			"id": 22,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/atlalilco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10157204,
+					19.35570839
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/atlalilco.png",
+			"name": "Atlalilco",
+			"coordinates": [
+				-99.10157204,
+				19.35570839
+			]
+		},
+		{
+			"id": 23,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/blvdptaereo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.09606814,
+					19.41958866
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/blvdptaereo.png",
+			"name": "Blvd. Puerto Aéreo",
+			"coordinates": [
+				-99.09606814,
+				19.41958866
+			]
+		},
+		{
+			"id": 24,
+			"properties": {
+				"url": "/assets/stationsIcons/line 9/chilpancingo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.1683054,
+					19.40575613
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 9/chilpancingo.png",
+			"name": "Chilpancingo",
+			"coordinates": [
+				-99.1683054,
+				19.40575613
+			]
+		},
+		{
+			"id": 25,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/cdazteca.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.02711391,
+					19.53444312
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/cdazteca.png",
+			"name": "Ciudad Azteca",
+			"coordinates": [
+				-99.02711391,
+				19.53444312
+			]
+		},
+		{
+			"id": 26,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/niñosheroes.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15038466249769,
+					19.419454425562666
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/niñosheroes.png",
+			"name": "Niños Héroes",
+			"coordinates": [
+				-99.15038466249769,
+				19.419454425562666
+			]
+		},
+		{
+			"id": 27,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/popotla.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17546153,
+					19.45261196
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/popotla.png",
+			"name": "Popotla",
+			"coordinates": [
+				-99.17546153,
+				19.45261196
+			]
+		},
+		{
+			"id": 28,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/sanjoaquin.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.19160843,
+					19.44553033
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/sanjoaquin.png",
+			"name": "San Joaquín",
+			"coordinates": [
+				-99.19160843,
+				19.44553033
+			]
+		},
+		{
+			"id": 29,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17392372751343,
+					19.32451634225169
+				]
+			},
+			"imgUrl": "",
+			"name": "Universidad",
+			"coordinates": [
+				-99.17392372751343,
+				19.32451634225169
+			]
+		},
+		{
+			"id": 30,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/ipn.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14455175,
+					19.48983606
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/ipn.png",
+			"name": "Instituto del Petróleo",
+			"coordinates": [
+				-99.14455175,
+				19.48983606
+			]
+		},
+		{
+			"id": 31,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/escuadron201.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10931826,
+					19.36449442
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/escuadron201.png",
+			"name": "Escuadrón 201",
+			"coordinates": [
+				-99.10931826,
+				19.36449442
+			]
+		},
+		{
+			"id": 32,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/iztacalco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.112086,
+					19.388092
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/iztacalco.png",
+			"name": "Iztacalco",
+			"coordinates": [
+				-99.112086,
+				19.388092
+			]
+		},
+		{
+			"id": 33,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/juarez.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14769478393977,
+					19.43330159240169
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/juarez.png",
+			"name": "Juárez",
+			"coordinates": [
+				-99.14769478393977,
+				19.43330159240169
+			]
+		},
+		{
+			"id": 34,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/chabacano.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13542151,
+					19.40891333
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/chabacano.png",
+			"name": "Chabacano",
+			"coordinates": [
+				-99.13542151,
+				19.40891333
+			]
+		},
+		{
+			"id": 35,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/atzcapozalco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18621182,
+					19.49067553
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/atzcapozalco.png",
+			"name": "Azcapotzalco",
+			"coordinates": [
+				-99.18621182,
+				19.49067553
+			]
+		},
+		{
+			"id": 36,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/bosquearagon.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.06927824,
+					19.45807473
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/bosquearagon.png",
+			"name": "Bosque de Aragón",
+			"coordinates": [
+				-99.06927824,
+				19.45807473
+			]
+		},
+		{
+			"id": 37,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/tlaltenco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.023829,
+					19.294555
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/tlaltenco.png",
+			"name": "Tlaltenco",
+			"coordinates": [
+				-99.023829,
+				19.294555
+			]
+		},
+		{
+			"id": 38,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/jamaica.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12203193,
+					19.41014786
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/jamaica.png",
+			"name": "Jamaica",
+			"coordinates": [
+				-99.12203193,
+				19.41014786
+			]
+		},
+		{
+			"id": 39,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/oceania.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.08683062,
+					19.44572255
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/oceania.png",
+			"name": "Oceanía",
+			"coordinates": [
+				-99.08683062,
+				19.44572255
+			]
+		},
+		{
+			"id": 40,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.09341812,
+					19.35760127
+				]
+			},
+			"imgUrl": "",
+			"name": "Iztapalapa",
+			"coordinates": [
+				-99.09341812,
+				19.35760127
+			]
+		},
+		{
+			"id": 41,
+			"properties": {
+				"url": "/assets/stationsIcons/line 9/mixiuhca.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11285877,
+					19.40820499
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 9/mixiuhca.png",
+			"name": "Mixhuca",
+			"coordinates": [
+				-99.11285877,
+				19.40820499
+			]
+		},
+		{
+			"id": 42,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/centromedico.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15517105387757,
+					19.4064949970465
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/centromedico.png",
+			"name": "Centro Médico",
+			"coordinates": [
+				-99.15517105387757,
+				19.4064949970465
+			]
+		},
+		{
+			"id": 43,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/balderas.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14892842222423,
+					19.42721790381461
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/balderas.png",
+			"name": "Balderas",
+			"coordinates": [
+				-99.14892842222423,
+				19.42721790381461
+			]
+		},
+		{
+			"id": 44,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/saltodelagua.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14207339,
+					19.42720768
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/saltodelagua.png",
+			"name": "Salto del Agua",
+			"coordinates": [
+				-99.14207339,
+				19.42720768
+			]
+		},
+		{
+			"id": 45,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/insurgentes.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.16325212,
+					19.42359552
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/insurgentes.png",
+			"name": "Insurgentes",
+			"coordinates": [
+				-99.16325212,
+				19.42359552
+			]
+		},
+		{
+			"id": 46,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/guelatao.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.03579354,
+					19.38459525
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/guelatao.png",
+			"name": "Guelatao",
+			"coordinates": [
+				-99.03579354,
+				19.38459525
+			]
+		},
+		{
+			"id": 47,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/morelos.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11933,
+					19.438426
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/morelos.png",
+			"name": "Morelos",
+			"coordinates": [
+				-99.11933,
+				19.438426
+			]
+		},
+		{
+			"id": 48,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/moctezuma.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.109803,
+					19.426271
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/moctezuma.png",
+			"name": "Moctezuma",
+			"coordinates": [
+				-99.109803,
+				19.426271
+			]
+		},
+		{
+			"id": 49,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.1671896,
+					19.44424548
+				]
+			},
+			"imgUrl": "",
+			"name": "Normal",
+			"coordinates": [
+				-99.1671896,
+				19.44424548
+			]
+		},
+		{
+			"id": 50,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/zapata.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.16506254615025,
+					19.37078014004582
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/zapata.png",
+			"name": "Zapata",
+			"coordinates": [
+				-99.16506254615025,
+				19.37078014004582
+			]
+		},
+		{
+			"id": 51,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/zaragoza.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.08322573,
+					19.41179726
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/zaragoza.png",
+			"name": "Zaragoza",
+			"coordinates": [
+				-99.08322573,
+				19.41179726
+			]
+		},
+		{
+			"id": 52,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/laraza.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13652165818606,
+					19.46965169720555
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/laraza.png",
+			"name": "La Raza",
+			"coordinates": [
+				-99.13652165818606,
+				19.46965169720555
+			]
+		},
+		{
+			"id": 53,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.19138312,
+					19.41129131
+				]
+			},
+			"imgUrl": "",
+			"name": "Constituyentes",
+			"coordinates": [
+				-99.19138312,
+				19.41129131
+			]
+		},
+		{
+			"id": 54,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.04171586,
+					19.50096117
+				]
+			},
+			"imgUrl": "",
+			"name": "Múzquiz",
+			"coordinates": [
+				-99.04171586,
+				19.50096117
+			]
+		},
+		{
+			"id": 55,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/romerorubio.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.09420133,
+					19.44048194
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/romerorubio.png",
+			"name": "Romero Rubio",
+			"coordinates": [
+				-99.09420133,
+				19.44048194
+			]
+		},
+		{
+			"id": 56,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.16094542,
+					19.44185787
+				]
+			},
+			"imgUrl": "",
+			"name": "San Cosme",
+			"coordinates": [
+				-99.16094542,
+				19.44185787
+			]
+		},
+		{
+			"id": 57,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/portales.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14130092,
+					19.36976784
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/portales.png",
+			"name": "Portales",
+			"coordinates": [
+				-99.14130092,
+				19.36976784
+			]
+		},
+		{
+			"id": 58,
+			"properties": {
+				"url": "/assets/stationsIcons/line 9/puebla.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.08233523,
+					19.40697045
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 9/puebla.png",
+			"name": "Puebla",
+			"coordinates": [
+				-99.08233523,
+				19.40697045
+			]
+		},
+		{
+			"id": 59,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-98.995894,
+					19.359804
+				]
+			},
+			"imgUrl": "",
+			"name": "Santa Marta",
+			"coordinates": [
+				-98.995894,
+				19.359804
+			]
+		},
+		{
+			"id": 60,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/tasqueña.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14105415,
+					19.34400644
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/tasqueña.png",
+			"name": "Tasqueña",
+			"coordinates": [
+				-99.14105415,
+				19.34400644
+			]
+		},
+		{
+			"id": 61,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/xola.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13758874,
+					19.3950293
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/xola.png",
+			"name": "Xola",
+			"coordinates": [
+				-99.13758874,
+				19.3950293
+			]
+		},
+		{
+			"id": 62,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/canaldelnorte.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11589503,
+					19.44866652
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/canaldelnorte.png",
+			"name": "Canal del Norte",
+			"coordinates": [
+				-99.11589503,
+				19.44866652
+			]
+		},
+		{
+			"id": 63,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/buenavista.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15289879,
+					19.44615757
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/buenavista.png",
+			"name": "Buenavista",
+			"coordinates": [
+				-99.15289879,
+				19.44615757
+			]
+		},
+		{
+			"id": 64,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/balbuena.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10281658,
+					19.42288725
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/balbuena.png",
+			"name": "Balbuena",
+			"coordinates": [
+				-99.10281658,
+				19.42288725
+			]
+		},
+		{
+			"id": 65,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/ermita.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14263129,
+					19.36186271
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/ermita.png",
+			"name": "Ermita",
+			"coordinates": [
+				-99.14263129,
+				19.36186271
+			]
+		},
+		{
+			"id": 66,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/aragon.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.09598231,
+					19.45101356
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/aragon.png",
+			"name": "Aragón",
+			"coordinates": [
+				-99.09598231,
+				19.45101356
+			]
+		},
+		{
+			"id": 67,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/18marzo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12550184884857,
+					19.485123276949224
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/18marzo.png",
+			"name": "Deportivo 18 de Marzo",
+			"coordinates": [
+				-99.12550184884857,
+				19.485123276949224
+			]
+		},
+		{
+			"id": 68,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/auditorio.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.19173717,
+					19.42530549
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/auditorio.png",
+			"name": "Auditorio",
+			"coordinates": [
+				-99.19173717,
+				19.42530549
+			]
+		},
+		{
+			"id": 69,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10894275,
+					19.33887391
+				]
+			},
+			"imgUrl": "",
+			"name": "Culhuacán",
+			"coordinates": [
+				-99.10894275,
+				19.33887391
+			]
+		},
+		{
+			"id": 70,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/rosario.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.20029879,
+					19.5039547
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/rosario.png",
+			"name": "El Rosario",
+			"coordinates": [
+				-99.20029879,
+				19.5039547
+			]
+		},
+		{
+			"id": 71,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/guerrero.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14518978320376,
+					19.444746230685755
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/guerrero.png",
+			"name": "Guerrero",
+			"coordinates": [
+				-99.14518978320376,
+				19.444746230685755
+			]
+		},
+		{
+			"id": 72,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/hospitalgeneral.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15325080001591,
+					19.413768253454776
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/hospitalgeneral.png",
+			"name": "Hospital General",
+			"coordinates": [
+				-99.15325080001591,
+				19.413768253454776
+			]
+		},
+		{
+			"id": 73,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12033677,
+					19.42149092
+				]
+			},
+			"imgUrl": "",
+			"name": "Fray Servando",
+			"coordinates": [
+				-99.12033677,
+				19.42149092
+			]
+		},
+		{
+			"id": 74,
+			"properties": {
+				"url": "/assets/stationsIcons/line 9/patriotismo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.1784656,
+					19.40559422
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 9/patriotismo.png",
+			"name": "Patriotismo",
+			"coordinates": [
+				-99.1784656,
+				19.40559422
+			]
+		},
+		{
+			"id": 75,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/observatorio.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.200669,
+					19.397486
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/observatorio.png",
+			"name": "Observatorio",
+			"coordinates": [
+				-99.200669,
+				19.397486
+			]
+		},
+		{
+			"id": 76,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/lapaz.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-98.96061659,
+					19.35048513
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/lapaz.png",
+			"name": "La Paz",
+			"coordinates": [
+				-98.96061659,
+				19.35048513
+			]
+		},
+		{
+			"id": 77,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/vallegomez.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11988616,
+					19.45868169
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/vallegomez.png",
+			"name": "Valle Gómez",
+			"coordinates": [
+				-99.11988616,
+				19.45868169
+			]
+		},
+		{
+			"id": 78,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/tezonco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.065867,
+					19.306124
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/tezonco.png",
+			"name": "Tezonco",
+			"coordinates": [
+				-99.065867,
+				19.306124
+			]
+		},
+		{
+			"id": 79,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/candelaria.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11890984,
+					19.42917056
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/candelaria.png",
+			"name": "Candelaria",
+			"coordinates": [
+				-99.11890984,
+				19.42917056
+			]
+		},
+		{
+			"id": 80,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/aquileserdan.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.194511,
+					19.489367
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/aquileserdan.png",
+			"name": "Aquiles Serdán",
+			"coordinates": [
+				-99.194511,
+				19.489367
+			]
+		},
+		{
+			"id": 81,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/laviga.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.125973,
+					19.406106
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/laviga.png",
+			"name": "La Viga",
+			"coordinates": [
+				-99.125973,
+				19.406106
+			]
+		},
+		{
+			"id": 82,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/olimpica.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.03298259,
+					19.52084286
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/olimpica.png",
+			"name": "Olímpica",
+			"coordinates": [
+				-99.03298259,
+				19.52084286
+			]
+		},
+		{
+			"id": 83,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12191391,
+					19.35744944
+				]
+			},
+			"imgUrl": "",
+			"name": "Mexicaltzingo",
+			"coordinates": [
+				-99.12191391,
+				19.35744944
+			]
+		},
+		{
+			"id": 84,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.148806,
+					19.499964
+				]
+			},
+			"imgUrl": "",
+			"name": "Politécnico",
+			"coordinates": [
+				-99.148806,
+				19.499964
+			]
+		},
+		{
+			"id": 85,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/perifericooriente.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.074719,
+					19.317492
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/perifericooriente.png",
+			"name": "Periférico Ote",
+			"coordinates": [
+				-99.074719,
+				19.317492
+			]
+		},
+		{
+			"id": 86,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/sanlazaro.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.114463,
+					19.431822
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/sanlazaro.png",
+			"name": "San Lázaro",
+			"coordinates": [
+				-99.114463,
+				19.431822
+			]
+		},
+		{
+			"id": 87,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18661952,
+					19.38481791
+				]
+			},
+			"imgUrl": "",
+			"name": "San Antonio",
+			"coordinates": [
+				-99.18661952,
+				19.38481791
+			]
+		},
+		{
+			"id": 88,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/zapotitlan.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.03402328,
+					19.29639028
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/zapotitlan.png",
+			"name": "Zapotitlán",
+			"coordinates": [
+				-99.03402328,
+				19.29639028
+			]
+		},
+		{
+			"id": 89,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/tlahuac.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.01443243,
+					19.28680057
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/tlahuac.png",
+			"name": "Tláhuac",
+			"coordinates": [
+				-99.01443243,
+				19.28680057
+			]
+		},
+		{
+			"id": 90,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/hidalgo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.147133621587,
+					19.43750012233132
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/hidalgo.png",
+			"name": "Hidalgo",
+			"coordinates": [
+				-99.147133621587,
+				19.43750012233132
+			]
+		},
+		{
+			"id": 91,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/etiopia-plaza.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15606445122236,
+					19.395943795754867
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/etiopia-plaza.png",
+			"name": "Etiopía / Plaza de la Transpatencia",
+			"coordinates": [
+				-99.15606445122236,
+				19.395943795754867
+			]
+		},
+		{
+			"id": 92,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/depoceania.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.07917023,
+					19.45077077
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/depoceania.png",
+			"name": "Deportivo Oceanía",
+			"coordinates": [
+				-99.07917023,
+				19.45077077
+			]
+		},
+		{
+			"id": 93,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/impulsora.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.048743,
+					19.484987
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/impulsora.png",
+			"name": "Impulsora",
+			"coordinates": [
+				-99.048743,
+				19.484987
+			]
+		},
+		{
+			"id": 94,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/rioconsulado.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11388874,
+					19.45682033
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/rioconsulado.png",
+			"name": "Consulado",
+			"coordinates": [
+				-99.11388874,
+				19.45682033
+			]
+		},
+		{
+			"id": 95,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/camarones.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18894768,
+					19.47873042
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/camarones.png",
+			"name": "Camarones",
+			"coordinates": [
+				-99.18894768,
+				19.47873042
+			]
+		},
+		{
+			"id": 96,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13670897,
+					19.43547387
+				]
+			},
+			"imgUrl": "",
+			"name": "Allende",
+			"coordinates": [
+				-99.13670897,
+				19.43547387
+			]
+		},
+		{
+			"id": 97,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/sanjuandeletran.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14116144,
+					19.43098165
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/sanjuandeletran.png",
+			"name": "San Juan de Letrán",
+			"coordinates": [
+				-99.14116144,
+				19.43098165
+			]
+		},
+		{
+			"id": 98,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/viaducto.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13663387,
+					19.40074699
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/viaducto.png",
+			"name": "Viaducto",
+			"coordinates": [
+				-99.13663387,
+				19.40074699
+			]
+		},
+		{
+			"id": 99,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/vallejo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15479779,
+					19.49031142
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/vallejo.png",
+			"name": "Vallejo",
+			"coordinates": [
+				-99.15479779,
+				19.49031142
+			]
+		},
+		{
+			"id": 100,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/doctores.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14335012,
+					19.42049932
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/doctores.png",
+			"name": "Doctores",
+			"coordinates": [
+				-99.14335012,
+				19.42049932
+			]
+		},
+		{
+			"id": 101,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/losreyes.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-98.97670984,
+					19.35877546
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/losreyes.png",
+			"name": "Los Reyes",
+			"coordinates": [
+				-98.97670984,
+				19.35877546
+			]
+		},
+		{
+			"id": 102,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/bellasartes.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14061427,
+					19.43649573
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/bellasartes.png",
+			"name": "Bellas Artes",
+			"coordinates": [
+				-99.14061427,
+				19.43649573
+			]
+		},
+		{
+			"id": 103,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/autobusesnorte.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.140471,
+					19.478595
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/autobusesnorte.png",
+			"name": "Autobuses del Norte",
+			"coordinates": [
+				-99.140471,
+				19.478595
+			]
+		},
+		{
+			"id": 104,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/acatitla.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.00597811,
+					19.3642515
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/acatitla.png",
+			"name": "Acatitla",
+			"coordinates": [
+				-99.00597811,
+				19.3642515
+			]
+		},
+		{
+			"id": 105,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/revolucion.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15389657,
+					19.43880248
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/revolucion.png",
+			"name": "Revolución",
+			"coordinates": [
+				-99.15389657,
+				19.43880248
+			]
+		},
+		{
+			"id": 106,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/polanco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.19079304,
+					19.43337954
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/polanco.png",
+			"name": "Polanco",
+			"coordinates": [
+				-99.19079304,
+				19.43337954
+			]
+		},
+		{
+			"id": 107,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/tomatlan.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10259128,
+					19.3272315
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/tomatlan.png",
+			"name": "San Andrés Tomatlán",
+			"coordinates": [
+				-99.10259128,
+				19.3272315
+			]
+		},
+		{
+			"id": 108,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/garibaldi.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.139954,
+					19.443376
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/garibaldi.png",
+			"name": "Garibaldi",
+			"coordinates": [
+				-99.139954,
+				19.443376
+			]
+		},
+		{
+			"id": 109,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10544515,
+					19.45112485
+				]
+			},
+			"imgUrl": "",
+			"name": "Eduardo Molina",
+			"coordinates": [
+				-99.10544515,
+				19.45112485
+			]
+		},
+		{
+			"id": 110,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/coyuya.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.113413,
+					19.39769
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/coyuya.png",
+			"name": "Coyuya",
+			"coordinates": [
+				-99.113413,
+				19.39769
+			]
+		},
+		{
+			"id": 111,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/coyoacan.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17085370226894,
+					19.36145531193064
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/coyoacan.png",
+			"name": "Coyoacán",
+			"coordinates": [
+				-99.17085370226894,
+				19.36145531193064
+			]
+		},
+		{
+			"id": 112,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/norte45.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.16249037,
+					19.48823803
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/norte45.png",
+			"name": "Norte 45",
+			"coordinates": [
+				-99.16249037,
+				19.48823803
+			]
+		},
+		{
+			"id": 113,
+			"properties": {
+				"url": "/assets/stationsIcons/line 6/lindavista.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13434863,
+					19.4875806
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 6/lindavista.png",
+			"name": "Lindavista",
+			"coordinates": [
+				-99.13434863,
+				19.4875806
+			]
+		},
+		{
+			"id": 114,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/tacubaya.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18664098,
+					19.40223457
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/tacubaya.png",
+			"name": "Tacubaya",
+			"coordinates": [
+				-99.18664098,
+				19.40223457
+			]
+		},
+		{
+			"id": 115,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/mixcoac.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18774605,
+					19.37625563
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/mixcoac.png",
+			"name": "Mixcoac",
+			"coordinates": [
+				-99.18774605,
+				19.37625563
+			]
+		},
+		{
+			"id": 116,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/hangares.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.087095,
+					19.423251
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/hangares.png",
+			"name": "Hangares",
+			"coordinates": [
+				-99.087095,
+				19.423251
+			]
+		},
+		{
+			"id": 117,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/nopalera2.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.04621124,
+					19.29939771
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/nopalera2.png",
+			"name": "Nopalera",
+			"coordinates": [
+				-99.04621124,
+				19.29939771
+			]
+		},
+		{
+			"id": 118,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/uam-i.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.074808,
+					19.350327
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/uam-i.png",
+			"name": "UAM-I",
+			"coordinates": [
+				-99.074808,
+				19.350327
+			]
+		},
+		{
+			"id": 119,
+			"properties": {
+				"url": "/assets/stationsIcons/line 9/velodromo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10283804,
+					19.40811392
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 9/velodromo.png",
+			"name": "Velódromo",
+			"coordinates": [
+				-99.10283804,
+				19.40811392
+			]
+		},
+		{
+			"id": 120,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/cuahutemoc.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15455103,
+					19.42565962
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/cuahutemoc.png",
+			"name": "Cuauhtémoc",
+			"coordinates": [
+				-99.15455103,
+				19.42565962
+			]
+		},
+		{
+			"id": 121,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/apatlaco.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10934,
+					19.378298
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/apatlaco.png",
+			"name": "Apatlaco",
+			"coordinates": [
+				-99.10934,
+				19.378298
+			]
+		},
+		{
+			"id": 122,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10739779,
+					19.37292574
+				]
+			},
+			"imgUrl": "",
+			"name": "Aculco",
+			"coordinates": [
+				-99.10739779,
+				19.37292574
+			]
+		},
+		{
+			"id": 123,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/agricolaote.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.06982541,
+					19.40404596
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/agricolaote.png",
+			"name": "Agrícola Oriental",
+			"coordinates": [
+				-99.06982541,
+				19.40404596
+			]
+		},
+		{
+			"id": 124,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/ejecentral2.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15133238,
+					19.36118453
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/ejecentral2.png",
+			"name": "Eje Central",
+			"coordinates": [
+				-99.15133238,
+				19.36118453
+			]
+		},
+		{
+			"id": 125,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/pinosuarez.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13303971,
+					19.42543703
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/pinosuarez.png",
+			"name": "Pino Suárez",
+			"coordinates": [
+				-99.13303971,
+				19.42543703
+			]
+		},
+		{
+			"id": 126,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.04635072,
+					19.49024062
+				]
+			},
+			"imgUrl": "",
+			"name": "Río de los Remedios",
+			"coordinates": [
+				-99.04635072,
+				19.49024062
+			]
+		},
+		{
+			"id": 127,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/potrero.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13201029196553,
+					19.47718053743677
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/potrero.png",
+			"name": "Potrero",
+			"coordinates": [
+				-99.13201029196553,
+				19.47718053743677
+			]
+		},
+		{
+			"id": 128,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17074084,
+					19.42189565
+				]
+			},
+			"imgUrl": "",
+			"name": "Sevilla",
+			"coordinates": [
+				-99.17074084,
+				19.42189565
+			]
+		},
+		{
+			"id": 129,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/generalanaya.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14478779,
+					19.35319801
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/generalanaya.png",
+			"name": "General Anaya",
+			"coordinates": [
+				-99.14478779,
+				19.35319801
+			]
+		},
+		{
+			"id": 130,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/indiosverdes.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11960106262944,
+					19.495012964547062
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/indiosverdes.png",
+			"name": "Indios Verdes",
+			"coordinates": [
+				-99.11960106262944,
+				19.495012964547062
+			]
+		},
+		{
+			"id": 131,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.11815882,
+					19.4814715
+				]
+			},
+			"imgUrl": "",
+			"name": "La Villa - Basílica",
+			"coordinates": [
+				-99.11815882,
+				19.4814715
+			]
+		},
+		{
+			"id": 132,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/parquevenados2.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15766239,
+					19.37046623
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/parquevenados2.png",
+			"name": "Parque de los Venados",
+			"coordinates": [
+				-99.15766239,
+				19.37046623
+			]
+		},
+		{
+			"id": 133,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18207049,
+					19.41290022
+				]
+			},
+			"imgUrl": "",
+			"name": "Juanacatlán",
+			"coordinates": [
+				-99.18207049,
+				19.41290022
+			]
+		},
+		{
+			"id": 134,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/nativitas.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13987398,
+					19.37938304
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/nativitas.png",
+			"name": "Nativitas",
+			"coordinates": [
+				-99.13987398,
+				19.37938304
+			]
+		},
+		{
+			"id": 135,
+			"properties": {
+				"url": "/assets/stationsIcons/line 5/misterios.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13051844,
+					19.46290002
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 5/misterios.png",
+			"name": "Misterios",
+			"coordinates": [
+				-99.13051844,
+				19.46290002
+			]
+		},
+		{
+			"id": 136,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/barrancadelmuerto.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18895841,
+					19.3614882
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/barrancadelmuerto.png",
+			"name": "Barranca del Muerto",
+			"coordinates": [
+				-99.18895841,
+				19.3614882
+			]
+		},
+		{
+			"id": 137,
+			"properties": {
+				"url": "/assets/stationsIcons/line 3/maq.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18069931035964,
+					19.34600837731463
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 3/maq.png",
+			"name": "Miguel Ángel de Quevedo",
+			"coordinates": [
+				-99.18069931035964,
+				19.34600837731463
+			]
+		},
+		{
+			"id": 138,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/lagunilla.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13107634,
+					19.44300109
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/lagunilla.png",
+			"name": "Lagunilla",
+			"coordinates": [
+				-99.13107634,
+				19.44300109
+			]
+		},
+		{
+			"id": 139,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/olivos.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.05831337,
+					19.30328601
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/olivos.png",
+			"name": "Olivos",
+			"coordinates": [
+				-99.05831337,
+				19.30328601
+			]
+		},
+		{
+			"id": 140,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/tepalcates.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.04651165,
+					19.39072824
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/tepalcates.png",
+			"name": "Tepalcates",
+			"coordinates": [
+				-99.04651165,
+				19.39072824
+			]
+		},
+		{
+			"id": 141,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/zocalo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.131879,
+					19.432602
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/zocalo.png",
+			"name": "Zócalo",
+			"coordinates": [
+				-99.131879,
+				19.432602
+			]
+		},
+		{
+			"id": 142,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.09070373,
+					19.41608763
+				]
+			},
+			"imgUrl": "",
+			"name": "Gómez Farías",
+			"coordinates": [
+				-99.09070373,
+				19.41608763
+			]
+		},
+		{
+			"id": 143,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/sanpedro.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18572903,
+					19.39122414
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/sanpedro.png",
+			"name": "San Pedro de Los Pinos",
+			"coordinates": [
+				-99.18572903,
+				19.39122414
+			]
+		},
+		{
+			"id": 144,
+			"properties": {
+				"url": "/assets/stationsIcons/line 7/refineria.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.18985963,
+					19.46911098
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 7/refineria.png",
+			"name": "Refinería",
+			"coordinates": [
+				-99.18985963,
+				19.46911098
+			]
+		},
+		{
+			"id": 145,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/villadecortes.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13862944,
+					19.38746949
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/villadecortes.png",
+			"name": "Villa de Cortés",
+			"coordinates": [
+				-99.13862944,
+				19.38746949
+			]
+		},
+		{
+			"id": 146,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/floresmagon.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.10342813,
+					19.43628327
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/floresmagon.png",
+			"name": "R. Flores Magón",
+			"coordinates": [
+				-99.10342813,
+				19.43628327
+			]
+		},
+		{
+			"id": 147,
+			"properties": {
+				"url": "/assets/stationsIcons/line 12/insurgentessur.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17859435,
+					19.37360387
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 12/insurgentessur.png",
+			"name": "Insurgentes Sur",
+			"coordinates": [
+				-99.17859435,
+				19.37360387
+			]
+		},
+		{
+			"id": 148,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.17542125079177,
+					19.354052847278503
+				]
+			},
+			"imgUrl": "",
+			"name": "Viveros",
+			"coordinates": [
+				-99.17542125079177,
+				19.354052847278503
+			]
+		},
+		{
+			"id": 149,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/cerroestrella.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.085872,
+					19.355601
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/cerroestrella.png",
+			"name": "Cerro de la Estrella",
+			"coordinates": [
+				-99.085872,
+				19.355601
+			]
+		},
+		{
+			"id": 150,
+			"properties": {
+				"url": "/assets/stationsIcons/line 4/bondojito.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.1117537,
+					19.46450842
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 4/bondojito.png",
+			"name": "Bondojito",
+			"coordinates": [
+				-99.1117537,
+				19.46450842
+			]
+		},
+		{
+			"id": 151,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/canalsnjuan.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.05969739,
+					19.39821706
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/canalsnjuan.png",
+			"name": "Canal de San Juan",
+			"coordinates": [
+				-99.05969739,
+				19.39821706
+			]
+		},
+		{
+			"id": 152,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/sanantonioabad.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13429499,
+					19.4159055
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/sanantonioabad.png",
+			"name": "San Antonio Abad",
+			"coordinates": [
+				-99.13429499,
+				19.4159055
+			]
+		},
+		{
+			"id": 153,
+			"properties": {
+				"url": "/assets/stationsIcons/line 8/obrera.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.14392948,
+					19.41301153
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 8/obrera.png",
+			"name": "Obrera",
+			"coordinates": [
+				-99.14392948,
+				19.41301153
+			]
+		},
+		{
+			"id": 154,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/plazaragon.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.02979612,
+					19.52822456
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/plazaragon.png",
+			"name": "Plaza Aragón",
+			"coordinates": [
+				-99.02979612,
+				19.52822456
+			]
+		},
+		{
+			"id": 155,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/pantenones.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.20294,
+					19.458219
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/pantenones.png",
+			"name": "Panteones",
+			"coordinates": [
+				-99.20294,
+				19.458219
+			]
+		},
+		{
+			"id": 156,
+			"properties": {
+				"url": "/assets/stationsIcons/line 10/penonviejo.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.0172863,
+					19.37291562
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 10/penonviejo.png",
+			"name": "Peñón Viejo",
+			"coordinates": [
+				-99.0172863,
+				19.37291562
+			]
+		},
+		{
+			"id": 157,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.15943941015686,
+					19.379062747136558
+				]
+			},
+			"imgUrl": "",
+			"name": "División del Norte",
+			"coordinates": [
+				-99.15943941015686,
+				19.379062747136558
+			]
+		},
+		{
+			"id": 158,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/cuitlahuac.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.181555,
+					19.45668
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/cuitlahuac.png",
+			"name": "Cuitláhuac",
+			"coordinates": [
+				-99.181555,
+				19.45668
+			]
+		},
+		{
+			"id": 159,
+			"properties": {
+				"url": ""
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.09135818,
+					19.40811392
+				]
+			},
+			"imgUrl": "",
+			"name": "Ciudad Deportiva",
+			"coordinates": [
+				-99.09135818,
+				19.40811392
+			]
+		},
+		{
+			"id": 160,
+			"properties": {
+				"url": "/assets/stationsIcons/line 2/cuatrocaminos.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.214643,
+					19.458454
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 2/cuatrocaminos.png",
+			"name": "Cuatro Caminos",
+			"coordinates": [
+				-99.214643,
+				19.458454
+			]
+		},
+		{
+			"id": 161,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/isabel.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.13782477,
+					19.4260947
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/isabel.png",
+			"name": "Isabel la Católica",
+			"coordinates": [
+				-99.13782477,
+				19.4260947
+			]
+		},
+		{
+			"id": 162,
+			"properties": {
+				"url": "/assets/stationsIcons/line 11/neza.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.054375,
+					19.472534
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 11/neza.png",
+			"name": "Nezahualcóyotl",
+			"coordinates": [
+				-99.054375,
+				19.472534
+			]
+		},
+		{
+			"id": 163,
+			"properties": {
+				"url": "/assets/stationsIcons/line 1/merced.png"
+			},
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-99.12541151,
+					19.42546738
+				]
+			},
+			"imgUrl": "/assets/stationsIcons/line 1/merced.png",
+			"name": "Merced",
+			"coordinates": [
+				-99.12541151,
+				19.42546738
+			]
+		}
+	]
+}

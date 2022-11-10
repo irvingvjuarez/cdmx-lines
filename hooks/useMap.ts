@@ -27,19 +27,36 @@ export const useMap = () => {
 		})
 
 		const currentMap = map.current as mapboxgl.Map
+		const imgsUrls = stations.features
+			.filter(feature => feature.imgUrl !== "")
+			.map(feature => feature.imgUrl)
 
 		// Lines rendering
 		currentMap.on("load", () => {
 			const linesSourceID = "lines"
 			addLines(currentMap, linesSourceID)
 			addLayers(currentMap, linesSourceID)
-		})
 
-		const icons = stations.filter(station => station.imgUrl !== "")
-		icons.forEach(icon => {
-			currentMap.on("load", () => {
-				const { imgUrl, coordinates: coords, id } = icon
-				renderIcon(currentMap, imgUrl, coords, String(id))
+			imgsUrls.forEach(url => currentMap.loadImage(url, (error, image) => {
+				if (error) throw error
+
+				currentMap.addImage(url, image as any)
+			}))
+
+			currentMap.addSource("stationsIcons", {
+				type: "geojson",
+				data: stations as any
+			})
+
+			currentMap.addLayer({
+				'id': "icons",
+				'type': 'symbol',
+				'source': "stationsIcons", // reference the data source
+				"minzoom": 13,
+				'layout': {
+					'icon-image': ["get", "url"], // reference the image
+					'icon-size': 0.25,
+				}
 			})
 		})
 	})
