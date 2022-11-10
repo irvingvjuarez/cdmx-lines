@@ -1044,7 +1044,7 @@
 		{
 			"id": 53,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 7/constituyentes.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1054,7 +1054,7 @@
 					19.41129131
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 7/constituyentes.png",
 			"name": "Constituyentes",
 			"coordinates": [
 				-99.19138312,
