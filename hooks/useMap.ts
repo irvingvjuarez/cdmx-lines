@@ -29,10 +29,26 @@ export const useMap = () => {
 
 		const currentMap = map.current as mapboxgl.Map
 
-		linesData.forEach(line => {
-			currentMap.on("load", () => {
-				addLine(currentMap, line as Line);
-				addLayer(currentMap, line as Line);
+		currentMap.on("load", () => {
+			currentMap.addSource("lines", {
+				type: "geojson",
+				data: linesData as any
+			})
+
+			currentMap.addLayer({
+				id: "lines",
+				type: "line",
+				source: "lines",
+				layout: {
+					"line-join": "round",
+					"line-cap": "round"
+				},
+				paint: {
+					"line-blur": 5,
+					"line-gap-width": 5,
+					"line-color": ["get", "color"],
+					"line-width": 6
+				}
 			})
 		})
 
