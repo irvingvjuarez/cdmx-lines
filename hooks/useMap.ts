@@ -1,11 +1,10 @@
 import {useRef, useState, useEffect} from "react";
-import { addLine } from "@app/services/addLine";
-import { addLayer } from "@app/services/addLayer";
+import { addLines } from "@app/services/addLines";
+import { addLayers } from "@app/services/addLayers";
 import { renderIcon } from "@app/services/renderIcon";
 import { Line } from "@app/types";
 
 import mapboxgl from "mapbox-gl"
-import linesData from "@app/data/data.json"
 import stations from "@app/data/stations.json"
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
@@ -29,27 +28,11 @@ export const useMap = () => {
 
 		const currentMap = map.current as mapboxgl.Map
 
+		// Lines rendering
 		currentMap.on("load", () => {
-			currentMap.addSource("lines", {
-				type: "geojson",
-				data: linesData as any
-			})
-
-			currentMap.addLayer({
-				id: "lines",
-				type: "line",
-				source: "lines",
-				layout: {
-					"line-join": "round",
-					"line-cap": "round"
-				},
-				paint: {
-					"line-blur": 5,
-					"line-gap-width": 5,
-					"line-color": ["get", "color"],
-					"line-width": 6
-				}
-			})
+			const linesSourceID = "lines"
+			addLines(currentMap, linesSourceID)
+			addLayers(currentMap, linesSourceID)
 		})
 
 		const icons = stations.filter(station => station.imgUrl !== "")
