@@ -2604,7 +2604,7 @@
 		{
 			"id": 131,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 6/villa.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2614,7 +2614,7 @@
 					19.4814715
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 6/villa.png",
 			"name": "La Villa - Basílica",
 			"coordinates": [
 				-99.11815882,
