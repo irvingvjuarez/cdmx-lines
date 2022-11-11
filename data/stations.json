@@ -1064,7 +1064,7 @@
 		{
 			"id": 54,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 11/muzquiz.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1074,7 +1074,7 @@
 					19.50096117
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 11/muzquiz.png",
 			"name": "Múzquiz",
 			"coordinates": [
 				-99.04171586,
