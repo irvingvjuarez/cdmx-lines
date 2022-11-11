@@ -24,8 +24,11 @@ export const renderIcons = (map: mapboxgl.Map) => {
 			'icon-size': 0.25,
 			'text-field': ["get", "name"],
 			'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
-			'text-radial-offset': 1.5,
+			'text-radial-offset': 1.8,
 			'text-justify': 'auto'
+		},
+		'paint': {
+			'text-color': "#fff"
 		}
 	})
 }
