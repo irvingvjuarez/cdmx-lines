@@ -1104,7 +1104,7 @@
 		{
 			"id": 56,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 2/sancosme.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1114,7 +1114,7 @@
 					19.44185787
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 2/sancosme.png",
 			"name": "San Cosme",
 			"coordinates": [
 				-99.16094542,
