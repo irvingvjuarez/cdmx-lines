@@ -70,15 +70,15 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-99.18803573,
-					19.45913691
+					-99.19074885835272,
+					19.457374976167625
 				]
 			},
 			"imgUrl": "/assets/stationsIcons/line 2/tacuba.png",
 			"name": "Tacuba",
 			"coordinates": [
-				-99.18803573,
-				19.45913691
+				-99.19074885835272,
+				19.457374976167625
 			]
 		},
 		{
@@ -830,15 +830,15 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-99.15517105387757,
-					19.4064949970465
+					-99.15491420746105,
+					19.407428938377524
 				]
 			},
 			"imgUrl": "/assets/stationsIcons/line 3/centromedico.png",
 			"name": "Centro Médico",
 			"coordinates": [
-				-99.15517105387757,
-				19.4064949970465
+				-99.15491420746105,
+				19.407428938377524
 			]
 		},
 		{
@@ -1330,15 +1330,15 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-99.12550184884857,
-					19.485123276949224
+					-99.12553561270204,
+					19.485134933201977
 				]
 			},
 			"imgUrl": "/assets/stationsIcons/line 3/18marzo.png",
 			"name": "Deportivo 18 de Marzo",
 			"coordinates": [
-				-99.12550184884857,
-				19.485123276949224
+				-99.12553561270204,
+				19.485134933201977
 			]
 		},
 		{
