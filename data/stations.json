@@ -3124,7 +3124,7 @@
 		{
 			"id": 157,
 			"properties": {
-				"url": "/assets/stationsIcons/line 2/divisiondelnorte.png"
+				"url": "/assets/stationsIcons/line 3/divisiondelnorte.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -3134,7 +3134,7 @@
 					19.379062747136558
 				]
 			},
-			"imgUrl": "/assets/stationsIcons/line 2/divisiondelnorte.png",
+			"imgUrl": "/assets/stationsIcons/line 3/divisiondelnorte.png",
 			"name": "División del Norte",
 			"coordinates": [
 				-99.15943941015686,
@@ -3164,7 +3164,7 @@
 		{
 			"id": 159,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 9/ciudadeportiva.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -3174,7 +3174,7 @@
 					19.40811392
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 9/ciudadeportiva.png",
 			"name": "Ciudad Deportiva",
 			"coordinates": [
 				-99.09135818,
