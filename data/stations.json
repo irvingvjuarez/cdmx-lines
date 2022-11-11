@@ -2504,7 +2504,7 @@
 		{
 			"id": 126,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 11/rio.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2514,7 +2514,7 @@
 					19.49024062
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 11/rio.png",
 			"name": "Río de los Remedios",
 			"coordinates": [
 				-99.04635072,
