@@ -2164,7 +2164,7 @@
 		{
 			"id": 109,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 5/eduardo.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2174,7 +2174,7 @@
 					19.45112485
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 5/eduardo.png",
 			"name": "Eduardo Molina",
 			"coordinates": [
 				-99.10544515,
