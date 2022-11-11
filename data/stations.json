@@ -2424,7 +2424,7 @@
 		{
 			"id": 122,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 8/aculco.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2434,7 +2434,7 @@
 					19.37292574
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 8/aculco.png",
 			"name": "Aculco",
 			"coordinates": [
 				-99.10739779,
