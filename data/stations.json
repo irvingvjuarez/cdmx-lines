@@ -2544,7 +2544,7 @@
 		{
 			"id": 128,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 1/sevilla.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2554,7 +2554,7 @@
 					19.42189565
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 1/sevilla.png",
 			"name": "Sevilla",
 			"coordinates": [
 				-99.17074084,
