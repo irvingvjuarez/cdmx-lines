@@ -1364,7 +1364,7 @@
 		{
 			"id": 69,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 12/culhuacan.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1374,7 +1374,7 @@
 					19.33887391
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 12/culhuacan.png",
 			"name": "Culhuacán",
 			"coordinates": [
 				-99.10894275,
