@@ -2944,7 +2944,7 @@
 		{
 			"id": 148,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 3/viverosderechos.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2954,7 +2954,7 @@
 					19.354052847278503
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 3/viverosderechos.png",
 			"name": "Viveros",
 			"coordinates": [
 				-99.17542125079177,
