@@ -3124,7 +3124,7 @@
 		{
 			"id": 157,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 2/divisiondelnorte.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -3134,7 +3134,7 @@
 					19.379062747136558
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 2/divisiondelnorte.png",
 			"name": "División del Norte",
 			"coordinates": [
 				-99.15943941015686,
