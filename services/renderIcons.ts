@@ -1,16 +1,12 @@
 import mapboxgl from "mapbox-gl";
 import stations from "@app/data/stations.json"
 
-const imgsUrls = stations.features
-	.filter(feature => feature.imgUrl !== "")
-	.map(feature => feature.imgUrl)
-
 const iconsID = "stationsIcons"
 
 export const renderIcons = (map: mapboxgl.Map) => {
-	imgsUrls.forEach(url => map.loadImage(url, (error, image) => {
+	stations.features.forEach(feature => map.loadImage(feature.properties.url, (error, image) => {
 		if (error) throw error
-		map.addImage(url, image as any)
+		map.addImage(feature.properties.url, image as any)
 	}))
 
 	map.addSource(iconsID, {
@@ -26,6 +22,10 @@ export const renderIcons = (map: mapboxgl.Map) => {
 		'layout': {
 			'icon-image': ["get", "url"], // reference the image
 			'icon-size': 0.25,
+			'text-field': ["get", "name"],
+			'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+			'text-radial-offset': 1.5,
+			'text-justify': 'auto'
 		}
 	})
 }
