@@ -2824,7 +2824,7 @@
 		{
 			"id": 142,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 1/gomezfarias.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2834,7 +2834,7 @@
 					19.41608763
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 1/gomezfarias.png",
 			"name": "Gómez Farías",
 			"coordinates": [
 				-99.09070373,
