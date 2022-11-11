@@ -1904,7 +1904,7 @@
 		{
 			"id": 96,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 2/allende.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1914,7 +1914,7 @@
 					19.43547387
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 2/allende.png",
 			"name": "Allende",
 			"coordinates": [
 				-99.13670897,
