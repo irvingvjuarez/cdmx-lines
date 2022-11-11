@@ -1,4 +1,3 @@
-import { Line } from "@app/types";
 import mapboxgl from "mapbox-gl"
 
 export const addLayers = (map: mapboxgl.Map, sourceID: string) => {
