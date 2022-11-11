@@ -2644,7 +2644,7 @@
 		{
 			"id": 133,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 1/juanacatlan.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -2654,7 +2654,7 @@
 					19.41290022
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 1/juanacatlan.png",
 			"name": "Juanacatlán",
 			"coordinates": [
 				-99.18207049,
