@@ -1444,7 +1444,7 @@
 		{
 			"id": 73,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 4/frayservando.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1454,7 +1454,7 @@
 					19.42149092
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 4/frayservando.png",
 			"name": "Fray Servando",
 			"coordinates": [
 				-99.12033677,
