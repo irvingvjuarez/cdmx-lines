@@ -1664,7 +1664,7 @@
 		{
 			"id": 84,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 5/ipn.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1674,7 +1674,7 @@
 					19.499964
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 5/ipn.png",
 			"name": "Politécnico",
 			"coordinates": [
 				-99.148806,
@@ -1724,7 +1724,7 @@
 		{
 			"id": 87,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 7/sanantonio.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1734,7 +1734,7 @@
 					19.38481791
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 7/sanantonio.png",
 			"name": "San Antonio",
 			"coordinates": [
 				-99.18661952,
