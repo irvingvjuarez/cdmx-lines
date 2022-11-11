@@ -1164,7 +1164,7 @@
 		{
 			"id": 59,
 			"properties": {
-				"url": ""
+				"url": "/assets/stationsIcons/line 10/santamartha.png"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1174,7 +1174,7 @@
 					19.359804
 				]
 			},
-			"imgUrl": "",
+			"imgUrl": "/assets/stationsIcons/line 10/santamartha.png",
 			"name": "Santa Marta",
 			"coordinates": [
 				-98.995894,
