@@ -6,7 +6,7 @@ export const SearchBar = () => {
 			<label htmlFor="search">
 				<AiOutlineSearch size={"1.3rem"} />
 			</label>
-			<input type="text" name="search" id="search" placeholder="Search..." className="outline-none w-full text-lg" />
+			<input type="text" name="search" id="search" placeholder="Search..." className="outline-none w-full text-lg" autoComplete="off" />
 		</form>
 	)
 }
