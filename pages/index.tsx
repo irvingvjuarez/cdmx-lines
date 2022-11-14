@@ -1,5 +1,5 @@
 import { Map } from "@app/components/Map"
-import { SearchBar } from "@app/components/SearchBar"
+import { SearchForm } from "@app/containers/SearchForm"
 import { GlobalProvider } from "@app/contexts"
 import { initialState } from "@app/contexts/initialState"
 
@@ -7,7 +7,7 @@ export default function Home() {
   return (
 		<GlobalProvider value={initialState}>
 			<main className="w-full h-[100vh] relative">
-				<SearchBar />
+				<SearchForm />
 				<Map />
 			</main>
 		</GlobalProvider>

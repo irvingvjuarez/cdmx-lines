@@ -1,4 +1,4 @@
-import { LinesData, Stations } from "@app/types"
+import { LinesData, Stations, LineFeature, StationFeature } from "@app/types"
 import { ChangeEvent, MutableRefObject, useState } from "react"
 
 type UseSearchConfig = {
@@ -9,7 +9,7 @@ type UseSearchConfig = {
 
 export const useSearch = (config: UseSearchConfig) => {
 	const { stations, linesData, inputRef } = config
-	const [searchResult, setSearchResult] = useState<any[]>([])
+	const [searchResult, setSearchResult] = useState<Array<LineFeature | StationFeature>>([])
 
 	const handleChange = (evt: ChangeEvent<HTMLInputElement>) => {
 		const input = evt.target.value.toLowerCase()
