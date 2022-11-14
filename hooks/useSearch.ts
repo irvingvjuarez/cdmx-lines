@@ -8,26 +8,23 @@ type UseSearchConfig = {
 
 export const useSearch = (config: UseSearchConfig) => {
 	const { stations, linesData } = config
+	const [inputValue, setInputValue] = useState("")
 	const [searchResult, setSearchResult] = useState<any[]>([])
 
 	const handleChange = (evt: ChangeEvent<HTMLInputElement>) => {
 		const input = evt.target.value.toLowerCase()
-		const filterStations = stations.features.filter((feature, index) => {
-			if (index <= 10) {
-				return feature.name.toLowerCase().includes(input)
-			}
-		})
-		const filterLines = linesData.features.filter((feature, index) => {
-			if (index <= 10) {
-				return feature.name.toLowerCase().includes(input)
-			}
-		})
+		setInputValue(input)
 
-		setSearchResult([...filterStations, ...filterLines])
+		const filterStations = stations.features.filter(feature => feature.name.toLowerCase().includes(input))
+		const filterLines = linesData.features.filter((feature, index) => feature.name.toLowerCase().includes(input))
+
+		const finalFilter = [...filterStations, ...filterLines].filter((_item, index) => index < 10)
+		setSearchResult(finalFilter)
 	}
 
 	return {
 		handleChange,
-		searchResult
+		searchResult,
+		setSearchResult
 	}
 }
