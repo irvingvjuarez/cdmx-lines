@@ -31,7 +31,7 @@ export interface LinesData extends Data {
 }
 
 export interface Stations extends Data {
-	[features: string]: StationFeature
+	[features: string]: StationFeature[]
 }
 
 export interface GlobalContext {
