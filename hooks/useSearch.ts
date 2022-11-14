@@ -1,19 +1,18 @@
 import { LinesData, Stations } from "@app/types"
-import { ChangeEvent, useState } from "react"
+import { ChangeEvent, MutableRefObject, useState } from "react"
 
 type UseSearchConfig = {
 	stations: Stations;
 	linesData: LinesData;
+	inputRef: MutableRefObject<HTMLInputElement | null>
 }
 
 export const useSearch = (config: UseSearchConfig) => {
-	const { stations, linesData } = config
-	const [inputValue, setInputValue] = useState("")
+	const { stations, linesData, inputRef } = config
 	const [searchResult, setSearchResult] = useState<any[]>([])
 
 	const handleChange = (evt: ChangeEvent<HTMLInputElement>) => {
 		const input = evt.target.value.toLowerCase()
-		setInputValue(input)
 
 		const filterStations = stations.features.filter(feature => feature.name.toLowerCase().includes(input))
 		const filterLines = linesData.features.filter((feature, index) => feature.name.toLowerCase().includes(input))
@@ -22,9 +21,14 @@ export const useSearch = (config: UseSearchConfig) => {
 		setSearchResult(finalFilter)
 	}
 
+	const resetSearch = () => {
+		(inputRef.current as HTMLInputElement).value = ""
+		setSearchResult([])
+	}
+
 	return {
 		handleChange,
 		searchResult,
-		setSearchResult
+		resetSearch
 	}
 }
