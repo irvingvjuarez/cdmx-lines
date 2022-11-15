@@ -1,3 +1,4 @@
+import { SearchItem } from "@app/components/SearchItem"
 import { SearchListConfig } from "./types"
 
 export const SearchList: React.FC<SearchListConfig> = ({ searchResult }) => {
@@ -7,9 +8,9 @@ export const SearchList: React.FC<SearchListConfig> = ({ searchResult }) => {
 		<article className="top-16 input-style">
 			<ul>
 				{searchResult.map(result =>
-					<li key={result.name}>
+					<SearchItem key={result.name}>
 						{result.name}
-					</li>
+					</SearchItem>
 				)}
 			</ul>
 		</article>
