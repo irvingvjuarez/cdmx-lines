@@ -9,7 +9,11 @@
 }
 
 .input-style {
-	@apply bg-white rounded-lg py-2 px-3;
+	@apply bg-white rounded-lg;
+}
+
+.pad {
+	@apply py-2 px-3;
 }
 
 .modal-style {

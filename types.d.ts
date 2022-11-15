@@ -38,3 +38,9 @@ export interface GlobalContext {
 	linesData: LinesData;
 	stations: Stations;
 }
+
+export type Search = {
+	handleChange: (evt: ChangeEvent<HTMLInputElement>) => void;
+	searchResult: Array<LineFeature | StationFeature>;
+	resetSearch: () => void;
+}
