@@ -1,7 +1,5 @@
 import { MutableRefObject } from "react";
 
-export type SearchBarConfig = {
+export type SearchBarProps = {
 	inputRef: MutableRefObject<HTMLInputElement | null>;
-	handleChange: (evt: ChangeEvent<HTMLInputElement>) => void;
-	handleReset: () => void;
 }

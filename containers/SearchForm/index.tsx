@@ -10,18 +10,13 @@ export const SearchForm = () => {
 	const inputRef = useRef<null | HTMLInputElement>(null)
 	const { linesData, stations } = useContext(globalContext) as GlobalContext
 	const search = useSearch({ linesData, stations, inputRef })
-	const { handleChange, searchResult, resetSearch } = search;
 
 	return(
 		<SearchContext.Provider value={search}>
 			<section className="modal-style flex-col top-4">
-				<SearchBar
-					inputRef={inputRef}
-					handleChange={handleChange}
-					handleReset={resetSearch}
-				/>
+				<SearchBar inputRef={inputRef} />
 
-				<SearchList searchResult={searchResult} />
+				<SearchList />
 			</section>
 		</SearchContext.Provider>
 	)

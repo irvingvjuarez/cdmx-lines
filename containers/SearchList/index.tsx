@@ -1,7 +1,11 @@
+import { useContext } from "react"
 import { SearchItem } from "@app/components/SearchItem"
-import { SearchListConfig } from "./types"
+import { SearchContext } from "@app/contexts/SearchContext"
+import { Search } from "@app/types"
 
-export const SearchList: React.FC<SearchListConfig> = ({ searchResult }) => {
+export const SearchList = () => {
+	const { searchResult } = useContext(SearchContext) as Search
+
 	if (searchResult.length < 1) return null
 
 	return (

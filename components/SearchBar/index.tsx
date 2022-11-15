@@ -1,9 +1,12 @@
+import { useContext } from "react"
+import { SearchContext } from "@app/contexts/SearchContext"
 import { AiOutlineSearch } from "react-icons/ai"
 import { MdOutlineClear } from "react-icons/md"
-import { SearchBarConfig } from "./types"
+import { SearchBarProps } from "./types"
+import { Search } from "@app/types"
 
-export const SearchBar = (config: SearchBarConfig) => {
-	const { inputRef, handleChange, handleReset } = config
+export const SearchBar: React.FC<SearchBarProps> = ({ inputRef }) => {
+	const { handleChange, resetSearch } = useContext(SearchContext) as Search
 
 	return (
 		<form className="input-style pad flex items-center space-x-1 top-4 mb-2">
@@ -18,7 +21,7 @@ export const SearchBar = (config: SearchBarConfig) => {
 				className="outline-none w-full text-lg"
 				autoComplete="off"
 			/>
-			<button onClick={handleReset} type="button">
+			<button onClick={resetSearch} type="button">
 				<MdOutlineClear size={"1.3rem"} />
 			</button>
 		</form>
