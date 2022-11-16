@@ -1,24 +1,31 @@
-import { useState } from "react"
+import { globalContext } from "@app/contexts"
+import { GlobalContext } from "@app/types"
+import { useContext, useState } from "react"
 import { IoIosArrowUp } from "react-icons/io"
 import { MdClear } from "react-icons/md"
 
 export const StationDetail = () => {
-	const [detailHeight, setDetailHeight] = useState("50px")
+	const { toggleDetailMode } = useContext(globalContext) as GlobalContext
+	const [detailHeight, setDetailHeight] = useState<"50px" | "70vh">("50px")
+	const isFolded = detailHeight === "70vh"
 	const handleDisplay = () => {
-		const nextValue = detailHeight === "50px" ? "70vh" : "50px"
+		const nextValue = !isFolded ? "70vh" : "50px"
 		setDetailHeight(nextValue)
 	}
 
 	return(
 		<section className="modal-style">
 			<header>
+				<button onClick={toggleDetailMode}>
+					<MdClear size="27" />
+				</button>
+
 				<button
 					onClick={handleDisplay}
-					className={detailHeight === "70vh" ? "arrow-down" : ""}
+					className={`fold-btn ${isFolded && "arrow-down"}`}
 				>
 					<IoIosArrowUp size="30" />
 				</button>
-				{/* <MdClear size="27" /> */}
 			</header>
 
 			<style jsx>{`
@@ -29,7 +36,7 @@ export const StationDetail = () => {
 					border-bottom: 1px solid;
 				}
 
-				button {
+				.fold-btn {
 					transition: transform 1s 1s ease-out;
 				}
 
