@@ -18,7 +18,7 @@ export const StationDetail = () => {
 	const handleUpdateDetailMode = () => updateDetailMode(false)
 
 	return(
-		<section className="modal-style">
+		<section className="modal-style container">
 			<header>
 				<h2>{detailStation?.name}</h2>
 
@@ -54,7 +54,7 @@ export const StationDetail = () => {
 					transition: transform 1s 1s ease-out;
 				}
 
-				section {
+				.container {
 					transition: height 1s ease-out;
 					background-color: white;
 					border-radius: 10px 10px 0 0;
@@ -65,6 +65,21 @@ export const StationDetail = () => {
 
 				.arrow-down {
 					transform: rotate(180deg);
+				}
+
+				@media screen and (min-width: 800px) {
+					.container {
+						top: 75px;
+						height: 85vh;
+						border-radius: 1rem;
+						width: 500px;
+						left: 20px;
+						transform: none;
+					}
+
+					.fold-btn {
+						display: none;
+					}
 				}
 			`}</style>
 		</section>
