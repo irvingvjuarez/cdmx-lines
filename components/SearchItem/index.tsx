@@ -5,14 +5,17 @@ import { SearchItemProps } from "./types"
 import { globalContext } from "@app/contexts"
 
 export const SearchItem: React.FC<SearchItemProps> = ({ children }) => {
-	const { stations } = useContext(globalContext) as GlobalContext
+	const { stations, map } = useContext(globalContext) as GlobalContext
 	const { resetSearch } = useContext(SearchContext) as Search
 	const handleClick = () => {
 		resetSearch()
 		const chosenStation = stations.features.find(station => station.name === children)
 
 		if (chosenStation) {
-			console.log(chosenStation.geometry.coordinates)
+			const lng = chosenStation.geometry.coordinates[0]
+			const lat = chosenStation.geometry.coordinates[1]
+
+			map.current.flyTo({center:[lng, lat]});
 		}
 	}
 
