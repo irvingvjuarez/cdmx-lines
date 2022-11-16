@@ -10,7 +10,7 @@ import { GlobalContext, StationFeature } from "@app/types"
 
 export default function Home() {
 	const [detailMode, setDetailMode] = useState(false)
-	const [_detailStation, setDetailStation] = useState<StationFeature | null>(null)
+	const [detailStation, setDetailStation] = useState<GlobalContext["detailStation"]>(null)
 	const updateDetailStation = (station: StationFeature) => setDetailStation(station)
 	const toggleDetailMode = () => setDetailMode(prev => !prev)
 	const map = useMap()
@@ -19,7 +19,8 @@ export default function Home() {
 		...initialState,
 		...map,
 		toggleDetailMode,
-		updateDetailStation
+		updateDetailStation,
+		detailStation
 	}
 
   return (

@@ -5,7 +5,7 @@ import { IoIosArrowUp } from "react-icons/io"
 import { MdClear } from "react-icons/md"
 
 export const StationDetail = () => {
-	const { toggleDetailMode } = useContext(globalContext) as GlobalContext
+	const { toggleDetailMode, detailStation } = useContext(globalContext) as GlobalContext
 	const [detailHeight, setDetailHeight] = useState<"50px" | "70vh">("50px")
 	const isFolded = detailHeight === "70vh"
 	const handleDisplay = () => {
@@ -16,23 +16,33 @@ export const StationDetail = () => {
 	return(
 		<section className="modal-style">
 			<header>
-				<button onClick={toggleDetailMode}>
-					<MdClear size="27" />
-				</button>
+				<h2>{detailStation?.name}</h2>
 
-				<button
-					onClick={handleDisplay}
-					className={`fold-btn ${isFolded && "arrow-down"}`}
-				>
-					<IoIosArrowUp size="30" />
-				</button>
+				<div>
+					<button onClick={toggleDetailMode}>
+						<MdClear size="27" />
+					</button>
+
+					<button
+						onClick={handleDisplay}
+						className={`fold-btn ${isFolded && "arrow-down"}`}
+					>
+						<IoIosArrowUp size="30" />
+					</button>
+				</div>
 			</header>
 
 			<style jsx>{`
+				h2 {
+					letter-spacing: 1.5px;
+					font-size: 1.2rem;
+				}
+
 				header {
 					display: flex;
-					justify-content: end;
-					padding: 2px;
+					justify-content: space-between;
+					align-items: center;
+					padding: 2px 5px;
 					border-bottom: 1px solid;
 				}
 

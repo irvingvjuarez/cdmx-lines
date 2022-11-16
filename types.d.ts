@@ -41,6 +41,7 @@ export interface GlobalContext {
   map: MutableRefObject<mapboxgl.Map | null>;
 	toggleDetailMode: () => void;
 	updateDetailStation: (station: StationFeature) => void;
+	detailStation: StationFeature | null;
 }
 
 export type Search = {
