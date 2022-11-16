@@ -6,7 +6,7 @@ import { globalContext } from "@app/contexts"
 import { INITIAL_ZOOM } from "@app/globals"
 
 export const SearchItem: React.FC<SearchItemProps> = ({ children }) => {
-	const { stations, map, toggleDetailMode, updateDetailStation } = useContext(globalContext) as GlobalContext
+	const { stations, map, updateDetailMode, updateDetailStation } = useContext(globalContext) as GlobalContext
 	const { resetSearch } = useContext(SearchContext) as Search
 	const handleClick = () => {
 		resetSearch()
@@ -19,7 +19,7 @@ export const SearchItem: React.FC<SearchItemProps> = ({ children }) => {
 			map.current.setZoom(INITIAL_ZOOM)
 			map.current.flyTo({center:[lng, lat]});
 			updateDetailStation(chosenStation)
-			toggleDetailMode()
+			updateDetailMode(true)
 		}
 	}
 

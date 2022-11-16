@@ -10,15 +10,17 @@ import { GlobalContext, StationFeature } from "@app/types"
 
 export default function Home() {
 	const [detailMode, setDetailMode] = useState(false)
+	const [searchMode, setSearchMode] = useState(true)
 	const [detailStation, setDetailStation] = useState<GlobalContext["detailStation"]>(null)
+
 	const updateDetailStation = (station: StationFeature) => setDetailStation(station)
-	const toggleDetailMode = () => setDetailMode(prev => !prev)
 	const map = useMap()
 
 	const globalInitValue: GlobalContext = {
 		...initialState,
 		...map,
-		toggleDetailMode,
+		updateDetailMode: setDetailMode,
+		updateSearchMode: setSearchMode,
 		updateDetailStation,
 		detailStation
 	}
@@ -26,7 +28,7 @@ export default function Home() {
   return (
 		<GlobalProvider value={globalInitValue}>
 			<main className="w-full h-[100vh] relative">
-				<ConditionalNode conditional={!detailMode}>
+				<ConditionalNode conditional={searchMode}>
 					<SearchForm />
 				</ConditionalNode>
 

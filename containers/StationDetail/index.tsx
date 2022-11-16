@@ -5,13 +5,17 @@ import { IoIosArrowUp } from "react-icons/io"
 import { MdClear } from "react-icons/md"
 
 export const StationDetail = () => {
-	const { toggleDetailMode, detailStation } = useContext(globalContext) as GlobalContext
+	const { updateDetailMode, detailStation, updateSearchMode } = useContext(globalContext) as GlobalContext
 	const [detailHeight, setDetailHeight] = useState<"50px" | "70vh">("50px")
 	const isFolded = detailHeight === "70vh"
+
 	const handleDisplay = () => {
 		const nextValue = !isFolded ? "70vh" : "50px"
+
+		updateSearchMode((prev: boolean) => !prev)
 		setDetailHeight(nextValue)
 	}
+	const handleUpdateDetailMode = () => updateDetailMode(false)
 
 	return(
 		<section className="modal-style">
@@ -19,7 +23,7 @@ export const StationDetail = () => {
 				<h2>{detailStation?.name}</h2>
 
 				<div>
-					<button onClick={toggleDetailMode}>
+					<button onClick={handleUpdateDetailMode}>
 						<MdClear size="27" />
 					</button>
 

@@ -39,7 +39,8 @@ export interface GlobalContext {
 	stations: Stations;
 	mapContainer: MutableRefObject<HTMLDivElement | null>;
   map: MutableRefObject<mapboxgl.Map | null>;
-	toggleDetailMode: () => void;
+	updateDetailMode: Dispatch<SetStateAction<boolean>>;
+	updateSearchMode: Dispatch<SetStateAction<boolean>>;
 	updateDetailStation: (station: StationFeature) => void;
 	detailStation: StationFeature | null;
 }
