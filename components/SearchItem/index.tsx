@@ -3,6 +3,7 @@ import { SearchContext } from "@app/contexts/SearchContext"
 import { GlobalContext, Search } from "@app/types"
 import { SearchItemProps } from "./types"
 import { globalContext } from "@app/contexts"
+import { INITIAL_ZOOM } from "@app/globals"
 
 export const SearchItem: React.FC<SearchItemProps> = ({ children }) => {
 	const { stations, map, toggleDetailMode } = useContext(globalContext) as GlobalContext
@@ -15,6 +16,7 @@ export const SearchItem: React.FC<SearchItemProps> = ({ children }) => {
 			const lng = chosenStation.geometry.coordinates[0]
 			const lat = chosenStation.geometry.coordinates[1]
 
+			map.current.setZoom(INITIAL_ZOOM)
 			map.current.flyTo({center:[lng, lat]});
 			toggleDetailMode()
 		}

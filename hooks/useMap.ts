@@ -3,6 +3,7 @@ import { addLines } from "@app/services/addLines";
 import { addLayers } from "@app/services/addLayers";
 import { renderIcons } from "@app/services/renderIcons";
 import mapboxgl from "mapbox-gl"
+import { INITIAL_ZOOM } from "@app/globals";
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
@@ -11,7 +12,7 @@ export const useMap = () => {
 	const map = useRef<mapboxgl.Map | null>(null)
 	const [lng, setLng] = useState(-99.14433718)
 	const [lat, setLat] = useState(19.40702104)
-	const [zoom, setZoom] = useState(15)
+	const [zoom, setZoom] = useState(INITIAL_ZOOM)
 
 	useEffect(() => {
 		if (map.current) return
