@@ -39,6 +39,8 @@ export interface GlobalContext {
 	stations: Stations;
 	mapContainer: MutableRefObject<HTMLDivElement | null>;
   map: MutableRefObject<mapboxgl.Map | null>;
+	toggleDetailMode: () => void;
+	detailStation: StationFeature | null;
 }
 
 export type Search = {
