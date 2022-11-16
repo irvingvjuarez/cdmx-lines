@@ -9,7 +9,7 @@ import { useMap } from "@app/hooks/useMap"
 import { GlobalContext } from "@app/types"
 
 export default function Home() {
-	const [detailMode, setDetailMode] = useState(true)
+	const [detailMode, setDetailMode] = useState(false)
 	const toggleDetailMode = () => setDetailMode(prev => !prev)
 	const map = useMap()
 
