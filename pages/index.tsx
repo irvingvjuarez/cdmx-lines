@@ -6,10 +6,12 @@ import { StationDetail } from "@app/containers/StationDetail"
 import { GlobalProvider } from "@app/contexts"
 import { initialState } from "@app/contexts/initialState"
 import { useMap } from "@app/hooks/useMap"
-import { GlobalContext } from "@app/types"
+import { GlobalContext, StationFeature } from "@app/types"
 
 export default function Home() {
 	const [detailMode, setDetailMode] = useState(false)
+	const [_detailStation, setDetailStation] = useState<StationFeature | null>(null)
+	const updateDetailStation = (station: StationFeature) => setDetailStation(station)
 	const toggleDetailMode = () => setDetailMode(prev => !prev)
 	const map = useMap()
 
@@ -17,7 +19,7 @@ export default function Home() {
 		...initialState,
 		...map,
 		toggleDetailMode,
-		detailStation: null
+		updateDetailStation
 	}
 
   return (

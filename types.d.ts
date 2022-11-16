@@ -40,7 +40,7 @@ export interface GlobalContext {
 	mapContainer: MutableRefObject<HTMLDivElement | null>;
   map: MutableRefObject<mapboxgl.Map | null>;
 	toggleDetailMode: () => void;
-	detailStation: StationFeature | null;
+	updateDetailStation: (station: StationFeature) => void;
 }
 
 export type Search = {
