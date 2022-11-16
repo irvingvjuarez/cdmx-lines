@@ -36,6 +36,7 @@ export const useMap = () => {
 	})
 
 	return {
-		mapContainer
+		mapContainer,
+		map
 	}
 }

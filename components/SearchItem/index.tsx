@@ -1,13 +1,19 @@
 import { useContext } from "react"
 import { SearchContext } from "@app/contexts/SearchContext"
-import { Search } from "@app/types"
+import { GlobalContext, Search } from "@app/types"
 import { SearchItemProps } from "./types"
+import { globalContext } from "@app/contexts"
 
 export const SearchItem: React.FC<SearchItemProps> = ({ children }) => {
+	const { stations } = useContext(globalContext) as GlobalContext
 	const { resetSearch } = useContext(SearchContext) as Search
 	const handleClick = () => {
 		resetSearch()
-		console.log(children)
+		const chosenStation = stations.features.find(station => station.name === children)
+
+		if (chosenStation) {
+			console.log(chosenStation.geometry.coordinates)
+		}
 	}
 
 	return (

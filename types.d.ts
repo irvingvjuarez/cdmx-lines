@@ -37,6 +37,8 @@ export interface Stations extends Data {
 export interface GlobalContext {
 	linesData: LinesData;
 	stations: Stations;
+	mapContainer: MutableRefObject<HTMLDivElement | null>;
+  map: MutableRefObject<mapboxgl.Map | null>;
 }
 
 export type Search = {
