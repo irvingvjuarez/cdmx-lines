@@ -9,7 +9,8 @@
 }
 
 .input-style {
-	@apply bg-white rounded-lg;
+	background-color: white;
+	border-radius: 1rem;
 }
 
 .pad {
@@ -17,5 +18,16 @@
 }
 
 .modal-style {
-	@apply absolute left-[50%] translate-x-[-50%] w-[70%];
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+}
+
+.station-detail {
+	background-color: white;
+	border-radius: 10px 10px 0 0;
+	bottom: 0;
+	height: 70vh;
+	width: 95%;
 }
